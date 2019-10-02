@@ -39,14 +39,3 @@ kramdown:
 
 include: ['_pages']
 
-collections:
-  about:
-    output: false
-  partners:
-    output: false
-  links:
-    output: false
-  workshops:
-    output: true
-  events:
-    output: true
