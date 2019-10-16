@@ -1,6 +1,6 @@
 ---
 layout: master
-include: workshop-3day
+include: workshop
 title: Welcome
 permalink: /2019-11-04-stockholm
 
