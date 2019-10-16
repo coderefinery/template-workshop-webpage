@@ -8,7 +8,7 @@
         {% if page.include %}
             {% include {{ page.include }}.html %}
         {% endif %}
-
+	{{ content }}
         {% include footer.html %}
         {% include js.html %}
     </body>
