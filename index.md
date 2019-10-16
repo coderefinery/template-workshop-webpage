@@ -2,17 +2,23 @@
 layout: master
 include: workshop
 
-location: "Room X, Department of Y, University of Z"        # brief name of host site
+# location and address
+# you can also link to a map using e.g. openstreetmap, for example:
+# location: "<a https://www.openstreetmap.org/node/1771739362">Teknikringen 14, 11428 Stockholm</a>
+location: "Room X, Department of Y, University of Z"    
 address: "ADDRESS"
 city: Stockholm
 
+# date and time
 time: "9:00 - 17:00"    
 dates: "October 16-18, 2019"   
 
+# Add link to registration form here and specify when the registration opens and whether it is closed
 registration_form: 
 registration_open_date: September 30, 2019
 registration_is_closed: true
 
+# names of instructors and helpers
 instructors: 
  - Instructor 1
  - Instructor 2
@@ -20,9 +26,11 @@ instructors:
 helpers: 
  - Helper 1
  - Helper 2
+
+# contact email address
 contact: instructor1@university.com
 
-
+# normally no need to modify this
 goals:
     The aim of this course is to demonstrate to and familiarize
     the workshop participants with best practices and tools in modern research
@@ -33,6 +41,7 @@ goals:
     this process. Most of the content is also relevant to
     a single researcher.
 
+# software that should be installed for the workshop (update if needed)
 software:
   - title: Bash
     url: https://coderefinery.github.io/installation/bash/
@@ -51,6 +60,7 @@ software:
   - title: Accounts
     url: https://coderefinery.github.io/installation/#accounts
 
+# adjust schedule here if needed, and assign lessons to instructors
 schedule:
   - date: Day 1
     morning:

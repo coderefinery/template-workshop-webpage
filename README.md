@@ -12,6 +12,6 @@ To use it, follow these instructions:
 Information in the new repository now needs to be updated. Only the 
 `index.md` file needs to be updated, which can be done either 
 by cloning the new repository, editing it locally and pushing 
-the changes, or by editing it directly in the browser by clicking the pen
-symbol (Edit this file) on the right.
-
+the changes, or by editing it directly in the browser by selecting `index.md`
+and clicking the pen symbol (Edit this file) on the right.
+Instructions for updating the required fields can be found in `index.md`.
