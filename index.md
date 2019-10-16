@@ -2,7 +2,6 @@
 layout: master
 include: workshop
 title: Welcome
-permalink: /2019-11-04-stockholm
 
 location: "Room X, Department of Y, University of Z"        # brief name of host site
 address: "ADDRESS"
