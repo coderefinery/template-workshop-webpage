@@ -7,7 +7,7 @@ include: workshop
 # location: "<a https://www.openstreetmap.org/node/1771739362">Teknikringen 14, 11428 Stockholm</a>
 location: "Room X, Department of Y, University of Z"    
 address: "ADDRESS"
-city: Stockholm
+city: CITY
 
 # date and time
 time: "9:00 - 17:00"    
