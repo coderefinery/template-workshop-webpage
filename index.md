@@ -1,27 +1,26 @@
 ---
 layout: master
 include: workshop
-title: Welcome
 
 location: "Room X, Department of Y, University of Z"        # brief name of host site
 address: "ADDRESS"
 city: Stockholm
-country: "se"
 
 time: "9:00 - 17:00"    
-dates: "November 4-5"   
+dates: "October 16-18, 2019"   
 
-collaborative_notes: # optional: URL for the workshop collaborative notes
 registration_form: 
 registration_open_date: September 30, 2019
 registration_is_closed: true
 
 instructors: 
- - Alice
- - Bob
+ - Instructor 1
+ - Instructor 2
+ - Instructor 3
 helpers: 
- - Carlos
-contact: me@email.com
+ - Helper 1
+ - Helper 2
+contact: instructor1@university.com
 
 
 goals:
@@ -53,18 +52,18 @@ software:
     url: https://coderefinery.github.io/installation/#accounts
 
 schedule:
-  - date: Tuesday, November 19
+  - date: Day 1
     morning:
-      - title: Welcome and practical information (Alice)
+      - title: Welcome and practical information (Instructor 1)
         url: https://github.com/coderefinery/workshop-intro/blob/master/README.md
-      - title: Introduction to version control - part 1/2 (Alice)
+      - title: Introduction to version control - part 1/2 (Instructor 1)
         url: https://coderefinery.github.io/git-intro/
     afternoon:
-      - title: Introduction to version control - part 2/2 (Bob)
+      - title: Introduction to version control - part 2/2 (Instructor 2)
         url: https://coderefinery.github.io/git-intro/
-      - title: Social coding and open software (Bob)
+      - title: Social coding and open software (Instructor 2)
         url: https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/social-coding/master/talk.md
-  - date: Wednesday, November 20
+  - date: Day 2
     morning:
       - title: Modular code development (TBA)
         url: https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md
@@ -75,7 +74,7 @@ schedule:
         url: https://coderefinery.github.io/git-collaborative/
       - title: Reproducible research and FAIR data (TBA)
         url: https://coderefinery.github.io/reproducible-research/
-  - date: Thursday, November 21
+  - date: Day 3
     morning:
       - title: Documentation (TBA)
         url: https://coderefinery.github.io/documentation/
