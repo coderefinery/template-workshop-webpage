@@ -5,30 +5,30 @@ include: workshop
 # location and address
 # you can also link to a map using e.g. openstreetmap, for example:
 # location: "<a https://www.openstreetmap.org/node/1771739362">Teknikringen 14, 11428 Stockholm</a>
-location: "Room X, Department of Y, University of Z"    
+location: "Room X, Department of Y, University of Z"
 address: "ADDRESS"
 city: CITY
 
 # date and time
-time: "9:00 - 17:00"    
-dates: "October 16-18, 2019"   
+time: "9:00 - 17:00"
+dates: "October 16-18, 2019"
 
 # Add link to registration form here and specify when the registration opens and whether it is closed
-registration_form: 
+registration_form:
 registration_open_date: September 30, 2019
 registration_is_closed: true
 
 # names of instructors and helpers
-instructors: 
+instructors:
  - Instructor 1
  - Instructor 2
  - Instructor 3
-helpers: 
+helpers:
  - Helper 1
  - Helper 2
 
 # contact email address
-contact: instructor1@university.com
+contact: instructor@example.org
 
 # normally no need to modify this
 goals:
@@ -110,5 +110,4 @@ schedule:
       - time: 16:30 - 17:00
         title: Concluding remarks and where to go from here (TBA)
         url: https://github.com/coderefinery/workshop-outro/blob/master/README.md
-
 ---

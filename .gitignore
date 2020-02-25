@@ -5,3 +5,4 @@ _site/
 # vim temporary files
 *.sw?
 *~
+.jekyll-cache/
