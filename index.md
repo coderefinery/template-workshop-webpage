@@ -16,7 +16,7 @@ dates: "October 16-18, 2019"
 # Add link to registration form here and specify when the registration opens and whether it is closed
 registration_form:
 registration_open_date: September 30, 2019
-registration_is_closed: true
+registration_is_closed: false
 
 # names of instructors and helpers
 instructors:
