@@ -1,0 +1,7 @@
+_drafts/
+_site/
+.sass-cache
+.idea/
+# vim temporary files
+*.sw?
+*~
