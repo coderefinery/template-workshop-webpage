@@ -2,12 +2,15 @@
 layout: master
 include: workshop
 
+# title and subtitle
+title: CodeRefinery workshop in City X
+subtitle: Teaching researchers in sustainable software development
+
 # location and address
 # you can also link to a map using e.g. openstreetmap, for example:
-# location: "<a https://www.openstreetmap.org/node/1771739362">Teknikringen 14, 11428 Stockholm</a>
-location: "Room X, Department of Y, University of Z"
-address: "ADDRESS"
-city: CITY
+# location: '<a href="https://www.openstreetmap.org/#map=19/51.98984/4.37517" target="_blank">TU Delft Faculty of Aerospace Hall J (62-1-20.1)</a>'
+location: Room X in building Y
+address: Some address
 
 # date and time
 time: "9:00 - 17:00"
@@ -65,17 +68,17 @@ schedule:
   - date: Day 1
     morning:
       - time: 9:00 - 9:30
-        title: Welcome and practical information (Instructor 1)
+        title: Welcome and practical information (TBA)
         url: https://github.com/coderefinery/workshop-intro/blob/master/README.md
       - time: 9:30 - 12:00
-        title: Introduction to version control - part 1/2 (Instructor 1)
+        title: Introduction to version control - part 1/2 (TBA)
         url: https://coderefinery.github.io/git-intro/
     afternoon:
       - time: 13:00 - 15:00
-        title: Introduction to version control - part 2/2 (Instructor 2)
+        title: Introduction to version control - part 2/2 (TBA)
         url: https://coderefinery.github.io/git-intro/
       - time: 15:30 - 17:00
-        title: Social coding and open software (Instructor 2)
+        title: Social coding and open software (TBA)
         url: https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/social-coding/master/talk.md
   - date: Day 2
     morning:
