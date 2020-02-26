@@ -68,17 +68,17 @@ schedule:
   - date: Day 1
     morning:
       - time: 9:00 - 9:30
-        title: Welcome and practical information (Instructor 1)
+        title: Welcome and practical information (TBA)
         url: https://github.com/coderefinery/workshop-intro/blob/master/README.md
       - time: 9:30 - 12:00
-        title: Introduction to version control - part 1/2 (Instructor 1)
+        title: Introduction to version control - part 1/2 (TBA)
         url: https://coderefinery.github.io/git-intro/
     afternoon:
       - time: 13:00 - 15:00
-        title: Introduction to version control - part 2/2 (Instructor 2)
+        title: Introduction to version control - part 2/2 (TBA)
         url: https://coderefinery.github.io/git-intro/
       - time: 15:30 - 17:00
-        title: Social coding and open software (Instructor 2)
+        title: Social coding and open software (TBA)
         url: https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/social-coding/master/talk.md
   - date: Day 2
     morning:
