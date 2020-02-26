@@ -2,12 +2,15 @@
 layout: master
 include: workshop
 
+# title and subtitle
+title: CodeRefinery workshop in City X
+subtitle: Teaching researchers in sustainable software development
+
 # location and address
 # you can also link to a map using e.g. openstreetmap, for example:
-# location: "<a https://www.openstreetmap.org/node/1771739362">Teknikringen 14, 11428 Stockholm</a>
-location: "Room X, Department of Y, University of Z"
-address: "ADDRESS"
-city: CITY
+# location: '<a href="https://www.openstreetmap.org/#map=19/51.98984/4.37517" target="_blank">TU Delft Faculty of Aerospace Hall J (62-1-20.1)</a>'
+location: Room X in building Y
+address: Some address
 
 # date and time
 time: "9:00 - 17:00"
