@@ -25,11 +25,35 @@
     </p>
 
     <h3>Format</h3>
+    {% if page.format %}
+      <p>
+       {{ page.format }}
+      </p>
+    {% else %}
     <p>
       Hands-on informal and interactive three-day event with type-along type of
       presentations, live coding and demos. Short tutorials alternate with practical
       exercises.
     </p>
+    {% endif %}
+
+    <h3>Course goals</h3>
+    {% if page.goals %}
+      <p>
+       {{ page.goals }}
+      </p>
+    {% else %}
+      <p>
+        The aim of this course is to demonstrate to and familiarize
+        the workshop participants with best practices and tools in modern research
+        software development. The main focus is on professional tools
+        for efficiently developing and maintaining research software.
+        Since most research code is developed in a collaborative
+        setting, we will discuss tools and workflows which facilitate
+        this process. Most of the content is also relevant to
+        a single developer.
+      </p>
+    {% endif %}
 
     <h3><font color="red">Software requirements</font></h3>
     {% if page.software %}
@@ -75,7 +99,6 @@
           {% endif %}
         {% endfor %}
 
-        <li>12:00 - 13:00 Lunch break</li>
 
         {% for item in day.afternoon %}
           {% if item.url %}
@@ -115,24 +138,6 @@
       Free of charge.
     </p>
 
-    <h3>Course goals</h3>
-    {% if page.goals %}
-      <p>
-       {{ page.goals }}
-      </p>
-    {% else %}
-      <p>
-        The aim of this course is to demonstrate to and familiarize
-        the workshop participants with best practices and tools in modern research
-        software development. The main focus is on professional tools
-        for efficiently developing and maintaining research software.
-        Since most research code is developed in a collaborative
-        setting, we will discuss tools and workflows which facilitate
-        this process. Most of the content is also relevant to
-        a single developer.
-      </p>
-    {% endif %}
-
     <h3>Who the course is for</h3>
     <p>
       Are you doing any of these things below:
@@ -153,6 +158,11 @@
     </p>
 
     <h3>What we will not teach</h3>
+    {% if page.goals %}
+      <p>
+       {{ page.notincluded }}
+      </p>
+    {% else %}
     <p>
       This is not a course about a specific programming language or
       the Linux/Unix terminal shell.  We assume that you are familiar with the programming
@@ -160,8 +170,16 @@
       language-independent as possible but we will show some basic code examples in
       Python.
     </p>
+    {% endif %}
 
     <h3>Prerequisites</h3>
+    {% if page.prerequisites %}
+    <ul>
+      {% for prereq in page.prerequisites %}
+        <li>{{ prereq }}</li>
+      {% endfor %}
+    </ul>
+    {% else %}
     <ul>
       <li>You should be able to navigate the file tree in a terminal session and edit text files in the terminal. <a href="https://scicomp.aalto.fi/scicomp/shell.html">This Linux shell crash course </a> contains the essentials.</li>
       <li>Basics in one or more programming languages.</li>
@@ -170,6 +188,7 @@
       <li>You need to install some software. Please follow links in the schedule.
       <li>It is useful if you have a basic idea of how Git works. We will start from the basics, but please go through <a href="https://coderefinery.github.io/git-refresher/">this Git-refresher material</a> for a basic overview and important configuration steps.
     </ul>
+    {% endif %}
 
     <h3>Instructors</h3>
     <ul>
