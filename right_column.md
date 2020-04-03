@@ -49,6 +49,7 @@ Python.
 - You should be able to navigate the file tree in a terminal session and edit
   text files in the terminal.
   [This Linux shell crash course](https://scicomp.aalto.fi/scicomp/shell.html)
+  ([video](https://youtu.be/56p6xX0aToI))
   contains the essentials.
 - Basics in one or more programming languages.
 - You will need to bring a laptop.
