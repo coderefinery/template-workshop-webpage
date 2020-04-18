@@ -67,6 +67,19 @@
       </div>
 
       <div class="row">
+        <div class="col-sm-12">
+          {% capture include_questions %}{% include_relative questions.md %}{% endcapture %}
+          {{ include_questions | markdownify }}
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <hr>
+        </div>
+      </div>
+
+      <div class="row">
 
         <div class="col-lg">
           <p>
