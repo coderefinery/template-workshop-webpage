@@ -35,7 +35,8 @@ packages need to be installed as detailed on the Python installation page.
 
 - [Bash](https://coderefinery.github.io/installation/bash/)
 - [Editor](https://coderefinery.github.io/installation/editors/)
-- [Git](https://coderefinery.github.io/installation/git/)
+- [Git](https://coderefinery.github.io/installation/git/), including
+  some configuration
 - [(optional) Visual diff tools](https://coderefinery.github.io/installation/difftools/)
 - [Python](https://coderefinery.github.io/installation/python/)
 - [Jupyter and JupyterLab](https://coderefinery.github.io/installation/jupyter)
