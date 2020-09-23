@@ -14,6 +14,31 @@ already, join us as a helper! It's fun, and you always learn
 something new about a subject by teaching it.
 
 
+### How to join
+
+We are normally limited by number of helpers, thus:
+
+- Anyone may register as a learner, we will try to take as many as we can.
+- Or you can register as a helper.  If you are somewhat comfortable
+  with these tools, you can be a helper! (see below)
+- Register as a team, one helper and 4-6 learners.
+  - We will accept all complete teams.
+  - Everyone on the team must register separately.
+  - Decide some team name, and when registering, everone enter this
+    same name so that we can link you together.
+  - During the exercise sessions in breakout rooms, the helper has
+    primary responsibility for their group's hands-on exercises.
+    Still, instructors drop by to check and help
+    as needed, so don't worry if you don't know everything.
+  - This is a great opportunity to bring your friends and colleagues
+    and prepare for the future together.
+
+If you've been to a CodeRefinery before and have used git some after
+that, you are definitely capable of being a helper.  If you routinely
+use git and know Python somewhat well, you are also very qualified to
+be a helper.
+
+
 ### What we will not teach
 
 This is not a course about a specific programming language or
