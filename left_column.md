@@ -10,8 +10,7 @@
 
 
 Because of our Nordic funding, priority is for Nordic participants.
-This is the first Mega-CodeRefinery, so we reserve the right to make
-changes.  Everyone gets added to a waitlist initially, and we
+Everyone gets added to a waitlist initially, and we
 approve people as we get space.  Check
 back for updates.
 
@@ -83,8 +82,7 @@ The schedule is subject to change.
 **Pre-workshop installation help** and verification times (see above)
 - Join anytime during this (preferably not everyone at the very start
   and end)
-- DATE (W) 14-15 CEST  (mistake in email: it *is* actually Wednesday)
-- DATE (F)  13-14 CEST
+- Dates and times to be announced
 
 
 **Day 1 (M)**
@@ -144,7 +142,7 @@ The schedule is subject to change.
 ### Location
 
 The workshop will be held online, participant links will be sent to
-registered participants.  Also streamed at [https://twitch.tv/coderefinery]
+registered participants.  Also streamed at <https://twitch.tv/coderefinery>
 
 
 ### Price
