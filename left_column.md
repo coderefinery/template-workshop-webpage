@@ -25,7 +25,8 @@ research software development. The main focus is on using Git for efficiently
 writing and maintaining research software.
 
 
-### **Software requirements**
+
+### Software requirements
 
 You need to install some software *before* CodeRefinery ([why we ask
 you to do
