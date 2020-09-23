@@ -1,15 +1,24 @@
 
 
-### Dates, 2020
+### DATES, 9:00-12:00 CEST
 
 <a class="btn btn-info disabled" href="#" data-mode="1" target="_blank">Registration will open soon</a>
 
+**News:**
 
-### Contact
-
-support@coderefinery.org
+* **News item 1**
 
 
+Because of our Nordic funding, priority is for Nordic participants.
+This is the first Mega-CodeRefinery, so we reserve the right to make
+changes.  Everyone gets added to a waitlist initially, and we
+approve people as we get space.  Check
+back for updates.
+
+
+### Live streaming
+
+Yes, we are.  Streams available at <https://twitch.tv/coderefinery>, See [right bottom →](#streaming-info)
 
 
 ### Course goals and format
@@ -20,10 +29,14 @@ focus is on using Git for efficiently writing and maintaining research
 software.  We don't teach programming, but we teach the tools you need
 to use programming well.
 
-This is an informal and interactive event with type-along type
+This is an informal and interactive online event with type-along type
 of presentations, live coding, and demos. Short tutorials alternate
 with practical exercises.
 
+We might live stream or record (part of ) the workshop to reach an
+even wider audience.  In this case, privacy is our first concern and
+*only* the instructor's video will be published, and *breakout rooms
+for exercises are completely private*.  More details will come later.
 
 
 ### Software requirements
@@ -62,54 +75,68 @@ advance, or b) verify with your team's helper before the workshop.**
 
 ### Schedule
 
-Day 1
-- 9:00 - 9:30
+The schedule includes frequent breaks.  All times are in Central
+European Summer Time.  [Convert 9:00 CEST to your time zone](https://arewemeetingyet.com/Stockholm/2020-05-25/09:00/CodeRefinery%20online#eyJ1cmwiOiJodHRwczovL2NvZGVyZWZpbmVyeS5naXRodWIuaW8vMjAyMC0wNS0yNS1vbmxpbmUvIn0=).
+
+The schedule is subject to change.
+
+**Pre-workshop installation help** and verification times (see above)
+- Join anytime during this (preferably not everyone at the very start
+  and end)
+- DATE (W) 14-15 CEST  (mistake in email: it *is* actually Wednesday)
+- DATE (F)  13-14 CEST
+
+
+**Day 1 (M)**
+- 9:00 - 9:20
   [Welcome and practical information](https://github.com/coderefinery/workshop-intro/blob/master/README.md)
   (TBA)
-- 9:30 - 12:00
-  [Introduction to version control - part 1/2](https://coderefinery.github.io/git-intro/)
+- 9:20 - 12:00
+  [Introduction to version control - part 1/2](https://coderefinery.github.io/git-intro/) ("Motivation" to "Undoing")
   (TBA)
-- 12:00 - 13:00
-  Lunch break
-- 13:00 - 15:00
-  [Introduction to version control - part 2/2](https://coderefinery.github.io/git-intro/)
+
+
+**Day 2 (T)**
+- 9:00 - 12:00
+  [Introduction to version control - part 2/2](https://coderefinery.github.io/git-intro/) ("Branching and merging" to "Inspecting history")
   (TBA)
-- 15:30 - 17:00
+
+
+**Day 3 (W)**
+- 9:00 - 12:00
+  [Collaborative distributed version control](https://coderefinery.github.io/git-collaborative/)
+  (TBA)
+
+
+**Day 4 (T)**
+- 9:00 - 9:15
+  [Mini-intro](https://github.com/coderefinery/workshop-intro/blob/master/README.md)
+  (TBA)
+- 9:00 - 11:00
+  [Reproducible research and FAIR data](https://coderefinery.github.io/reproducible-research/)
+  (TBA)
+- 11:00 - 12:00
   [Social coding and open software](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/social-coding/master/talk.md)
   (TBA)
 
-Day 2
-- 9:00 - 10:30
-  [Modular code development](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md)
-  (TBA)
-- 11:00 - 12:00
-  [Collaborative distributed version control 1/2](https://coderefinery.github.io/git-collaborative/)
-  (TBA)
-- 12:00 - 13:00
-  Lunch break
-- 13:00 - 14:30
-  [Collaborative distributed version control 2/2](https://coderefinery.github.io/git-collaborative/)
-  (TBA)
-- 15:00-17:00
-  [Reproducible research and FAIR data](https://coderefinery.github.io/reproducible-research/)
-  (TBA)
 
-Day 3
+**Day 5 (W)**
 - 9:00 - 10:30
   [Documentation](https://coderefinery.github.io/documentation/)
   (TBA)
-- 11:00 - 12:00
-  [Automated testing part 1/2](https://coderefinery.github.io/testing/)
-  (TBA)
-- 12:00 - 13:00
-  Lunch break
-- 13:00 - 14:00
-  [Automated testing part 2/2](https://coderefinery.github.io/testing/)
-  (TBA)
-- 14:30 - 16:30
+- 10:30 - 12:00
   [Jupyter](https://coderefinery.github.io/jupyter/)
   (TBA)
-- 16:30 - 17:00
+
+
+**Day 6 (Th)**
+- 9:00 - 10:30
+  [Automated testing](https://coderefinery.github.io/testing/)
+  (TBA)
+- 10:45 - 11:45
+  [Modular code development](https://github.com/coderefinery/modular-type-along)
+  (TBA)
+- 11:45 - 12:00
   [Concluding remarks and where to go from here](https://github.com/coderefinery/workshop-outro/blob/master/README.md)
   (TBA)
 
