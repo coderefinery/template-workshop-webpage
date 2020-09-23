@@ -6,7 +6,7 @@ Are you doing any of these things below:
 - You change scripts written by your colleagues.
 - You write code that is used in research by you or others.
 
-If yes, then this course is for you.  Most participants are not
+If yes, then this course is for you.  This is not designed for
 "professional code developers" or computer scientists.
 
 If you develop research code and you know all the tools
