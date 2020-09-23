@@ -10,19 +10,19 @@
 support@coderefinery.org
 
 
-### Format
-
-Hands-on informal and interactive online two-day event with type-along type of
-presentations, live coding and demos. Short tutorials alternate with practical
-exercises.
 
 
-### Course goals
+### Course goals and format
 
-The aim of this course is to demonstrate to and familiarize the workshop
-participants with best practices and tools for version control in modern
-research software development. The main focus is on using Git for efficiently
-writing and maintaining research software.
+In this course, you will become familiar with tools and best practices
+for version control in modern research software development. The main
+focus is on using Git for efficiently writing and maintaining research
+software.  We don't teach programming, but we teach the tools you need
+to use programming well.
+
+This is an informal and interactive event with type-along type
+of presentations, live coding, and demos. Short tutorials alternate
+with practical exercises.
 
 
 
