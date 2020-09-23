@@ -21,7 +21,7 @@ zoom chat, general attendee communication.  **Hackmd:** watches
 hackmd, answers questions, organizes it, brings questions up in main
 lecture.  **Expert helpers:** Reserve instructors who can help with
 difficult problems, especially configuration problems at the very
-beginning of each day.  **Helper:** breakout room helper, listed at
+beginning of each day.  Optional.  **Helper:** breakout room helper, listed at
 end (not per day) since they are usually expected to be a helper every
 day. **(name)** in parentheses: "I offer to do it
 but I am happy if someone replaces me here."
