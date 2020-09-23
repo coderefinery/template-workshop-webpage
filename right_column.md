@@ -31,13 +31,14 @@ Python.
   ([video](https://youtu.be/56p6xX0aToI))
   contains the essentials.
 - Basics in one or more programming languages.
-- You will need to bring a laptop.
-- If this is an in-person workshop, it is good if you have access to Eduroam.
-- You need to install some software. Please follow links in the schedule.
+- You need to install some software. Please follow links at right.
 - It is useful if you have a basic idea of how Git works. We will start from
-  the basics, but please go through
+  the basics anyway, but please go through
   [this Git-refresher material](https://coderefinery.github.io/git-refresher/)
   for a basic overview and important configuration steps.
+- Make sure that git is configured, and verify the configuration:
+  [text instructions](https://coderefinery.github.io/installation/git/#configuring-git),
+  [video](https://www.youtube.com/watch?v=WdDTp8NeHBs&t=258s).
 
 
 ### Instructors
