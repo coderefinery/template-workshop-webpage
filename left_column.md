@@ -111,3 +111,20 @@ Day 3
 - 16:30 - 17:00
   [Concluding remarks and where to go from here](https://github.com/coderefinery/workshop-outro/blob/master/README.md)
   (TBA)
+
+
+### Location
+
+The workshop will be held online, participant links will be sent to
+registered participants.  Also streamed at [https://twitch.tv/coderefinery]
+
+
+### Price
+
+Free of charge, funded by the [Nordic e-Infrastructure
+Collaboration](https://neic.no/).
+
+
+### Contact
+
+support@coderefinery.org

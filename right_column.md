@@ -1,25 +1,4 @@
 
-
-### Location
-
-Edit here location, address, or video connection details.
-
-
-### Time
-
-(Adjust these times)
-
-- Tuesday 9:00 - 12:00 (CEST)
-  ([convert to my time zone](https://arewemeetingyet.com/Stockholm/2020-05-25/09:00/CodeRefinery%20online#eyJ1cmwiOiJodHRwczovL2NvZGVyZWZpbmVyeS5naXRodWIuaW8vMjAyMC0wNS0yNS1vbmxpbmUvIn0=))
-- Wednesday 9:00 - 12:00 (CEST)
-  ([convert to my time zone](https://arewemeetingyet.com/Stockholm/2020-05-26/09:00/CodeRefinery%20online#eyJ1cmwiOiJodHRwczovL2NvZGVyZWZpbmVyeS5naXRodWIuaW8vMjAyMC0wNS0yNS1vbmxpbmUvIn0=))
-
-
-### Price
-
-Free of charge.
-
-
 ### Who the course is for
 
 Are you doing any of these things below:
