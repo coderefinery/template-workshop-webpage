@@ -73,7 +73,8 @@ Python.
 
 ### Helpers
 
-([tips for helpers](https://github.com/coderefinery/manuals/blob/master/helping-and-teaching.md))
+([Tips for
+helpers](https://coderefinery.github.io/manuals/helping-and-teaching/)).
 
 
 ### FAQ
