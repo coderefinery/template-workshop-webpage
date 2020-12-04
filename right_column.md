@@ -56,7 +56,7 @@ Python.
   ([video](https://youtu.be/56p6xX0aToI))
   contains the essentials.
 - Basics in one or more programming languages.
-- You need to install some software. Please follow links at right.
+- You need to install some software. Please follow links at left.
 - It is useful if you have a basic idea of how Git works. We will start from
   the basics anyway, but please go through
   [this Git-refresher material](https://coderefinery.github.io/git-refresher/)
