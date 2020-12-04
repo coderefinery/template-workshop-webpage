@@ -124,8 +124,3 @@ registered participants.  Also streamed at [https://twitch.tv/coderefinery]
 
 Free of charge, funded by the [Nordic e-Infrastructure
 Collaboration](https://neic.no/).
-
-
-### Contact
-
-support@coderefinery.org
