@@ -1,6 +1,5 @@
 # The URL the site will be built for
 base_url = "https://coderefinery.org"
-repository_url = "https://google.com"
 
 title = "CodeRefinery"
 
@@ -30,4 +29,5 @@ highlight_theme = "cheerfully-light"
 [extra]
 # Put all your custom variables here
 
+repository_url = "https://example.org"
 twitter_image = "https://raw.githubusercontent.com/coderefinery/coderefinery.org/main/content/logo/coderefinery.png"
