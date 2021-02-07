@@ -1,9 +1,3 @@
-_drafts/
-_site/
-.sass-cache
-.idea/
-# vim temporary files
-*.sw?
 *~
-.jekyll-cache/
-Gemfile.lock
+public/
+static/processed_images/
