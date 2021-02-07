@@ -1,9 +1,6 @@
 +++
 title = "CodeRefinery workshop"
-template = "index.html"
 +++
-
-{{ gallery() }}
 
 
 ### Dates, 2020

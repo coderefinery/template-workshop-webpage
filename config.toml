@@ -31,3 +31,9 @@ highlight_theme = "cheerfully-light"
 
 repository_url = "https://example.org"
 twitter_image = "https://raw.githubusercontent.com/coderefinery/coderefinery.org/main/content/logo/coderefinery.png"
+
+# you can place multiple logos like this:
+logos = [
+#   { name = "CodeRefinery", url = "https://coderefinery.org/", image = "coderefinery.png" },
+    { name = "CodeRefinery", url = "https://coderefinery.org/", image = "coderefinery.png" }
+]

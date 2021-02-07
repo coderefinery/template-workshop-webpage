@@ -4,30 +4,32 @@
 <div class="row top-buffer-more">
 
   <div class="col-sm-12">
-    
+
     {% if section.title %}
       <title>CodeRefinery - {{ section.title }}</title>
     {% else %}
       <title>CodeRefinery</title>
     {% endif %}
-    
+
   </div>
-  
-  
+
+
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-10">
 
       {% if section.content %}
-      {{ section.content | safe }}
+        {{ section.content | safe }}
       {% endif %}
 
     </div>
+    <div class="col-md-2">
+      {% for logo in config.extra.logos %}
+        <a href="{{ logo.url }}">
+          <img src="{{ resize_image(path="logos/" ~ logo.image, height=260, op="fit_height") | safe }}"
+               alt="logo"
+               style="margin-top: 25px;">
+        </a>
+      {% endfor %}
+    </div>
   </div><!-- row -->
-  
-  <div class="row top-buffer">
-    
-</div><!-- row -->
-
-
-
 {% endblock content %}
