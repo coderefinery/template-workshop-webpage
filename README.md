@@ -10,9 +10,10 @@ To use it, follow these instructions:
 - You will now be redirected to the new repository.
 
 Adjust these files:
-- `title.md`
-- `left-column.md`
-- `right-column.md`
+- `content/_index.md`
+- `config.toml`
+  - adapt `base_url` to point to the GitHub repository for the workshop page
+  - add logos as needed under `[extra]`, the images go under content/logos
 
 ### Schedule planning
 
