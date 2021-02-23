@@ -12,8 +12,11 @@ To use it, follow these instructions:
 Adjust these files:
 - `content/_index.md`
 - `config.toml`
-  - adapt `base_url` to point to the GitHub repository for the workshop page
+  - adapt `base_url`
   - add logos as needed under `[extra]`, the images go under content/logos
+  - adapt `repository_url` to point to the GitHub repository for the workshop page
+  - adapt `twitter_image`
+
 
 ### Schedule planning
 
