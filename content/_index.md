@@ -7,13 +7,10 @@ title = "CodeRefinery workshop"
 
 <a class="btn btn-info disabled" href="#" data-mode="1" target="_blank">Registration will open soon</a>
 
+
 ### Price
 
-Free of charge, funded by the [Nordic e-Infrastructure
-Collaboration](https://neic.no/).
-
-
-
+Free of charge, funded by the [Nordic e-Infrastructure Collaboration](https://neic.no/).
 
 
 ### Course goals and format
@@ -27,7 +24,6 @@ to use programming well.
 This is an informal and interactive event with type-along type
 of presentations, live coding, and demos. Short tutorials alternate
 with practical exercises.
-
 
 
 ### Software requirements
@@ -216,8 +212,6 @@ helpers](https://coderefinery.github.io/manuals/helping-and-teaching/)).
   this may be more unpredictable for you, but the way to make sure you
   get in is join a team with a helper (or find us more helpers in
   general).
-
-
 
 
 ### Contact
