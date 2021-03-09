@@ -20,17 +20,21 @@ Adjust these files:
 
 ### Schedule planning
 
-**Host:** Manage zoom meeting, breakout rooms, timekeeping and breaks,
-zoom chat, general attendee communication.  **Hackmd:** watches
+- **Host:** Manage zoom meeting, breakout rooms, timekeeping and breaks,
+zoom chat, general attendee communication.  
+- **Hackmd:** watches
 hackmd, answers questions, organizes it, brings questions up in main
-lecture.  **Expert helpers:** Reserve instructors who can help with
+lecture.
+- **Expert helpers:** Reserve instructors who can help with
 difficult problems, especially configuration problems at the very
-beginning of each day.  Optional.  **Helper:** breakout room helper, listed at
+beginning of each day.  
+- (Optional) **Helper:** breakout room helper, listed at
 end (not per day) since they are usually expected to be a helper every
-day. **(name)** in parentheses: "I offer to do it
+day. 
+- **(name)** in parentheses: "I offer to do it
 but I am happy if someone replaces me here."
 
-Overlapping roles are allowed when you think it's reasonable!
+_Overlapping roles are allowed when you think it's reasonable!_
 
 
 <table>
