@@ -33,55 +33,40 @@ Short tutorials alternate with practical exercises.
 ### Schedule
 
 Day 1
-- 9:00 - 9:30
-  [Welcome and practical information](https://github.com/coderefinery/workshop-intro/blob/master/README.md)
-  (TBA)
-- 9:30 - 12:00
-  [Introduction to version control - part 1/2](https://coderefinery.github.io/git-intro/)
-  (TBA)
-- 12:00 - 13:00
-  Lunch break
-- 13:00 - 15:00
-  [Introduction to version control - part 2/2](https://coderefinery.github.io/git-intro/)
-  (TBA)
-- 15:30 - 17:00
-  [Social coding and open software](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/social-coding/master/talk.md)
-  (TBA)
+
+Schedule | Lesson | Instructor
+--- | --- | ---
+9:00 - 9:30 | [Welcome and practical information](https://github.com/coderefinery/workshop-intro/blob/master/README.md) | (TBA)
+9:30 - 12:00 | [Introduction to version control - part 1/2](https://coderefinery.github.io/git-intro/) | (TBA)
+12:00 - 13:00 | Lunch break | -
+13:00 - 15:00 | [Introduction to version control - part 2/2](https://coderefinery.github.io/git-intro/) | (TBA)
+15:00 - 15:30 | Break | -
+15:30 - 17:00 | [Social coding and open software](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/social-coding/master/talk.md) | (TBA)
 
 Day 2
-- 9:00 - 10:30
-  [Modular code development](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md)
-  (TBA)
-- 11:00 - 12:00
-  [Collaborative distributed version control 1/2](https://coderefinery.github.io/git-collaborative/)
-  (TBA)
-- 12:00 - 13:00
-  Lunch break
-- 13:00 - 14:30
-  [Collaborative distributed version control 2/2](https://coderefinery.github.io/git-collaborative/)
-  (TBA)
-- 15:00-17:00
-  [Reproducible research and FAIR data](https://coderefinery.github.io/reproducible-research/)
-  (TBA)
+
+Schedule | Lesson | Instructor
+--- | --- | ---
+9:00 - 10:30 | [Modular code development](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md) | (TBA)
+10:30 - 11:00 | Break | -
+11:00 - 12:00 | [Collaborative distributed version control 1/2](https://coderefinery.github.io/git-collaborative/) | (TBA)
+12:00 - 13:00 | Lunch break | -
+13:00 - 14:30 | [Collaborative distributed version control 2/2](https://coderefinery.github.io/git-collaborative/) | (TBA)
+14:30 - 15:00 | Break | -
+15:00 - 17:00 | [Reproducible research and FAIR data](https://coderefinery.github.io/reproducible-research/) | (TBA)
 
 Day 3
-- 9:00 - 10:30
-  [Documentation](https://coderefinery.github.io/documentation/)
-  (TBA)
-- 11:00 - 12:00
-  [Automated testing part 1/2](https://coderefinery.github.io/testing/)
-  (TBA)
-- 12:00 - 13:00
-  Lunch break
-- 13:00 - 14:00
-  [Automated testing part 2/2](https://coderefinery.github.io/testing/)
-  (TBA)
-- 14:30 - 16:30
-  [Jupyter](https://coderefinery.github.io/jupyter/)
-  (TBA)
-- 16:30 - 17:00
-  [Concluding remarks and where to go from here](https://github.com/coderefinery/workshop-outro/blob/master/README.md)
-  (TBA)
+
+Schedule | Lesson | Instructor
+--- | --- | ---
+9:00 - 10:30 | [Documentation](https://coderefinery.github.io/documentation/) | (TBA)
+10:30 - 11:00 | Break | -
+11:00 - 12:00 | [Automated testing part 1/2](https://coderefinery.github.io/testing/) | (TBA)
+12:00 - 13:00 | Lunch break | -
+13:00 - 14:00 | [Automated testing part 2/2](https://coderefinery.github.io/testing/) | (TBA)
+14:00 - 14:30 | Break | -
+14:30 - 16:30 | [Jupyter](https://coderefinery.github.io/jupyter/) | (TBA)
+16:30 - 17:00 | [Concluding remarks and where to go from here](https://github.com/coderefinery/workshop-outro/blob/master/README.md) | (TBA)
 
 
 #### Instructors

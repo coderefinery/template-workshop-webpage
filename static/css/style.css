@@ -47,6 +47,30 @@ div.panel {
   border-radius: 10px;
 }
 
+table {width: 100%;}
+
+table, th, td {
+  padding: 3px 2px;
+  border: 1px solid rgb(158, 158, 158);
+}
+
+th {background-color: #ced4da;}
+
+td:nth-child(1) {  
+  /* your stuff here */
+  width: 12%;
+}
+td:nth-child(2) {  
+  /* your stuff here */
+  width: 12%;
+}
+
+td:nth-child(2) {  
+  /* your stuff here */
+  width: 55%;
+}
+
+
 main {
   background-color: #f8f9fa !important;
   padding-bottom: 20px;
