@@ -21,6 +21,9 @@ slugify.paths = "off"
 highlight_code = true
 highlight_theme = "cheerfully-light"
 
+# Whether external links are to be opened in a new tab
+external_links_target_blank = true
+
 [extra]
 # Put all your custom variables here
 
