@@ -73,3 +73,33 @@ Registration is closed:
 ```html
 <a class="btn btn-danger disabled" href="#" data-mode="1" target="_blank">Registration is closed</a>
 ```
+
+### Working with this template
+
+This template is based on [Zola](https://www.getzola.org/) static site engine,
+and it is facilitates
+
+#### Installation
+
+For installation instruction see:
+- https://www.getzola.org/documentation/getting-started/installation/
+- https://snapcraft.io/zola can be used for system that are not supported by default
+
+
+Check zola installed `zola --version`.
+
+####  Local Development
+
+To extend improve or use this template for a new workshop repository at 
+`coderefinery/year-month-date-place` follow the instructions:
+
+```
+# change the url below to your own repository
+git clone https://github.com/coderefinery/year-month-date-place
+cd year-month-date-place
+zola serve --open
+```
+This will open in your default browser a rendered version of the template.
+
+To build the template for production use `zola build`. This will create a rendered
+HTML version in a directory called `public` by default.
