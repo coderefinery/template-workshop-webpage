@@ -13,50 +13,24 @@ title = "CodeRefinery workshop"
 Free of charge, funded by the [Nordic e-Infrastructure Collaboration](https://neic.no/).
 
 
+### Location
+
+The workshop will be held online, participant links will be sent to
+registered participants.  Also streamed at [https://twitch.tv/coderefinery]
+
+---
+
 ### Course goals and format
 
 In this course, you will become familiar with tools and best practices
 for version control in modern research software development. The main
 focus is on using Git for efficiently writing and maintaining research
-software.  We don't teach programming, but we teach the tools you need
+software. We don't teach programming, but we teach the tools you need
 to use programming well.
 
 This is an informal and interactive event with type-along type
 of presentations, live coding, and demos. Short tutorials alternate
 with practical exercises.
-
-
-### Software requirements
-
-You need to install some software *before* CodeRefinery ([why we ask
-you to do
-this](https://coderefinery.github.io/installation/#why-are-we-asking-participants-to-install-software)).
-Please do this - *and check it* - in advance, otherwise you'll start off
-behind.
-
-Note that, e.g., a working Python executable on your laptop is not sufficient -
-a version greater than 3.4 is strongly recommended and a number of extra
-packages need to be installed as detailed on the Python installation
-page.  **You also need to check your git configuration**
-([video: how to configure Git](https://www.youtube.com/watch?v=WdDTp8NeHBs&list=PLpLblYHCzJACyKCfHnPwRruOxllNoHsEg)).
-**If you have an institutional laptop with limited rights, start in advance
-and/or ask for help to translate these instructions to work on your system.**
-
-- [Bash](https://coderefinery.github.io/installation/bash/)
-- [Editor](https://coderefinery.github.io/installation/editors/)
-- [Git](https://coderefinery.github.io/installation/git/), including
-  some **configuration**
-- [(optional) Visual diff tools](https://coderefinery.github.io/installation/difftools/)
-- [Python](https://coderefinery.github.io/installation/python/)
-- [Jupyter and JupyterLab](https://coderefinery.github.io/installation/jupyter)
-- [Snakemake](https://coderefinery.github.io/installation/snakemake)
-- [Zoom](https://coderefinery.github.io/installation/zoom/)
-- University computer specific instructions:
-  - [Aalto University](https://scicomp.aalto.fi/news/coderefinery/)
-
-**You should either a) drop by one of our verification sessions in
-advance, or b) verify with your team's helper before the workshop.**
-
 
 ### Schedule
 
@@ -112,10 +86,16 @@ Day 3
   (TBA)
 
 
-### Location
+### Instructors
 
-The workshop will be held online, participant links will be sent to
-registered participants.  Also streamed at [https://twitch.tv/coderefinery]
+- TBA
+
+
+### Helpers
+
+([Tips for
+helpers](https://coderefinery.github.io/manuals/helping-and-teaching/)).
+- TBA
 
 
 ### Who the course is for
@@ -185,16 +165,37 @@ Python.
   [video](https://www.youtube.com/watch?v=WdDTp8NeHBs&t=258s).
 
 
-### Instructors
+#### Software requirements
 
-- TBA
+You need to install some software *before* CodeRefinery ([why we ask
+you to do
+this](https://coderefinery.github.io/installation/#why-are-we-asking-participants-to-install-software)).
+Please do this - *and check it* - in advance, otherwise you'll start off
+behind.
 
+Note that, e.g., a working Python executable on your laptop is not sufficient -
+a version greater than 3.4 is strongly recommended and a number of extra
+packages need to be installed as detailed on the Python installation
+page.  **You also need to check your git configuration**
+([video: how to configure Git](https://www.youtube.com/watch?v=WdDTp8NeHBs&list=PLpLblYHCzJACyKCfHnPwRruOxllNoHsEg)).
+**If you have an institutional laptop with limited rights, start in advance
+and/or ask for help to translate these instructions to work on your system.**
 
-### Helpers
+- [Bash](https://coderefinery.github.io/installation/bash/)
+- [Editor](https://coderefinery.github.io/installation/editors/)
+- [Git](https://coderefinery.github.io/installation/git/), including
+  some **configuration**
+- [(optional) Visual diff tools](https://coderefinery.github.io/installation/difftools/)
+- [Python](https://coderefinery.github.io/installation/python/)
+- [Jupyter and JupyterLab](https://coderefinery.github.io/installation/jupyter)
+- [Snakemake](https://coderefinery.github.io/installation/snakemake)
+- [Zoom](https://coderefinery.github.io/installation/zoom/)
+- University computer specific instructions:
+  - [Aalto University](https://scicomp.aalto.fi/news/coderefinery/)
 
-([Tips for
-helpers](https://coderefinery.github.io/manuals/helping-and-teaching/)).
-- TBA
+**You should either a) drop by one of our verification sessions in
+advance, or b) verify with your team's helper before the workshop.**
+
 
 ### FAQ
 
