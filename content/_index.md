@@ -213,11 +213,7 @@ helpers](https://coderefinery.github.io/manuals/helping-and-teaching/)).
   get in is join a team with a helper (or find us more helpers in
   general).
 
-
-### Contact
-
-support@coderefinery.org
-
+---
 
 ## Questions, answers, and feedback
 
