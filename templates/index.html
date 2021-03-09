@@ -13,17 +13,17 @@
 </div>
 
 <div class="row">
-  <div class="col-md-10">
+  <div class="col-sm-10">
 
     {% if section.content %}
     {{ section.content | safe }}
     {% endif %}
 
   </div>
-  <div class="col-md-2">
+  <div class="col-sm-2">
     {% for logo in config.extra.logos %}
     <a href="{{ logo.url }}">
-      <img src="{{ resize_image(path="logos/" ~ logo.image, height=260, op="fit_height" ) | safe }}" alt="logo"
+      <img src="{{ resize_image(path="logos/" ~ logo.image, height=120, op="fit_height" ) | safe }}" alt="logo"
         style="margin-top: 25px;">
     </a>
     {% endfor %}

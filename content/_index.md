@@ -2,21 +2,20 @@
 title = "CodeRefinery workshop"
 +++
 
-
-### Dates, 2020
+#### Dates, 2020
 
 <a class="btn btn-info disabled" href="#" data-mode="1" target="_blank">Registration will open soon</a>
 
 
-### Price
+#### Price
 
 Free of charge, funded by the [Nordic e-Infrastructure Collaboration](https://neic.no/).
 
 
-### Location
+#### Location
 
 The workshop will be held online, participant links will be sent to
-registered participants.  Also streamed at [https://twitch.tv/coderefinery]
+registered participants.  Also streamed at [twitch.tv](https://twitch.tv/coderefinery).
 
 ---
 
@@ -86,16 +85,19 @@ Day 3
   (TBA)
 
 
-### Instructors
+#### Instructors
 
 - TBA
 
 
-### Helpers
+#### Helpers
 
 ([Tips for
 helpers](https://coderefinery.github.io/manuals/helping-and-teaching/)).
 - TBA
+
+
+---
 
 
 ### Who the course is for
