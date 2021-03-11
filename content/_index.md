@@ -16,6 +16,9 @@ to use programming well.
 This is an informal and interactive event with type-along lessons, live coding, and demos. 
 Short tutorials alternate with practical exercises.
 
+**Before signing** up please also read
+[this privacy note about tools/services we use](/requirements/#privacy-and-tools-online-services).
+
 
 ## Schedule
 
