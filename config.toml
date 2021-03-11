@@ -32,8 +32,9 @@ repository_url = "https://github.com/coderefinery/template-workshop-webpage"
 
 twitter_image = "https://raw.githubusercontent.com/coderefinery/coderefinery.org/main/content/logo/coderefinery.png"
 
-# you can place multiple logos like this:
+# you can place multiple logos like this
+# the image file(s) need to be placed in content/logos
 logos = [
-#   { name = "CodeRefinery", url = "https://coderefinery.org/", image = "coderefinery.png" },
-    { name = "CodeRefinery", url = "https://coderefinery.org/", image = "coderefinery.png" }
+#   { alt_text = "CodeRefinery logo", target_url = "https://coderefinery.org/", image = "coderefinery.png" },
+    { alt_text = "CodeRefinery logo", target_url = "https://coderefinery.org/", image = "coderefinery.png" }
 ]
