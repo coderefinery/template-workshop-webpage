@@ -4,9 +4,6 @@ title = "How to join"
 
 ## How to join
 
-The course is free of charge, we are funded by the [Nordic e-Infrastructure
-Collaboration](https://neic.no/).
-
 We are normally limited by number of helpers, thus:
 
 - Anyone may register as a learner, we will try to take as many as we can.
@@ -31,9 +28,24 @@ We are normally limited by number of helpers, thus:
   git, provide some initial advice on obvious error messages, and
   be able to call us for advanced help when it's needed.
 
-**How does the waitlist work?**  Anyone can register, but you go to
-  the waitlist until we can be sure we have enough helpers.  We'll
+**How does the waiting list work?**  Anyone can register, but you go to
+  the waiting list until we can be sure we have enough helpers.  We'll
   continually approve people as we get space.  We know
   this may be more unpredictable for you, but the way to make sure you
   get in is join a team with a helper (or find us more helpers in
   general).
+
+
+### Price and priority policy
+
+The course is free of charge, we are funded by the [Nordic e-Infrastructure
+Collaboration](https://neic.no/).
+
+When we have more sign-ups than our capacity allows, the following priority criteria apply:
+
+1. National universities or research institutes in Nordic countries and Estonia
+2. Private companies and government agencies in Nordic countries or Estonia
+3. European national universities or research institutes from outside the Nordics.
+4. Others
+
+Therefore it is very important that you use an email address corresponding to your affiliation.
