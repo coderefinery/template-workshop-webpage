@@ -7,7 +7,6 @@ body {
   color: #384452;
   font-size: 16px;
   font-weight: 300;
-  padding-bottom: 100px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -46,6 +45,44 @@ div.panel {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 10px;
+}
+
+table {width: 100%;}
+
+table, th, td {
+  padding: 3px 2px;
+  border: 1px solid rgb(158, 158, 158);
+}
+
+th {background-color: #ced4da;}
+
+td:nth-child(1) {  
+  /* your stuff here */
+  width: 12%;
+}
+td:nth-child(2) {  
+  /* your stuff here */
+  width: 12%;
+}
+
+td:nth-child(2) {  
+  /* your stuff here */
+  width: 55%;
+}
+
+
+main {
+  background-color: #f8f9fa !important;
+  padding-bottom: 20px;
+}
+
+footer {
+  padding: 20px 0;
+  border-top: solid 1px rgb(233, 233, 233);
+}
+
+footer .social:hover{
+  text-decoration: none;
 }
 
 img {
