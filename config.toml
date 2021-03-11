@@ -3,7 +3,7 @@
 # change this:
 base_url = "https://coderefinery.github.io/template-workshop-webpage/"
 
-title = "CodeRefinery"
+title = "Replace this title in config.toml"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = false
@@ -25,10 +25,16 @@ highlight_theme = "cheerfully-light"
 external_links_target_blank = true
 
 [extra]
-# Put all your custom variables here
 
-# change this:
-repository_url = "https://github.com/coderefinery/template-workshop-webpage"
+navigation = [
+    { name = "Schedule", path = "/" },
+    { name = "Who the course is for", path = "/audience/" },
+    { name = "How to join", path = "/join/" },
+    { name = "Requirements", path = "/requirements/" },
+    { name = "Q&A", path = "/questions/" },
+    { name = "Code of Conduct", path = "https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html" },
+    { name = "Improve his page", path = "https://github.com/coderefinery/template-workshop-webpage" }
+]
 
 twitter_image = "https://raw.githubusercontent.com/coderefinery/coderefinery.org/main/content/logo/coderefinery.png"
 
@@ -38,3 +44,12 @@ logos = [
 #   { alt_text = "CodeRefinery logo", target_url = "https://coderefinery.org/", image = "coderefinery.png" },
     { alt_text = "CodeRefinery logo", target_url = "https://coderefinery.org/", image = "coderefinery.png" }
 ]
+
+# adapt this
+registration_link = "https://example.org"
+
+# uncomment as soon as registration opens
+# registration_is_open = true
+
+# uncomment as soon as registration closes
+# registration_is_closed = true

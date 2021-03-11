@@ -2,108 +2,41 @@
 
 This repository is a template to set up webpages for CodeRefinery workshops.
 
+
+### How to generate your workshop repository
+
 To use it, follow these instructions:
 - Click the green "Use this template" button.
 - Select owner of the new repository and repository name. The name should be
-  "year-month-date-place", e.g. "2019-10-16-stockholm".
-- Click "Create repository from template"
+  "year-month-date-place", e.g. `2019-10-16-stockholm` or `2019-10-16-online`.
+- Click "Create repository from template".
 - You will now be redirected to the new repository.
 
-Adjust these files:
-- `content/_index.md`
-- `config.toml`
+
+### How to customize this template after you have created the repository
+
+- Adapt `config.toml`:
   - adapt `base_url` (it should contain a trailing slash)
-  - add logos as needed under `[extra]`, the images go under content/logos
-  - adapt `repository_url` to point to the GitHub repository for the workshop page
-  - adapt `twitter_image`
+  - adapt `title`
+  - adapt settings below `[extra]`
+- Adapt schedule in `content/_index.md`
 
 
-### Schedule planning
+### How this template works
 
-- **Host:** Manage zoom meeting, breakout rooms, timekeeping and breaks,
-zoom chat, general attendee communication.  
-- **Hackmd:** watches
-hackmd, answers questions, organizes it, brings questions up in main
-lecture.
-- **Expert helpers:** Reserve instructors who can help with
-difficult problems, especially configuration problems at the very
-beginning of each day.  
-- (Optional) **Helper:** breakout room helper, listed at
-end (not per day) since they are usually expected to be a helper every
-day. 
-- **(name)** in parentheses: "I offer to do it
-but I am happy if someone replaces me here."
+This template is based on the [Zola](https://www.getzola.org/) static site engine.
 
-_Overlapping roles are allowed when you think it's reasonable!_
-
-
-<table>
-<tr>
-  <th>Day</th>
-         <th>Topics+Instructors</th>
-         <th>Host</th>
-         <th>Hackmd</th>
-         <th>Experts helpers</th>
-</tr>
-<tr>
-  <th>1.jan (W)</th>
-         <td>intro: name<br>
-		     topic1: name<br>
-	     </td>
-         <td></td><!--host-->
-         <td></td><!--hackmd-->
-         <td></td><!--expert helpers-->
-</tr>
-</table>
-
-Helpers: name, name.  (note: for privacy, helpers do not need to be
-tracked here)
-
-
-
-### Changing the status of the registration button
-
-Registration is not yet open:
-```html
-<a class="btn btn-info disabled" href="#" data-mode="1" target="_blank">Registration will open soon</a>
-```
-
-Registration is open (adjust the `href`):
-```html
-<a class="btn btn-success" href="#" data-mode="1" target="_blank">Register here</a>
-```
-
-Registration is closed:
-```html
-<a class="btn btn-danger disabled" href="#" data-mode="1" target="_blank">Registration is closed</a>
-```
-
-### Working with this template
-
-This template is based on [Zola](https://www.getzola.org/) static site engine,
-and it is facilitates
-
-#### Installation
-
-For installation instruction see:
+To install Zola, follow:
 - https://www.getzola.org/documentation/getting-started/installation/
 - https://snapcraft.io/zola can be used for system that are not supported by default
+- But you can also download the binary directly from [here](https://github.com/getzola/zola/releases)
+
+Check that Zola is installed with `$ zola --version`.
 
 
-Check zola installed `zola --version`.
-
-####  Local Development
-
-To extend improve or use this template for a new workshop repository at 
-`coderefinery/year-month-date-place` follow the instructions:
+#### Local preview
 
 ```
-# change the url below to your own repository
-git clone https://github.com/coderefinery/year-month-date-place
-cd year-month-date-place
-zola serve --open
+$ zola serve --open
 ```
 This will open in your default browser a rendered version of the template.
-
-To build the template for production use `zola build`. This will create a rendered
-HTML version in a directory called `public` by default.

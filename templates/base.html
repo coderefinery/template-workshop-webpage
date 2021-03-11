@@ -9,10 +9,10 @@
     <link rel="shortcut icon" href="/img/favicon.ico">
 
     {% if page.title %}
-      <title>CodeRefinery - {{ page.title }}</title>
+      <title>{{ page.title }}</title>
       <meta name="twitter:title" content="{{ page.title }}" />
     {% else %}
-      <title>CodeRefinery</title>
+      <title>{{ config.title }}</title>
       <meta name="twitter:title" content="{{ config.title }}" />
     {% endif %}
 
@@ -40,122 +40,118 @@
     <link href="{{ config.base_url | safe }}css/style.css" rel="stylesheet">
   </head>
 
-<body>
-  <header>
-    <!-- navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav mr-auto">
+  <body>
+    <main role="main">
+      <div class="container">
 
-          <li class="nav-item">
-            <a class="nav-link" href="https://neic.no"><i class="bi bi-link-45deg"></i> NeIC</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://coderefinery.org"><i class="bi bi-link-45deg"></i> CodeRefinery</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html"><i class="bi bi-book"></i> Code of Conduct</a>
-          </li>
-        </ul>
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="{{ config.extra.repository_url | safe }}"><i class="bi bi-pencil-square"></i>
-              Improve his page</a>
-          </li>
+        <div class="row top-buffer">
+          <div class="col-sm-12">
+            <h1>{{ config.title }}</h1>
+          </div>
+        </div>
 
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-        </ul>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              {% for link in config.extra.navigation %}
+                {% if link.path is containing("http") %}
+                  <a class="nav-link" href="{{ link.path | safe }}">{{ link.name }}</a>
+                {% else %}
+                  <a class="nav-link" href="{{ config.base_url | safe }}{{ link.path | safe }}">{{ link.name }}</a>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </div>
+        </nav>
+
+        <div class="row top-buffer">
+          <div class="col-sm-10">
+            {% block content %}
+            {% endblock content %}
+          </div>
+          <div class="col-sm-2">
+            {% for logo in config.extra.logos %}
+            <a href="{{ logo.target_url }}">
+              <img src="{{ resize_image(path="logos/" ~ logo.image, height=120, op="fit_height" ) | safe }}" alt="{{ logo.alt_text }}"
+                style="margin-top: 25px;">
+            </a>
+            {% endfor %}
+          </div>
+        </div>
+
       </div>
-    </nav>
-    <!-- end navigation -->
-  </header>
-  <main role="main">
-    <div class="container">
+    </main>
 
-      {% for asset in section.assets %}
-      {% if asset is matching("[.](jpg|png)$") %}
-      <a href="{{ get_url(path=asset) }}">
-        <img src="{{ resize_image(path=asset, width=240, height=180, op=" fill") }}" />
-      </a>
-      &ensp;
-      {% endif %}
-      {% endfor %}
+    <!-- footer -->
+    <footer class="text-muted">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg">
+            <p>
+              <strong>Funding</strong>
+            </p>
+            <p>
+              CodeRefinery is a project within the
+              <a href="https://neic.no">Nordic e-Infrastructure Collaboration</a> (NeIC).
+              NeIC is an organisational unit under <a href="http://www.nordforsk.org/en">NordForsk</a>.
+            </p>
+          </div>
+          <div class="col-lg">
+            <p>
+              <strong>Privacy</strong>
+            </p>
+            <p>
+              <a href="https://coderefinery.org/privacy-policy/">Privacy policy</a>
+            </p>
+          </div>
+          <div class="col-lg">
+            <p>
+              <strong>Follow us</strong>
+            </p>
+            <p>
+              <a href="https://github.com/coderefinery" class="social">
+                <i class="bi bi-github" style="font-size: 2rem; color: black;"></i>
+              </a>
 
-      {% block content %}
-      {% endblock content %}
-
-    </div>
-  </main>
-  <!-- footer -->
-  <footer class="text-muted">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg">
-          <p>
-            <strong>Funding</strong>
-          </p>
-          <p>
-            CodeRefinery is a project within the
-            <a href="https://neic.no">Nordic e-Infrastructure Collaboration</a> (NeIC).
-            NeIC is an organisational unit under <a href="http://www.nordforsk.org/en">NordForsk</a>.
-          </p>
-        </div>
-        <div class="col-lg">
-          <p>
-            <strong>Privacy</strong>
-          </p>
-          <p>
-            <a href="https://coderefinery.org/privacy-policy/">Privacy policy</a>
-          </p>
-        </div>
-        <div class="col-lg">
-          <p>
-            <strong>Follow us</strong>
-          </p>
-          <p>
-            <a href="https://github.com/coderefinery" class="social">
-              <i class="bi bi-github" style="font-size: 2rem; color: black;"></i>
-            </a>
-
-            <a href="https://twitter.com/coderefine"  class="social" >
-              <i class="bi bi-twitter" style="font-size: 2rem; color: cornflowerblue;"></i>
-            </a>
-          </p>
-        </div>
-        <div class="col-lg">
-          <p>
-            <strong>Contact</strong>
-          </p>
-          <p>
-            <a href="mailto:support@coderefinery.org">support@coderefinery.org</a>
-          </p>
+              <a href="https://twitter.com/coderefine"  class="social" >
+                <i class="bi bi-twitter" style="font-size: 2rem; color: cornflowerblue;"></i>
+              </a>
+            </p>
+          </div>
+          <div class="col-lg">
+            <p>
+              <strong>Contact</strong>
+            </p>
+            <p>
+              <a href="mailto:support@coderefinery.org">support@coderefinery.org</a>
+            </p>
+          </div>
         </div>
       </div>
-    </div>
+    </footer>
     <!-- end footer -->
-  </footer>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-    crossorigin="anonymous"></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/anchor-js@4.2.2/anchor.min.js"
-    integrity="sha256-E4RlfxwyJVmkkk0szw7LYJxuPlp6evtPSBDlWHsYYL8=" crossorigin="anonymous"></script>
-  <script>
-    anchors.add();
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"></script>
 
-    // https://github.com/twbs/bootstrap/issues/1768#issuecomment-6531466
-    var shiftWindow = function () { scrollBy(0, -100) };
-    if (location.hash) shiftWindow();
-    window.addEventListener("hashchange", shiftWindow);
-  </script>
+    <script src="https://cdn.jsdelivr.net/npm/anchor-js@4.2.2/anchor.min.js"
+      integrity="sha256-E4RlfxwyJVmkkk0szw7LYJxuPlp6evtPSBDlWHsYYL8=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
 
-</body>
+      // https://github.com/twbs/bootstrap/issues/1768#issuecomment-6531466
+      var shiftWindow = function () { scrollBy(0, -100) };
+      if (location.hash) shiftWindow();
+      window.addEventListener("hashchange", shiftWindow);
+    </script>
 
+  </body>
 </html>
