@@ -2,19 +2,26 @@
 title = "Schedule"
 +++
 
-## Course goals and format
-
-The workshop will be held online, participant links will be sent to
-registered participants. We also typically stream via [Twitch](https://twitch.tv/coderefinery).
+## Course goals
 
 In this course, you will become familiar with tools and best practices
-for version control in modern research software development. The main
+for scientific software development.  The tools we teach are
+practically a requirement for any scientist that has to do their own programming. The main
 focus is on using Git for efficiently writing and maintaining research
 software. We don't teach programming, but we teach the tools you need
-to use programming well.
+to do programming well.
 
-This is an informal and interactive event with type-along lessons, live coding, and demos. 
-Short tutorials alternate with practical exercises.
+## Format
+
+The workshop will be held online.  You can attend by registering and
+receiving the Zoom link, which lets you take part in teams and
+breakout rooms.  This will also be streamed MOOC-style via
+[Twitch](https://twitch.tv/coderefinery).
+
+This is an informal and interactive event with type-along lessons,
+live coding, and exercises. Learners are divided into exercise teams for
+interactivity - register with a friend!  If you feel a bit more
+confident in the material, you can register as an exercise leader.
 
 **Before signing** up please also read
 [this privacy note about tools/services we use](/requirements/#privacy-and-tools-online-services).
