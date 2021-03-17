@@ -8,7 +8,7 @@ We are normally limited by number of helpers, thus:
 
 ### Zoom registration
 
-It Zoom, we group attendees into teams, with an exercise leader.  This
+In Zoom, we group attendees into teams, with an exercise leader.  This
 is a very interactive workshop.
 
 - Anyone may register as a learner, we will try to take as many as we can.
