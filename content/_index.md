@@ -21,7 +21,7 @@ breakout rooms.  This will also be streamed MOOC-style via
 This is an informal and interactive event with type-along lessons,
 live coding, and exercises. Learners are divided into exercise teams for
 interactivity - register with a friend!  If you feel a bit more
-confident in the material, you can register as an exercise leader.
+confident in the material, you can [register as an exercise leader](volunteer/).
 
 **Before signing** up please also read
 [this privacy note about tools/services we use](requirements/#privacy-and-tools-online-services).
@@ -96,6 +96,6 @@ The schedule includes frequent breaks.
 
 #### Helpers
 
-([Tips for
-helpers](https://coderefinery.github.io/manuals/helping-and-teaching/)).
+[Be a helper](volunteer/)
+
 - TBA

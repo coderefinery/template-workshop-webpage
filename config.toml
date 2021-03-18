@@ -29,7 +29,7 @@ navigation = [
     { name = "Requirements", path = "requirements/" },
     { name = "Q&A", path = "questions/" },
     { name = "Code of Conduct", path = "https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html" },
-    { name = "Improve this page", path = "https://github.com/coderefinery/template-workshop-webpage" }
+    { name = "Volunteer", path = "volunteer/" }
 ]
 
 twitter_image = "https://raw.githubusercontent.com/coderefinery/coderefinery.org/main/content/logo/coderefinery.png"
