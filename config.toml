@@ -28,7 +28,7 @@ navigation = [
     { name = "How to join", path = "join/" },
     { name = "Requirements", path = "requirements/" },
     { name = "Q&A", path = "questions/" },
-    { name = "Code of Conduct", path = "https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html" },
+    { name = "Code of Conduct", path = "https://coderefinery.org/about/code-of-conduct/" },
     { name = "Volunteer", path = "volunteer/" }
 ]
 

@@ -44,4 +44,4 @@ attend as an exercise leader?  You don't need to be an expert: if you
 have been through CodeRefinery once or have some familiarity with the
 topics, and you are confident to call a helper when needed, then you
 have all it takes to lead a team to success.  [Read more
-here](../volunteer/)
+here](../volunteer/).

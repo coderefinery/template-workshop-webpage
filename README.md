@@ -1,9 +1,15 @@
-# Template for CodeRefinery workshop webpages
+# CodeRefinery workshop webpage
 
-This repository is a template to set up webpages for CodeRefinery workshops.
+This repository is a template to set up webpages for CodeRefinery
+workshops, and has coordination of roles.
 
 
-### How to generate your workshop repository
+
+## Quick reference
+- ...
+
+
+## How to generate your workshop repository
 
 To use it, follow these instructions:
 - Click the green "Use this template" button.
