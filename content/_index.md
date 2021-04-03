@@ -29,7 +29,7 @@ confident in the material, you can [register as an exercise leader](volunteer/).
 
 ## Schedule
 
-All times are in **Europe/Stockholm time**.
+All times are in **Europe/Stockholm time (CET)**.
 The schedule includes frequent breaks.
 
 **Helper onboarding**
@@ -88,6 +88,9 @@ The schedule includes frequent breaks.
   [Concluding remarks and where to go from here](https://github.com/coderefinery/workshop-outro/blob/master/README.md)
   (TBA)
 
+
+#### Host
+- TBA
 
 #### Instructors
 

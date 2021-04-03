@@ -28,6 +28,11 @@ is a very interactive workshop.
 **Why should I come as a team?**  If you will work together later,
   learning the tools at the same time is a great way to do it.
 
+**Am I good enough to be a helper?**  If you are asking this
+  question, probably you are.  You should have some familiarity with
+  git, provide some initial advice on obvious error messages, and
+  be able to call us for advanced help when it's needed.
+
 **How does the waiting list work?**  Anyone can register, but you go to
   the waiting list until we can be sure we have enough helpers.  We'll
   continually approve people as we get space.  We know
