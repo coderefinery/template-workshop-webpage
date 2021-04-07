@@ -33,8 +33,8 @@ be able to call us for advanced help when it's needed.
 form has an option for this registration option.
 
 **Teams?**  If you have friends or colleagues you would like to
-mentor, register as part of a team.  First off, if a team has a
-helper, it will almost certainly be accepted.  Second, working
+mentor, register as part of a team.  First off, if a team has an
+exercise leader, it will almost certainly be accepted.  Second, working
 together makes it much more likely to have a lasting effect.
 
 
