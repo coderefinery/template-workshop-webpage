@@ -24,7 +24,6 @@ To use it, follow these instructions:
 ### How to customize this template after you have created the repository
 
 - Adapt `config.toml`:
-  - adapt `base_url` (it should contain a trailing slash)
   - adapt `title`
   - adapt settings below `[extra]`
 - Adapt schedule in `content/_index.md`

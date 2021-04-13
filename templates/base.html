@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="{{ config.base_url | safe }}img/favicon.ico">
+    <link rel="shortcut icon" href="{{ get_url(path="img/favicon.ico") | safe }}">
 
     {% if page.title %}
       <title>{{ page.title }}</title>
@@ -37,7 +37,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <link href="{{ config.base_url | safe }}css/style.css" rel="stylesheet">
+    <link href="{{ get_url(path="css/style.css") | safe }}" rel="stylesheet">
   </head>
 
   <body>
@@ -61,7 +61,7 @@
                 {% if link.path is containing("http") %}
                   <a class="nav-link" href="{{ link.path | safe }}">{{ link.name }}</a>
                 {% else %}
-                  <a class="nav-link" href="{{ config.base_url | safe }}{{ link.path | safe }}">{{ link.name }}</a>
+                  <a class="nav-link" href="{{ get_url(path=link.path) | safe }}">{{ link.name }}</a>
                 {% endif %}
               {% endfor %}
             </ul>
