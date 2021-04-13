@@ -89,16 +89,24 @@ The schedule includes frequent breaks.
   (TBA)
 
 
+
+#### Coordinators
+
+- TBA
+
+
 #### Host
-- TBA
-
-#### Instructors
 
 - TBA
 
 
-#### Helpers
+#### Instructors and expert helpers
 
-[Be a helper](volunteer/)
+- TBA
+
+
+#### Exercise leaders
+
+[Be an exercise leader](volunteer/)
 
 - TBA

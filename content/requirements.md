@@ -43,7 +43,7 @@ page. **You also need to check your git configuration**
 - [Zoom](https://coderefinery.github.io/installation/zoom/)
 
 **You should either a) drop by one of our verification sessions in
-advance, or b) verify with your team's helper before the workshop.**
+advance, or b) verify with your team's exercise leader before the workshop.**
 
 If you have an institutional laptop with limited rights, start in advance
 and/or ask for help to translate these instructions to work on your system.:

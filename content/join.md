@@ -4,7 +4,7 @@ title = "How to join"
 
 ## How to join
 
-We are normally limited by number of helpers, thus:
+We are normally limited by number of expert helpers and individual exercise leaders, thus we have two options:
 
 ### Zoom registration
 
@@ -12,33 +12,19 @@ In Zoom, we group attendees into teams, with an exercise leader.  This
 is a very interactive workshop.
 
 - Anyone may register as a learner, we will try to take as many as we can.
-- Complete teams are preferred: one helper and 4-6 learners:
+- Complete teams are preferred: one exercise leader and 4-6 learners:
   - Everyone on the team must register separately.
   - Decide on a team name, and provide it when registering,
     so that we can link teammates together.
-  - During the exercise sessions in breakout rooms, the helper has
+  - During the exercise sessions in breakout rooms, the exercise leader has
     primary responsibility for their group's hands-on exercises.
-    Still, instructors drop by to check and help
-    as needed, so don't worry if as a helper you don't know everything.
+    Still, instructors/expert helpers drop by to check and help
+    as needed, so don't worry if as an exercise leader you don't know everything.
   - This is a great opportunity to bring your friends and colleagues
-    and prepare for the future together.
+    and prepare for the future together. If you will work together later,
+    learning the tools at the same time is a great way to do it.
 - If you routinely use Git and know Python somewhat well or you've been to
-  a CodeRefinery before, you are definitely capable of being a helper and register as one!
-
-**Why should I come as a team?**  If you will work together later,
-  learning the tools at the same time is a great way to do it.
-
-**Am I good enough to be a helper?**  If you are asking this
-  question, probably you are.  You should have some familiarity with
-  git, provide some initial advice on obvious error messages, and
-  be able to call us for advanced help when it's needed.
-
-**How does the waiting list work?**  Anyone can register, but you go to
-  the waiting list until we can be sure we have enough helpers.  We'll
-  continually approve people as we get space.  We know
-  this may be more unpredictable for you, but the way to make sure you
-  get in is join a team with a helper (or find us more helpers in
-  general).
+  a CodeRefinery before, you are definitely capable of being an exercise leader and register as one!
 
 ### Attend via live stream
 
@@ -63,7 +49,7 @@ exercises together.
 The course is free of charge, we are funded by the [Nordic e-Infrastructure
 Collaboration](https://neic.no/).
 
-When we have more sign-ups than our capacity allows, the following priority criteria apply:
+When we have more sign-ups as **individual learner** than our capacity allows, the following priority criteria apply:
 
 1. National universities or research institutes in Nordic countries and Estonia
 2. Private companies and government agencies in Nordic countries or Estonia
@@ -73,3 +59,5 @@ When we have more sign-ups than our capacity allows, the following priority crit
 Therefore it is very important that you use an email address
 corresponding to your affiliation.  If you aren't accepted to the Zoom
 session, you can always attend the stream part.
+
+We will accept both **complete teams** (i.e. including at least one exercise leader that can attend all the days) and sign-ups as **exercise leader** as long as the technical capacity of Zoom meeting allows (currently it is 300).
