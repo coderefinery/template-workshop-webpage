@@ -1,6 +1,7 @@
 # The URL the site will be built for
 
-# change this (end in '/'):
+# this variable has to be set but it is not used
+# inside the templates
 base_url = "https://coderefinery.github.io/template-workshop-webpage/"
 
 title = "Replace this title in config.toml"
