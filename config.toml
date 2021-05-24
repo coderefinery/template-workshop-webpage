@@ -1,7 +1,7 @@
 # The URL the site will be built for
 
 # this variable has to be set but it is not used
-# inside the templates
+# inside the templates (end in '/')
 base_url = "https://coderefinery.github.io/template-workshop-webpage/"
 
 title = "Replace this title in config.toml"
@@ -24,8 +24,8 @@ external_links_target_blank = true
 [extra]
 
 navigation = [
-    { name = "Schedule", path = "" },
-    { name = "Who the course is for", path = "audience/" },
+    { name = "About/Schedule", path = "" },
+    { name = "Audience", path = "audience/" },
     { name = "How to join", path = "join/" },
     { name = "Requirements", path = "requirements/" },
     { name = "Q&A", path = "questions/" },
@@ -44,6 +44,7 @@ logos = [
 
 # adapt this
 registration_link = "https://example.org"
+source_repo = "https://github.com/coderefinery/template-workshop-webpage"
 
 # uncomment as soon as registration opens
 # registration_is_open = true

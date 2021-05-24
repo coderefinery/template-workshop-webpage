@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {% if section.content %}
+    {{ section.content | safe }}
+  {% endif %}
+  {% if page.content %}
+    {{ page.content | safe }}
+  {% endif %}
+{% endblock content %}
