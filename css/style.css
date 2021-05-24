@@ -1,0 +1,122 @@
+* { font-family: 'Roboto', sans-serif; }
+
+body {
+  background: #ffffff;
+  margin: 0;
+  height: 100%;
+  color: #384452;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  margin-top: 1.5em;
+}
+
+p {
+  padding: 0;
+  margin-bottom: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #384452;
+  margin-top: 10px;
+}
+
+.top-buffer { margin-top: 35px; }
+.top-buffer-more { margin-top: 70px; }
+
+div.panel {
+  padding: 30px;
+  column-gap: 10px;
+  background-color: #F3F6F9;
+  flex: 1;
+}
+
+.button_more {
+  background-color: #3074BA; /* Blue */
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+table {width: 100%;}
+
+table, th, td {
+  padding: 3px 2px;
+  border: 1px solid rgb(158, 158, 158);
+}
+
+th {background-color: #ced4da;}
+
+td:nth-child(1) {  
+  /* your stuff here */
+  width: 12%;
+}
+td:nth-child(2) {  
+  /* your stuff here */
+  width: 12%;
+}
+
+td:nth-child(2) {  
+  /* your stuff here */
+  width: 55%;
+}
+
+
+main {
+  background-color: #f8f9fa !important;
+  padding-bottom: 20px;
+}
+
+footer {
+  padding: 20px 0;
+  border-top: solid 1px rgb(233, 233, 233);
+}
+
+footer .social:hover{
+  text-decoration: none;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+img.mugshot {
+  object-fit: cover;
+  height: 262.5px;
+}
+
+.ctitle {
+  color: #710d7a;
+  margin-bottom: 15px;
+}
+
+.two_columns{
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
+    -webkit-column-count: 2;
+       -moz-column-count: 2;
+            column-count: 2;
+}
+
+/**
+* Create an invisible pseudo-element and make it the height of the
+* sticky navbar so the jump takes you to a location above the link
+*/
+:target::before {
+  content: "";
+  display: block;
+  margin-top: -80px;
+  height: 80px;
+  width: 1px;
+}
