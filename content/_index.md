@@ -55,7 +55,7 @@ The schedule includes frequent breaks.
 - TBA (Wednesday) 13:00-14:00 CET] ([timezone converter](https://arewemeetingyet.com/Stockholm/2021-05-05/13:00))
 - TBA (Thursday) 13:00-14:00 CET   ([timezone converter](https://arewemeetingyet.com/Stockholm/2021-05-06/13:00))
 
-**Day 1 (date, weekday)**
+**Day 1 (weekday, date)**
 - 8:50 - 9:00 connecting time, icebreaker
 - 9:00 - 9:20
   [Welcome and practical information](https://github.com/coderefinery/workshop-intro/blob/master/README.md)
@@ -64,19 +64,19 @@ The schedule includes frequent breaks.
   [Introduction to version control - part 1/2](https://coderefinery.github.io/git-intro/) ("Motivation" to "Undoing")
   (TBA)
 
-**Day 2 (date, weekday)**
+**Day 2 (weekday, date)**
 - 8:50 - 9:00 connecting time, icebreaker
 - 9:00 - 12:30
   [Introduction to version control - part 2/2](https://coderefinery.github.io/git-intro/) ("Branching and merging" to "Inspecting history")
   (TBA)
 
-**Day 3 (date, weekday)**
+**Day 3 (weekday, date)**
 - 8:50 - 9:00 connecting time, icebreaker
 - 9:00 - 12:30
   [Collaborative distributed version control](https://coderefinery.github.io/git-collaborative/)
   (TBA)
 
-**Day 4 (date, weekday)**
+**Day 4 (weekday, date)**
 - 8:50 - 9:00 connecting time, icebreaker
 - 9:00 - 9:15
   [Mini-intro](https://github.com/coderefinery/workshop-intro/blob/master/README.md)
@@ -88,7 +88,7 @@ The schedule includes frequent breaks.
   [Social coding and open software](https://coderefinery.github.io/social-coding/)
   (TBA)
 
-**Day 5 (date, weekday)**
+**Day 5 (weekday, date)**
 - 8:50 - 9:00 connecting time, icebreaker
 - 9:00 - 10:45
   [Jupyter](https://coderefinery.github.io/jupyter/)
@@ -97,7 +97,7 @@ The schedule includes frequent breaks.
   [Documentation](https://coderefinery.github.io/documentation/)
   (TBA)
 
-**Day 6 (date, weekday)**
+**Day 6 (weekday, date)**
 - 8:50 - 9:00 connecting time, icebreaker
 - 9:00 - 10:45
   [Software testing](https://coderefinery.github.io/testing/)
