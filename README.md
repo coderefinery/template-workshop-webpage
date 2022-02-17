@@ -15,7 +15,7 @@ workshops, and has coordination of roles.
 To use it, follow these instructions:
 - Click the green "Use this template" button.
 - Select owner of the new repository and repository name. The name should be
-  "year-month-date-place", e.g. `2019-10-16-stockholm` or `2019-10-16-online`.
+  "year-month-date-place", e.g. `2019-10-16-stockholm` or `2019-10-16-online` or `2019-10-16-workshop`.
 - Click "Create repository from template".
 - You will now be redirected to the new repository.
 - On "Settings" enable "GitHub Pages" from `gh-pages` as "Source".
