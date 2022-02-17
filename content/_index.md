@@ -114,6 +114,7 @@ The schedule includes frequent breaks.
 
 - <support@coderefinery.org>
 
+
 #### Coordinators
 
 - TBA
@@ -127,6 +128,7 @@ The schedule includes frequent breaks.
 #### Instructors and expert helpers
 
 - TBA
+
 
 #### Exercise leaders :heart:
 
