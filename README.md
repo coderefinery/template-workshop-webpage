@@ -4,7 +4,6 @@ This repository is a template to set up webpages for CodeRefinery
 workshops, and has coordination of roles.
 
 
-
 ## Quick reference
 
 - ...
