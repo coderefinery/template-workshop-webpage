@@ -44,16 +44,16 @@ The workshop will be held online.
 ## Schedule
 
 All times are in **Europe/Stockholm time (CEST)**. ([Convert 9:00 to
-your timezone](https://arewemeetingyet.com/Stockholm/2021-05-10/09:00))
+your timezone](https://arewemeetingyet.com/Stockholm/2022-03-22/09:00))
 The schedule includes frequent breaks.
 
 **Exercise leader onboarding**
-- TBA (Wednesday) 12:00-13:00 CET ([timezone converter](https://arewemeetingyet.com/Stockholm/2021-05-05/12:00))
-- TBA (Thursday) 12:00-13:00 CET] ([timezone converter](https://arewemeetingyet.com/Stockholm/2021-05-06/12:00))
+- TBA (Wednesday) 12:00 - 13:00 CET ([timezone converter](https://arewemeetingyet.com/Stockholm/2022-03-16/12:00))
+- TBA (Thursday) 12:00 - 13:00 CET  ([timezone converter](https://arewemeetingyet.com/Stockholm/2022-03-17/12:00))
 
 **Installation help and verification times** (drop in)
-- TBA (Wednesday) 13:00-14:00 CET] ([timezone converter](https://arewemeetingyet.com/Stockholm/2021-05-05/13:00))
-- TBA (Thursday) 13:00-14:00 CET   ([timezone converter](https://arewemeetingyet.com/Stockholm/2021-05-06/13:00))
+- TBA (Wednesday) 13:00 - 14:00 CET  ([timezone converter](https://arewemeetingyet.com/Stockholm/2022-03-16/13:00))
+- TBA (Thursday) 13:00 - 14:00 CET   ([timezone converter](https://arewemeetingyet.com/Stockholm/2022-03-17/13:00))
 
 **Day 1 (weekday, date)**
 - 8:50 - 9:00 connecting time, icebreaker
@@ -61,13 +61,13 @@ The schedule includes frequent breaks.
   [Welcome and practical information](https://github.com/coderefinery/workshop-intro/blob/master/README.md)
   (TBA)
 - 9:20 - 12:30
-  [Introduction to version control - part 1/2](https://coderefinery.github.io/git-intro/) ("Motivation" to "Undoing")
+  [Introduction to version control - part 1/2](https://coderefinery.github.io/git-intro/)
   (TBA)
 
 **Day 2 (weekday, date)**
 - 8:50 - 9:00 connecting time, icebreaker
 - 9:00 - 12:30
-  [Introduction to version control - part 2/2](https://coderefinery.github.io/git-intro/) ("Branching and merging" to "Inspecting history")
+  [Introduction to version control - part 2/2](https://coderefinery.github.io/git-intro/)
   (TBA)
 
 **Day 3 (weekday, date)**
