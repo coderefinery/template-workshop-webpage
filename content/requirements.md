@@ -14,8 +14,10 @@ title = "Prerequisites and software requirements"
   the basics anyway, but please go through
   [this Git-refresher material](https://coderefinery.github.io/git-refresher/)
   for a basic overview and important configuration steps.
+- Read [how to attend a livestream
+  course](https://coderefinery.github.io/manuals/how-to-attend-stream/).
 
-## Preparation
+## Preparation (software insallation)
 
 - You need to install some software **before the workshop starts**.
   Please follow the instructions and checklist on
@@ -25,7 +27,7 @@ title = "Prerequisites and software requirements"
   [video](https://www.youtube.com/watch?v=WdDTp8NeHBs&t=258s).
 
 
-## Privacy and tools/ online services
+## Privacy and tools/online services
 
 In Coderefinery, we try to teach you tools that we see being used in the
 research world and tools we consider important. This sometimes leads to

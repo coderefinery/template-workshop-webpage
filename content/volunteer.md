@@ -10,7 +10,7 @@ software development tools, which are often missed in other coursework.
 This is a big task, but together with our volunteer exercise leaders,
 we can do it.
 
-Volunteer to be an **exercise leader** at CodeRefienry, and you will:
+Volunteer to be an **exercise leader** at CodeRefinery, and you will:
 - Mentor and provide positive encouragement for your team; guide them
   through the workshop.
 - Attend our quick exercise leader training (one hour, see schedule)
@@ -26,6 +26,10 @@ learn things as well).  If you have been to a CodeRefinery before, you
 are definitely qualified.  Your job is more to guide people and try to
 read error messages than solve every problem.
 
+**You don't have to be located in the Nordics** We welcome volunteers from
+institutions also outside the Nordics because volunteer exercise leaders help
+us to reach more people.
+
 **Am I good enough to be a exercise leader?**  If you are asking this
 question, probably you are.  You should have some familiarity with
 git, provide some initial advice on obvious error messages, and
@@ -38,7 +42,6 @@ form has an option for "Exercise leader".
 mentor, register as part of a team.  First off, if a team has an
 exercise leader, it will almost certainly be accepted.  Second, working
 together makes it much more likely to have a lasting effect in your group.
-
 
 
 ### See also
