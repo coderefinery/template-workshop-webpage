@@ -4,43 +4,98 @@ title = "How to join"
 
 ## How to join
 
-We are normally limited by number of expert helpers and individual exercise leaders, thus we have two options:
+We are normally limited by number of expert helpers and individual
+exercise leaders, so we use a livestream to reach more people.  Anyone
+may watch the livestream (<https://twitch.tv/coderefinery>), and we
+have Zoom for breakout sessions up to our capacity.  Some partners may
+even host in-person breakout rooms.  Read more about [how to attend a
+livestream
+course](https://coderefinery.github.io/manuals/how-to-attend-stream/).
 
-### Zoom registration
-
-In Zoom, we group attendees into teams, with an exercise leader.  This
-is a very interactive workshop.
-
-- Anyone may register as a learner, we will try to take as many as we can.
-- Complete teams are preferred: one exercise leader and 4-6 learners:
-  - Everyone on the team must register separately.
-  - Decide on a team name, and provide it when registering,
-    so that we can link teammates together.
-  - During the exercise sessions in breakout rooms, the exercise leader has
-    primary responsibility for their group's hands-on exercises.
-    Still, instructors/expert helpers drop by to check and help
-    as needed, so don't worry if as an exercise leader you don't know everything.
-  - This is a great opportunity to bring your friends and colleagues
-    and prepare for the future together. If you will work together later,
-    learning the tools at the same time is a great way to do it.
-- If you routinely use Git and know Python somewhat well or you've been to
-  a CodeRefinery before, you are definitely capable of being an exercise leader and register as one!
-
-### Attend via live stream
+### Attend via livestream only
 
 The promise of the Internet is that we can reach everyone, so why
-don't we?  So, we have a live stream
-([twitch.tv/coderefinery](https://twitch.tv/coderefinery)) option so
-that anyone may attend
-the workshop, even if we don't have resources to provide interactive
-breakout rooms.  The live stream option is also good if you want to
-passively see what we are talking about, but don't want to take an
-interactive Zoom seat.
+don't we?  We teach on a Twitch livestream
+([twitch.tv/coderefinery](https://twitch.tv/coderefinery)) so that
+anyone may attend the workshop.  With livestream attendance, you get:
+- All workshop content, text and video.
+- Videos released the same day.
+- Ability to ask questions, if you register.
+- Ability to do exercises yourself, or in a self-organized group.
 
-Breakout rooms are not streamed, you'll do exercises by yourself.
-We'll often go over the exercises on stream, though.  You *will* be
-able to ask us questions, and we recommend that you form your own team and do
-exercises together.  We will support this as much as we can!
+Attendees report a great experience with these livestream courses!
+**We recommend that you form your own team and do exercises together
+in your own breakout room (in-person or online)**.  We will support
+this as much as we can!  You *will* be able to ask us questions if you
+register.
+
+**Please register anyway so that you can get emails and we can better
+report our impact** (but you don't have to).
+
+
+
+### Attend via livestream + Zoom
+
+To provide interactive support, we also host parallel a Zoom session.
+Learners watch the livestream during teaching, and work in Zoom during
+exercises.
+
+In Zoom, we group attendees into teams with an exercise leaders and
+help from our staff.  This makes a very interactive workshop, but
+unfortunately we have limited resources to accept these
+registrations.
+
+- Register as type ``Zoom Learner`` or ``Zoom Exercise leader``
+- You may register as a **solo learner**, we'll try to take as many as
+  we can (up to the number of exercise leaders who volunteer)
+- If a **team** registers with their own exercise leader, you get
+  priority and we will try to accept the whole team.  Everyone on the
+  team should register separately and set the same `Team name` in the
+  registration.
+
+Attending via Zoom will give you everything the livestream does, with
+the possibly of centrally organized teams and a bit more help.
+
+
+
+### FAQ: how should I register?
+
+- **I am alone and want to work with others, how should I register?**
+  - Register for Zoom (if we are full you get the livestream anyway)
+- **Why teams?**
+  - People learn best in small groups, even if the primary teaching
+    sessions can reach many people and be effective.  Our strategy
+    gives us the best of both worlds.
+- **I am making my own team, how should I register?**
+  - **Want more personal support:** `Zoom` you will have more
+    support from our expert helpers, which may be good for less
+    confident teams.
+  - **Want to manage everything yourself** (for example make your own
+    Zoom or in-person room): `Livestream only`.  The coordinator can
+    still join our CodeRefinery chat and interact with us.
+  - The coordinator could register on behalf of your team and forward
+    information to the others (but it's nice if everyone registers, see below).
+- **My complete team will work together in a physical room, is there
+  any point to joining your Zoom?**
+  - Expert helpers will drop by the Zoom breakout room and ask if
+    things are going OK.  If you won't want to screenshare with them
+    and see their demos, there is probably no point.  (Note that Zoom
+    is still useful in the physical room for screensharing with each
+    other).
+- **I want to make my team on my own, do I need to register?  Does
+  everyone on the team need to register?**
+  - Technically you don't have to, if you carefully check the website
+    for news.
+  - We prefer if you register so that we can report our impact better.
+    Also, the team gets emails direct from us and the HackMD links to
+    ask questions.
+- **I'm an organization or group, I want to sponsor my community's teams!**
+  - Great!  You can do this with or without communicating with us.
+    Feel free to just make your own registration form and manage it if
+    you want.  Or talk with us organize them as part of our centrally organized Zoom.
+    [Read more about local breakout
+    rooms](https://coderefinery.github.io/manuals/local-breakout-rooms/)
+    and [contact us](https://coderefinery.github.io/manuals/chat/).
 
 
 
@@ -51,10 +106,11 @@ Collaboration](https://neic.no/).
 
 When we have more sign-ups as **individual learners** than our capacity allows, the following priority criteria apply:
 
-1. National universities or research institutes in Nordic countries and Estonia
-2. Private companies and government agencies in Nordic countries or Estonia
-3. European national universities or research institutes from outside the Nordics.
-4. Others
+1. Partner communities
+2. National universities or research institutes in Nordic countries and Estonia
+3. Private companies and government agencies in Nordic countries or Estonia
+4. European national universities or research institutes from outside the Nordics.
+5. Others
 
 Therefore it is very important that you use an email address
 corresponding to your affiliation.  If you aren't accepted to the Zoom
@@ -84,7 +140,11 @@ to help or there is something else we can do, please get in touch.
   there are a *lot* of questions, so don't let it distract you from
   the main lecture.
 * Lesson websites/HackMD use standard web technologies, so that
-  browser accessibility plugins can be used.
+  browser accessibility plugins can be used (for example making the
+  font more accessible, check browser extensions).
+* Twitch can be live-captioned using the Google Chrome browser.
+* You can follow along without providing any personal data
+  (registration, Twitch works with cookies blocked).
 * We have figures in some lessons which are somewhat important,
   without good alt text.  We are working on this, contributions
   welcome.

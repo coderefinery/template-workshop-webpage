@@ -23,6 +23,10 @@ p {
   margin-top: 10px;
 }
 
+strong {
+  color: #000000;
+}
+
 .top-buffer { margin-top: 35px; }
 .top-buffer-more { margin-top: 70px; }
 
