@@ -17,7 +17,7 @@ title = "Prerequisites and software requirements"
 - Read [how to attend a livestream
   course](https://coderefinery.github.io/manuals/how-to-attend-stream/).
 
-## Preparation (software insallation)
+## Preparation (software installation)
 
 - You need to install some software **before the workshop starts**.
   Please follow the instructions and checklist on
