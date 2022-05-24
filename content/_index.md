@@ -27,19 +27,39 @@ interactivity - register with a friend!  If you feel a bit more
 confident in the material, you can [register as an exercise
 leader](volunteer/).
 
-The workshop will be held online.
+The workshop will be held online, see options at [how to
+join](join/):
 
-* You can attend by registering and
-  receiving the Zoom link, which lets you take part in teams and
-  breakout rooms. (limited places)
-
-* Anyone may also attend via the livestream at
-  [twitch.tv/coderefinery](https://twitch.tv/coderefinery).  If you
+* Everyone watches the main teaching via a livestream at
+  <https://twitch.tv/coderefinery>.  If you
   register, you can get emails and link to ask questions.
 
-**Before signing** up please also read
+* You can also register to attend our Zoom breakout rooms (limited
+  places), and you will be placed into a small, interactive breakout
+  room.  Please only register for Zoom if you want to actively take
+  part in the exercises ([read more](join/)).
+
+* Some partners offer in-person breakout rooms and help, see below.
+
+**Before signing up** please also read
 [this privacy note about tools/services we use](requirements/#privacy-and-tools-online-services).
 
+## Partners
+
+These partners offer local support, such as breakout rooms, to their
+local groups.  [Become a
+partner](https://coderefinery.org/organization/partners/) to support
+your community!
+
+- [**Aalto University**](https://scicomp.aalto.fi/):
+  - Local in-person exercise session and local support.
+  - Possibility of credit points to those in Finland (more info later).
+
+Other CodeRefinery partners include [ENCCS](https://enccs.se/) (SE),
+[CSC](https://csc.fi) (FI), [DeiC](https://www.deic.dk/) (DK), [UNINETT
+Sigma2](https://www.sigma2.no/) (NO), [SNIC](https://snic.se/) (SE),
+Type 1 Consortium for Interactive HPC (DK), and
+[USIT, UiO](https://www.usit.uio.no/) (NO).
 
 ## Schedule
 
