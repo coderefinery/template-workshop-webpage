@@ -76,7 +76,8 @@
           <div class="col-sm-2">
             {% for logo in config.extra.logos %}
             <a href="{{ logo.target_url }}">
-              <img src="{{ resize_image(path="logos/" ~ logo.image, height=120, op="fit_height" ) | safe }}" alt="{{ logo.alt_text }}"
+              {% set image = resize_image(path="logos/" ~ logo.image, height=120, op="fit_height" ) %}
+              <img src="{{ image.url }}" alt="{{ logo.alt_text }}"
                 style="margin-top: 25px;">
             </a>
             {% endfor %}

@@ -43,11 +43,4 @@ logos = [
 ]
 
 # adapt this
-registration_link = "https://example.org"
 source_repo = "https://github.com/coderefinery/template-workshop-webpage"
-
-# uncomment as soon as registration opens
-# registration_is_open = true
-
-# uncomment as soon as registration closes
-# registration_is_closed = true

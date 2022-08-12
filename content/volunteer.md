@@ -39,7 +39,7 @@ be able to call us for advanced help when it's needed.
 form has an option for "Exercise leader".
 
 **Teams?**  If you have friends or colleagues you would like to
-mentor, register as part of a team.  First off, if a team has an
+mentor, register as a team.  First off, if a team has an
 exercise leader, it will almost certainly be accepted.  Second, working
 together makes it much more likely to have a lasting effect in your group.
 
@@ -47,7 +47,7 @@ together makes it much more likely to have a lasting effect in your group.
 ### See also
 
 - [Helper
-  introduction](https://coderefinery.github.io/manuals/helper-intro/)
+  introduction](https://coderefinery.github.io/manuals/exercise-leaders/)
 - [Get more involved in
   CodeRefinery](https://coderefinery.github.io/manuals/contributing/) -
   perhaps you want to sponsor workshops or get more involved in

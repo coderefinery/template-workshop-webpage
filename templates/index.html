@@ -2,17 +2,6 @@
 
 {% block content %}
   {% if section.content %}
-
-    {% if config.extra.registration_is_closed %}
-      <a class="btn btn-danger disabled" href="#" data-mode="1" target="_blank">Registration is closed</a>
-    {% else %}
-      {% if config.extra.registration_is_open %}
-        <a class="btn btn-success" href="{{ config.extra.registration_link | safe }}" data-mode="1" target="_blank">Register here</a>
-      {% else %}
-        <a class="btn btn-info disabled" href="#" data-mode="1" target="_blank">Registration will open soon</a>
-      {% endif %}
-    {% endif %}
-
     {{ section.content | safe }}
   {% endif %}
   {% if page.content %}

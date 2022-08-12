@@ -2,17 +2,33 @@
 title = "Schedule"
 +++
 
+## Registration
+
+Why is there not just one registration page? Because we allow teams and organizations
+to self-organize their registration process and some organizations prefer that.
+
 <div class="alert alert-info">
-<span style="color:darkred;font-weight:bold">News:</span>
 
 * Registration will open soon.
 
 </div>
 
+**If you want to join as organization** to provide local helpers or
+in-person sessions, please do!  This usually takes the form of a
+"watching party" with coordinated breaks for exercises.  You can
+manage that on your own and all
+we will ask you is to register the teams and their contact
+point with us. Later
+(during or after the workshop) we will ask you to give us actual participation
+numbers and also provide us with the affiliation contry/countries of the
+participants and their career stage/ job type.  If it is helpful for your
+organization, we can also list your registration link here.
+
+
 ## Course goals
 
 In this course, you will become familiar with tools and best practices
-for scientific software development.  We don't teach programming, but we teach the tools you need
+for scientific software development. This course will not teach a programming language, but we teach the tools you need
 to do programming well and avoid common inefficiency traps.
 The tools we teach are
 practically a requirement for any scientist that has to do their own programming. The main
@@ -64,16 +80,16 @@ Type 1 Consortium for Interactive HPC (DK), and
 ## Schedule
 
 All times are in **Europe/Stockholm time (CEST)**. ([Convert 9:00 to
-your timezone](https://arewemeetingyet.com/Stockholm/2022-03-22/09:00))
+your timezone](https://arewemeetingyet.com/Stockholm/2022-09-20/09:00))
 The schedule includes frequent breaks.
 
 **Exercise leader onboarding**
-- TBA (Wednesday) 12:00 - 13:00 CET ([timezone converter](https://arewemeetingyet.com/Stockholm/2022-03-16/12:00))
-- TBA (Thursday) 12:00 - 13:00 CET  ([timezone converter](https://arewemeetingyet.com/Stockholm/2022-03-17/12:00))
+- Tue, TBA, 12:00 - 13:00 CET ([timezone converter](https://arewemeetingyet.com/Stockholm/2022-09-13/12:00))
+- Wed, TBA, 12:00 - 13:00 CET ([timezone converter](https://arewemeetingyet.com/Stockholm/2022-09-14/12:00))
 
 **Installation help and verification times** (drop in)
-- TBA (Wednesday) 13:00 - 14:00 CET  ([timezone converter](https://arewemeetingyet.com/Stockholm/2022-03-16/13:00))
-- TBA (Thursday) 13:00 - 14:00 CET   ([timezone converter](https://arewemeetingyet.com/Stockholm/2022-03-17/13:00))
+- Tue, TBA, 13:30 - 15:00 CET  ([timezone converter](https://arewemeetingyet.com/Stockholm/2022-09-13/13:30))
+- Wed, TBA, 13:30 - 15:00 CET  ([timezone converter](https://arewemeetingyet.com/Stockholm/2022-09-14/13:30))
 
 **Day 1 (weekday, date)**
 - 8:50 - 9:00 connecting time, icebreaker
