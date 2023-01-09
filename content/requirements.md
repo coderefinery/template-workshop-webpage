@@ -10,21 +10,19 @@ title = "Prerequisites and software requirements"
   ([video](https://youtu.be/56p6xX0aToI))
   contains the essentials.
 - Basics in one or more programming languages.
-- It is useful if you have a basic idea of how Git works. We will start from
-  the basics anyway, but please go through
-  [this Git-refresher material](https://coderefinery.github.io/git-refresher/)
-  for a basic overview and important configuration steps.
 - Read [how to attend a livestream
   course](https://coderefinery.github.io/manuals/how-to-attend-stream/).
 
 ## Preparation (software installation)
 
-- You need to install some software **before the workshop starts**.
-  Please follow the instructions and checklist on
-  [this page](https://coderefinery.github.io/installation/).
-- **Make sure that Git is configured**, and **verify the configuration**:
-  [text instructions](https://coderefinery.github.io/installation/shell-and-git/),
-  [video](https://www.youtube.com/watch?v=WdDTp8NeHBs&t=258s).
+It takes a bit of time to install and configure the required software but with
+200 or more participants it is not doable to debug these during the workshop
+and we ask you to install and configure these **before you arrive at the
+workshop** following the instructions and checklist on [this
+page](https://coderefinery.github.io/installation/).
+
+Please **make sure that Git is configured**, and **verify the configuration**
+([text instructions](https://coderefinery.github.io/installation/shell-and-git/), [video](https://www.youtube.com/watch?v=WdDTp8NeHBs&t=258s)).
 
 
 ## Privacy and tools/online services

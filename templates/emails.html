@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {% if section.content %}
+    {{ section.content | safe }}
+  {% endif %}
+
+  <ul>
+    {% for email in section.pages | sort(attribute="title") %}
+      <li>
+        <a href="#{{ email.title | lower | replace(from=" ", to="-") }}">{{ email.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  {% for email in section.pages | sort(attribute="title") %}
+    <br>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">
+          {{ email.title }}
+        </h5>
+        <h6 class="card-subtitle mb-2 text-muted">
+          Subject: {{ email.extra.subject }}
+        </h6>
+        <p class="card-text">
+          <small>
+            {{ email.content | safe }}
+          </small>
+        </p>
+      </div>
+    </div>
+  {% endfor %}
+{% endblock content %}
