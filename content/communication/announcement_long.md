@@ -1,19 +1,8 @@
 +++
-title = "Announcement texts"
+title = "Long announcement example"
+[extra]
+subject = "CodeRefinery Workshop announcement"
 +++
-
-You can help us spreading the word with these text templates (below).
-Improvements to these examples are most welcome.
-
-
-### Shorter example
-
-CodeRefinery invites everyone interested in improving their software practice
-skills to join the CodeRefinery workshop on September 20.-22. and 27.-29.
-See <https://coderefinery.github.io/2022-09-20-workshop/> for more details.
-
-
-### Longer example
 
 Do you write code for your research? Do you manage data? Most importantly, are
 you doing it properly? Has it ever happened to you to have to rewrite or
