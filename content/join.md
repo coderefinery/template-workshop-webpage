@@ -12,7 +12,7 @@ even host in-person breakout rooms.  Read more about [how to attend a
 livestream
 course](https://coderefinery.github.io/manuals/how-to-attend-stream/).
 
-<img src="../img/flowchart.png" alt="Registering flowchart">
+<img src="../img/single.png" alt="Registering flowchart">
 
 
 ### Attend via livestream only
