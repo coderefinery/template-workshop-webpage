@@ -8,7 +8,7 @@ base_url = "https://coderefinery.github.io/template-workshop-webpage/"
 title = "Replace this title in config.toml"
 
 # Whether to automatically compile all Sass files in the sass directory
-compile_sass = false
+compile_sass = true
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
@@ -25,15 +25,15 @@ external_links_target_blank = true
 [extra]
 
 navigation = [
-    { name = "About", path = "" },
-    { name = "Schedule", path = "schedule/" },
-    { name = "Audience", path = "audience/" },
-    { name = "How to join", path = "join/" },
-    { name = "Requirements", path = "requirements/" },
-    { name = "Q&A", path = "questions/" },
-    { name = "Code of Conduct", path = "https://coderefinery.org/about/code-of-conduct/" },
-    { name = "Volunteer", path = "volunteer/" },
-    { name = "Communication", path = "communication/" }
+    { name = "About", target = "" },
+    { name = "Schedule", target = "schedule/" },
+    { name = "Audience", target = "audience/" },
+    { name = "How to join", target = "join/" },
+    { name = "Requirements", target = "requirements/" },
+    { name = "Q&A", target = "questions/" },
+    { name = "Code of Conduct", target = "https://coderefinery.org/about/code-of-conduct/" },
+    { name = "Volunteer", target = "volunteer/" },
+    { name = "Communication", target = "communication/" }
 ]
 
 twitter_image = "https://raw.githubusercontent.com/coderefinery/coderefinery.org/main/content/logo/coderefinery.png"
