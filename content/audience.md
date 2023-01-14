@@ -4,35 +4,35 @@ title = "Audience"
 
 ## Audience
 
-Are you doing any of these things below:
+Do you identify with any of these below, then this course is for you:
+
+<div class="uk-card uk-card-primary uk-card-hover uk-card-body uk-light uk-column-1-2@s uk-column-1-3@m">
+
 - You write scripts to process data.
 - You change scripts written by your colleagues.
 - You write code that is used in research by you or others.
-
-... and if you have these kinds of problems:
 - You wish you could re-run your own code after a few months.
 - You wish you could reproduce your own results better.
 - You wish you could automate your work better.
 - You, or your group, can't share or reuse code.
 - You overall want to become more efficient at your work, by using the
   best possible tools.
+</div>
 
-... then this course is for you. This is not designed for
-"professional code developers" or computer scientists, or to make you
-one.
+This course is not designed for "professional software engineers" or to make
+you one.
 
-You can register with your friends/group as a **team** and you'll work
-together in breakout rooms, and you'll be able to work together after
-the course as well.
+You can register with your friends/group as a **team** and you'll work together
+in exercise rooms, and you'll be able to work together after the course as
+well.
 
 
 ## What we will not teach
 
-This is not a course about a specific programming language or
-the Linux/Unix terminal shell. We assume that you are familiar with the programming
-language that you use in your work and research. Most of the course
-applies to any programming language, though our default language for
-examples is Python (but we do have examples in other languages, too).
+This is not a course about a specific programming language or the Linux/Unix
+terminal shell. We assume that you are somehow familiar with the programming
+language that you use in your work and research. Most of the course applies to
+any programming language.
 
 
 ## Be an exercise leader
