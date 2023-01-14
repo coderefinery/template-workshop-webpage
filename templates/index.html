@@ -12,7 +12,13 @@
     </div>
   </div>
 
-  {% include "registration.html" %}
-
-  {{ section.content | safe }}
+  <div uk-grid>
+    <div class="uk-width-1-2@m">
+      {% include "registration.html" %}
+      {% include "schedule.html" %}
+    </div>
+    <div class="uk-width-1-2@m">
+      {{ section.content | safe }}
+    </div>
+  </div>
 {% endblock content %}

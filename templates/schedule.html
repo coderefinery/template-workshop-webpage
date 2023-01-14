@@ -1,0 +1,46 @@
+<h2>Schedule</h2>
+
+{% set data = load_data(path="content/schedule.yaml") %}
+
+<table class="uk-table uk-table-small uk-table-justify">
+  <tbody>
+    {% for day in data.schedule %}
+      <tr>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+          <div class="uk-margin-top">
+            <b>{{ day.title }}, {{ day.date }}</b>
+          </div>
+        </td>
+      </tr>
+      {% for session in day.sessions %}
+        <tr>
+          <td class="uk-text-right uk-table-shrink">
+            {{ session.starts }}
+          </td>
+          <td class="uk-table-shrink">
+            -
+          </td>
+          <td class="uk-text-right uk-table-shrink">
+            {{ session.ends }}
+          </td>
+          <td>
+            {% if session.url %}
+              <a href="{{ session.url }}" target="_blank">{{ session.title }}</a>
+            {% else %}
+              {{ session.title }}
+            {% endif %}
+            {% if session.presenters %}
+              ({{ session.presenters }})
+            {% endif %}
+          </td>
+        </tr>
+      {% endfor %}
+    {% endfor %}
+  </tbody>
+</table>

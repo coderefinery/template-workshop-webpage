@@ -1,0 +1,114 @@
+---
+schedule:
+  - title: "Installation help and on-boarding"
+    date: "2022-09-13"
+    sessions:
+      - starts: 12:00
+        ends: 13:00
+        title: On-boarding for exercise leads
+      - starts: 13:30
+        ends: 15:00
+        title: Installation help for everybody
+  - title: "Installation help and on-boarding"
+    date: "2022-09-14"
+    sessions:
+      - starts: 12:00
+        ends: 13:00
+        title: On-boarding for exercise leads
+      - starts: 13:30
+        ends: 15:00
+        title: Installation help for everybody
+  - title: "Day 1"
+    date: "2022-09-20"
+    sessions:
+      - starts: 8:50
+        ends: 9:00
+        title: Connecting time and icebreaker
+      - starts: 9:00
+        ends: 12:30
+        title: Introduction to version control - part 1/2
+        url: https://coderefinery.github.io/git-intro/
+        presenters: TBA
+  - title: "Day 2"
+    date: "2022-09-21"
+    sessions:
+      - starts: 8:50
+        ends: 9:00
+        title: Connecting time and icebreaker
+      - starts: 9:00
+        ends: 12:30
+        title: Introduction to version control - part 2/2
+        url: https://coderefinery.github.io/git-intro/
+        presenters: TBA
+  - title: "Day 3"
+    date: "2022-09-22"
+    sessions:
+      - starts: 8:50
+        ends: 9:00
+        title: Connecting time and icebreaker
+      - starts: 9:00
+        ends: 12:30
+        title: Collaborative distributed version control
+        url: https://coderefinery.github.io/git-collaborative/
+        presenters: TBA
+  - title: "Day 4"
+    date: "2022-09-27"
+    sessions:
+      - starts: 8:50
+        ends: 9:00
+        title: Connecting time and icebreaker
+      - starts: 9:00
+        ends: 9:15
+        title: Mini-intro
+        url: https://github.com/coderefinery/workshop-intro/blob/master/README.md
+        presenters: TBA
+      - starts: 9:15
+        ends: 11:15
+        title: Reproducible research and FAIR data
+        url: https://coderefinery.github.io/reproducible-research/
+        presenters: TBA
+      - starts: 11:15
+        ends: 12:30
+        title: Social coding and open software
+        url: https://coderefinery.github.io/social-coding/
+        presenters: TBA
+  - title: "Day 5"
+    date: "2022-09-28"
+    sessions:
+      - starts: 8:50
+        ends: 9:00
+        title: Connecting time and icebreaker
+      - starts: 9:00
+        ends: 10:45
+        title: Jupyter
+        url: https://coderefinery.github.io/jupyter/
+        presenters: TBA
+      - starts: 10:45
+        ends: 12:30
+        title: Documentation
+        url: https://coderefinery.github.io/documentation/
+        presenters: TBA
+  - title: "Day 6"
+    date: "2022-09-29"
+    sessions:
+      - starts: 8:50
+        ends: 9:00
+        title: Connecting time and icebreaker
+      - starts: 9:00
+        ends: 10:45
+        title: Software testing
+        url: https://coderefinery.github.io/testing/
+        presenters: TBA
+      - starts: 11:00
+        ends: 12:15
+        title: Modular code development
+        url: https://coderefinery.github.io/modular-type-along/
+        presenters: TBA
+      - starts: 12:15
+        ends: 12:30
+        title: Concluding remarks and where to go from here
+        url: https://github.com/coderefinery/workshop-outro/blob/master/README.md
+        presenters: TBA
+      - starts: 12:30
+        ends: 13:30
+        title: Optional - Meet the instructors on Zoom for a chat
