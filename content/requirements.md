@@ -9,20 +9,25 @@ title = "Prerequisites and software requirements"
   [This Linux shell crash course](https://scicomp.aalto.fi/scicomp/shell/)
   ([video](https://youtu.be/56p6xX0aToI))
   contains the essentials.
-- Basics in one or more programming languages.
-- Read [how to attend a livestream
-  course](https://coderefinery.github.io/manuals/how-to-attend-stream/).
+- We assume you already use some programming or scripting language but we do
+  not require knowing a particular programming language. We try to keep this course
+  programming language-independent.
+- Read [how to attend a livestream course](https://coderefinery.github.io/manuals/how-to-attend-stream/).
+
 
 ## Preparation (software installation)
 
 It takes a bit of time to install and configure the required software but with
-200 or more participants it is not doable to debug these during the workshop
+300 or more participants it is not doable to debug these during the workshop
 and we ask you to install and configure these **before you arrive at the
 workshop** following the instructions and checklist on [this
 page](https://coderefinery.github.io/installation/).
 
 Please **make sure that Git is configured**, and **verify the configuration**
 ([text instructions](https://coderefinery.github.io/installation/shell-and-git/), [video](https://www.youtube.com/watch?v=WdDTp8NeHBs&t=258s)).
+
+We offer install help sessions (see schedule). Please use one of these. It will
+improve the workshop experience for you and others.
 
 
 ## Privacy and tools/online services
@@ -41,7 +46,7 @@ aspects of the course are unlikely to apply as is.
 In any case, we suggest
 following the instructors and fellow learners to learn about the suggested
 software and its possible differences with your choice of tools. In many cases
-there may even be a more open / anonymous tool for the job, we hope you
+there may even be a more open/ anonymous tool for the job, we hope you
 understand that we can not offer support for every possible tool (everyone has
 their preferences). Our decision for using the tools we suggest in this
 workshop is based on what we think will be most useful for most of our
