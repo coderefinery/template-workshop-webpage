@@ -7,10 +7,9 @@ title = "Schedule"
 Some partners offer local support, such as breakout rooms, to their local
 groups. [Become a partner](https://coderefinery.org/organization/partners/) to
 support your community!
-
 - [**Aalto University**](https://scicomp.aalto.fi/):
   - Local in-person exercise session and local support.
-  - Possibility of credit points to those in Finland ([more info](/certificates/)).
+  - Possibility of [credit points](/certificates/) to those in Finland.
 
 
 ## Be an exercise leader
