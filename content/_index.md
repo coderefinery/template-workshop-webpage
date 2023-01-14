@@ -2,34 +2,6 @@
 title = "Schedule"
 +++
 
-## Course goals
-
-In this course, you will become familiar with tools and best practices for
-scientific software development. This course will not teach a programming
-language, but we teach the tools you need to do programming well and avoid
-common inefficiency traps. The tools we teach are practically a requirement for
-any scientist who needs to write code. The main focus is on using
-Git for efficiently writing and maintaining research software.
-
-
-## Format
-
-This is an informal and interactive event with type-along lessons, live coding,
-and exercises. Register with a friend!  If you feel a bit more confident in the
-material, you can [register as an exercise leader](volunteer/).
-
-The workshop will be held online, see options at [how to
-join](join/):
-
-- Everyone watches the main teaching via a livestream at
-  <https://twitch.tv/coderefinery>. We teach on stream instead of teaching
-  via Zoom to guarantee that learners cannot appear on stream or recording
-  with voice or video.
-- You can register to attend our Zoom exercise rooms
-  ([read more](join/)).
-- Some partners offer local support (see below).
-
-
 ## Partners
 
 Some partners offer local support, such as breakout rooms, to their local
@@ -39,6 +11,15 @@ support your community!
 - [**Aalto University**](https://scicomp.aalto.fi/):
   - Local in-person exercise session and local support.
   - Possibility of credit points to those in Finland (more info later).
+
+
+## Be an exercise leader
+
+Do you know some of the topics, but want to review them, why not attend as an
+[exercise leader](/join/)?  You don't need to be an expert: if you have been
+through CodeRefinery once or have some familiarity with the topics, and you are
+confident to call an expert helper when needed, then you have all it takes to
+lead a team to success.
 
 
 ## Certificates and credits
