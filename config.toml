@@ -27,7 +27,7 @@ external_links_target_blank = true
 navigation = [
     { name = "About", target = "" },
     { name = "Schedule", target = "schedule/" },
-    { name = "Goals and audience", target = "audience/" },
+    { name = "Audience", target = "audience/" },
     { name = "Certificates", target = "certificates/" },
     { name = "How to join", target = "join/" },
     { name = "Requirements", target = "requirements/" },
