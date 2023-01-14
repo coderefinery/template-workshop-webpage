@@ -61,11 +61,6 @@ Type 1 Consortium for Interactive HPC (DK), and
 
 If certificates or credits are offered, this section will be updated.  In past years, some partners have provided certificates to those attending and submitting exercises.
 
-#### Contact
-
-- <support@coderefinery.org>
-
-
 #### Coordinators
 
 - TBA
