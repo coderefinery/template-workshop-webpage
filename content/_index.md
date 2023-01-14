@@ -31,30 +31,23 @@ join](join/):
   that this way we can guarantee that learners cannot appear in stream or
   recording with voice or video.
 
-* You can also register to attend our Zoom breakout rooms (limited
+* You can also register to attend our Zoom exercise rooms (limited
   places), and you will be placed into a small, interactive breakout
   room.  Please only register for Zoom if you want to actively take
   part in the exercises ([read more](join/)).
 
-* Some partners offer in-person breakout rooms and help, see below.
+- Some partners offer local support (see below).
 
 
 ## Partners
 
-These partners offer local support, such as breakout rooms, to their
-local groups.  [Become a
-partner](https://coderefinery.org/organization/partners/) to support
-your community!
+Some partners offer local support, such as breakout rooms, to their local
+groups. [Become a partner](https://coderefinery.org/organization/partners/) to
+support your community!
 
 - [**Aalto University**](https://scicomp.aalto.fi/):
   - Local in-person exercise session and local support.
   - Possibility of credit points to those in Finland (more info later).
-
-Other CodeRefinery partners include [ENCCS](https://enccs.se/) (SE),
-[CSC](https://csc.fi) (FI), [DeiC](https://www.deic.dk/) (DK), [UNINETT
-Sigma2](https://www.sigma2.no/) (NO), [SNIC](https://snic.se/) (SE),
-Type 1 Consortium for Interactive HPC (DK), and
-[USIT, UiO](https://www.usit.uio.no/) (NO).
 
 
 ## Certificates and credits

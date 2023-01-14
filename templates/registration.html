@@ -1,15 +1,21 @@
 <h2>Registration</h2>
 
 {% if config.extra.registration_is_open %}
-  <a class="btn btn-success" href="{{ config.extra.registration_link | safe }}" data-mode="1" target="_blank">Register here</a>
+  <a class="uk-button uk-button-primary uk-button-large" href="{{ config.extra.registration_link }}" target="_blank">
+    Register here
+  </a>
 {% endif %}
 
 {% if config.extra.registration_is_closed %}
-  <a class="btn btn-danger disabled" href="#" data-mode="1" target="_blank">Registration is closed</a>
+  <button class="uk-button uk-button-danger uk-button-large">
+    Registration is closed
+  </button>
 {% endif %}
 
 {% if not config.extra.registration_is_open and not config.extra.registration_is_closed %}
-  <a class="btn btn-info disabled" href="#" data-mode="1" target="_blank">Registration will open soon</a>
+  <button class="uk-button uk-button-primary uk-button-large">
+    Registration will open soon
+  </button>
 {% endif %}
 
 {% set portion = get_page(path="registration.md") %}
