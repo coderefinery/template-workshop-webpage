@@ -1,0 +1,32 @@
+{% macro timezone_offset(date, time) %}
+  <script>
+    var date = '{{ date }}';
+    var time = '{{ time }}';
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('Z'));
+  </script>
+{% endmacro timezone_offset %}
+
+{% macro local_date(date, time) %}
+  <script>
+    var date = '{{ date }}';
+    var time = '{{ time }}';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('MMM D'));
+  </script>
+{% endmacro local_date %}
+
+{% macro local_time(date, time) %}
+  <script>
+    var date = '{{ date }}';
+    var time = '{{ time }}';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('H:mm'));
+  </script>
+{% endmacro local_time %}

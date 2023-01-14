@@ -1,9 +1,20 @@
+<script>
+  dayjs.extend(window.dayjs_plugin_utc)
+</script>
+
 <h2>Schedule</h2>
 
-{% set data = load_data(path="content/schedule.yaml") %}
+<div class="uk-alert-danger" uk-alert>
+  <a class="uk-alert-close" uk-close></a>
+  <p>
+    All times are displayed in the local timezone of your browser.
+    Detected timezone offset compared to UTC: {{ macros::timezone_offset(date='2023-03-20', time='09:00') }}
+  </p>
+</div>
 
 <table class="uk-table uk-table-small uk-table-justify">
   <tbody>
+    {% set data = load_data(path="content/schedule.yaml") %}
     {% for day in data.schedule %}
       <tr>
         <td>
@@ -13,21 +24,26 @@
         <td>
         </td>
         <td>
+        </td>
+        <td>
           <div class="uk-margin-top">
-            <b>{{ day.title }}, {{ day.date }}</b>
+            <b>{{ day.title }}</b>
           </div>
         </td>
       </tr>
       {% for session in day.sessions %}
         <tr>
+          <td class="uk-width-auto">
+            {{ macros::local_date(date=day.date, time=session.ends) }}
+          </td>
           <td class="uk-text-right uk-table-shrink">
-            {{ session.starts }}
+            {{ macros::local_time(date=day.date, time=session.starts) }}
           </td>
           <td class="uk-table-shrink">
             -
           </td>
           <td class="uk-text-right uk-table-shrink">
-            {{ session.ends }}
+            {{ macros::local_time(date=day.date, time=session.ends) }}
           </td>
           <td>
             {% if session.url %}

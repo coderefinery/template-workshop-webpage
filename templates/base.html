@@ -12,6 +12,10 @@
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.19/dist/js/uikit.min.js" integrity="sha256-gHEvLzvpjU93VFTgu5myAgmc+0I1CzBzYe0YhTJ8uqI=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.19/dist/js/uikit-icons.min.js" integrity="sha256-PxrcCuBlFkPVlPsGxNzt59W3EKYOH79z+v/tq9uFS2M=" crossorigin="anonymous"></script>
 
+    <!-- time zone localization -->
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.7/dayjs.min.js" integrity="sha256-EfJOqCcshFS/2TxhArURu3Wn8b/XDA4fbPWKSwZ+1B8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.7/plugin/utc.js" integrity="sha256-qDfIIxqpRhYWa543p6AHZ323xT3B8O6iLZFUAWtEQJw=" crossorigin="anonymous"></script>
+
     {% block rss %}
       <link rel="alternate" type="application/atom+xml" title="CodeRefinery" href="{{ get_url(path="atom.xml", trailing_slash=false) }}" />
     {% endblock %}
