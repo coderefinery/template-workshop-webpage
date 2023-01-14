@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>{{ page.title }}</h1>
+
+  <div uk-grid>
+    <div>
+      {% include "toc.html" %}
+    </div>
+    <div>
+      {% set image = resize_image(path="how-to-join.png", width=600, op="fit_width") %}
+      <img src="{{ image.url }}" alt="infographics describing how individuals and organizations can join"/>
+    </div>
+  </div>
+
+  {% if section.content %}
+    {{ section.content | safe }}
+  {% endif %}
+  {% if page.content %}
+    {{ page.content | safe }}
+  {% endif %}
+{% endblock content %}

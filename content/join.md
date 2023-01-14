@@ -1,17 +1,12 @@
 +++
 title = "How to join"
-template = "page-with-toc.html"
+template = "join.html"
 +++
 
-## How to join
-
 Anyone may watch the livestream (<https://twitch.tv/coderefinery>), and we
-provide Zoom for exercise sessions. Some partners may
-even host own video- or in-person exercise rooms. Read more about [how to attend a
-livestream
+provide Zoom for exercise sessions. Some partners may even host own video- or
+in-person exercise rooms. Read more about [how to attend a livestream
 course](https://coderefinery.github.io/manuals/how-to-attend-stream/).
-
-<img src="../img/single.png" alt="Registering flowchart" width="60%">
 
 
 ### Attend via livestream only
