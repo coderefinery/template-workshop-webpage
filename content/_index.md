@@ -38,8 +38,6 @@ join](join/):
 
 * Some partners offer in-person breakout rooms and help, see below.
 
-**Before signing up** please also read
-[this privacy note about tools/services we use](requirements/#privacy-and-tools-online-services).
 
 ## Partners
 
