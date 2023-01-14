@@ -2,15 +2,6 @@
 title = "Schedule"
 +++
 
-<div class="alert alert-info">
-
-### News
-
-- ...
-
-</div>
-
-
 ## Course goals
 
 In this course, you will become familiar with tools and best practices

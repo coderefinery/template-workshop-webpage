@@ -12,5 +12,5 @@
   <a class="btn btn-info disabled" href="#" data-mode="1" target="_blank">Registration will open soon</a>
 {% endif %}
 
-{% set registration = get_page(path="registration.md") %}
-{{ registration.content | safe }}
+{% set portion = get_page(path="registration.md") %}
+{{ portion.content | safe }}
