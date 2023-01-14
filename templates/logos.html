@@ -1,0 +1,6 @@
+{% for logo in config.extra.logos %}
+  {% set image = resize_image(path="logos/" ~ logo.image, width=150, op="fit_width") %}
+  <a href="{{ logo.target_url }}" target="_blank">
+    <img src="{{ image.url }}" alt="{{ logo.alt_text }}"/>
+  </a>
+{% endfor %}

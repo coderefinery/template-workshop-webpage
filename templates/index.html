@@ -3,7 +3,14 @@
 {% block content %}
   <h1>{{ config.title }}</h1>
 
-  {% include "news.html" %}
+  <div uk-grid>
+    <div class="uk-width-expand@m">
+      {% include "news.html" %}
+    </div>
+    <div class="uk-width-1-3@m">
+      {% include "logos.html" %}
+    </div>
+  </div>
 
   {% include "registration.html" %}
 
