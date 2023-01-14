@@ -27,7 +27,7 @@ Please **make sure that Git is configured**, and **verify the configuration**
 
 ## Privacy and tools/online services
 
-In Coderefinery, we try to teach you tools that we see being used in the
+In CodeRefinery, we try to teach you tools that we see being used in the
 research world and tools we consider important. This sometimes leads to
 situations where a tool that is commonly used is not the tool that is most open
 or anonymous.

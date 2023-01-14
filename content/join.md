@@ -83,7 +83,7 @@ and/or arrange a local breakout room.
   - The registration form has an option: "I might be interested in following in-person". Use that to get more information about local events that we a aware of. If there's no local event in your area you get our exercise Zoom link. (In an unlikely event where even the Zoom is full then you get the livestream anyway.)
 - **I am making my own team, how should I register?**
   - The registration form has an option: "I might form a team with my colleagues". Make sure you team has at least one exercise lead and that they have announced that while registering so they get the additional information about Onboarding for exercise leads, instructors, organizers, observers and a calendar invitation with connection information.
-- **Our team will work together in a physical room, is there any point to joining the Code Refinery Zoom?**
+- **Our team will work together in a physical room, is there any point to joining the CodeRefinery Zoom?**
   - No need. If you all get stuck in the exercises you can ask questions via the Q&A channel.
     (Note that Zoom etc. can still be useful in the physical room for screensharing with each other).
 - **Does everyone on the team need to register?**
