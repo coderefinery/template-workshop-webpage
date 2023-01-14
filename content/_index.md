@@ -60,24 +60,3 @@ Type 1 Consortium for Interactive HPC (DK), and
 ## Certificates and credits
 
 If certificates or credits are offered, this section will be updated.  In past years, some partners have provided certificates to those attending and submitting exercises.
-
-#### Coordinators
-
-- TBA
-
-
-#### Host
-
-- TBA
-
-
-#### Instructors and expert helpers
-
-- TBA
-
-
-#### Exercise leaders :heart:
-
-[Be an exercise leader](volunteer/).
-
-- TBA
