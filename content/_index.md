@@ -10,7 +10,7 @@ support your community!
 
 - [**Aalto University**](https://scicomp.aalto.fi/):
   - Local in-person exercise session and local support.
-  - Possibility of credit points to those in Finland (more info later).
+  - Possibility of credit points to those in Finland ([more info](/certificates/)).
 
 
 ## Be an exercise leader
