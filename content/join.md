@@ -52,9 +52,9 @@ With Zoom attendance, you get:
 **We recommend that you form your own team and do exercises together in-person or online.**
 
 We will support this as much as we can!
-Everyone in team register by themselves. 
+Everyone in team register by themselves.
 
-You can arrange everything with your friends and colleagues: 
+You can arrange everything with your friends and colleagues:
 - agree where to meet
 - agree how to follow the workshop
 - maybe have some communications channel for your team
@@ -67,13 +67,13 @@ Team Exercise Lead(s) should mark their interest in being an EL when registering
 
 ### Attend in a local partner's event
 
-Some of our partners arrange an onsite meetings where they follow 
-the teaching together and get in-person assistance. 
-Check if one of 
-[our partners](https://coderefinery.github.io/2022-09-20-workshop/#partners) 
-is organising such an event, or if your educational institute has 
-an event of their own. Feel free to suggest your educational institute to 
-[become a partner](https://coderefinery.org/organization/partners/#joining-as-a-partner) 
+Some of our partners arrange an onsite meetings where they follow
+the teaching together and get in-person assistance.
+Check if one of
+[our partners](https://coderefinery.github.io/2022-09-20-workshop/#partners)
+is organising such an event, or if your educational institute has
+an event of their own. Feel free to suggest your educational institute to
+[become a partner](https://coderefinery.org/organization/partners/#joining-as-a-partner)
 and/or arrange a local breakout room.
 
 
@@ -84,7 +84,7 @@ and/or arrange a local breakout room.
 - **I am making my own team, how should I register?**
   - The registration form has an option: "I might form a team with my colleagues". Make sure you team has at least one exercise lead and that they have announced that while registering so they get the additional information about Onboarding for exercise leads, instructors, organizers, observers and a calendar invitation with connection information.
 - **Our team will work together in a physical room, is there any point to joining the Code Refinery Zoom?**
-  - No need. If you all get stuck in the exercises you can ask questions via the Q&A channel. 
+  - No need. If you all get stuck in the exercises you can ask questions via the Q&A channel.
     (Note that Zoom etc. can still be useful in the physical room for screensharing with each other).
 - **Does everyone on the team need to register?**
   - Yes please. Then everyone gets emails and the connection details directly from us.
@@ -94,7 +94,7 @@ and/or arrange a local breakout room.
 - **I want to be an exercise lead or an observer. How do I register?**
   - The registration form has an option: "I might be interested in being a general helper, co-instructor or observer". We will then send you more information and the additional information about Onboarding for exercise leads, instructors, organizers, observers and a calendar invitation with connection information.
 - **I'm an organization or group, I want to sponsor my community's teams!**
-  - Great! In general what you can do is to gather people together to follow the workshop. 
+  - Great! In general what you can do is to gather people together to follow the workshop.
     [Read more about local breakout rooms](https://coderefinery.github.io/manuals/local-breakout-rooms/)
     and [contact us](https://coderefinery.github.io/manuals/chat/).
   - If you arrange a local event, advertise it and let us know so we can also advertise it to the registrants!
@@ -109,7 +109,7 @@ and/or arrange a local breakout room.
 The course is free of charge, funded by the [Nordic e-Infrastructure
 Collaboration](https://neic.no/).
 
-The livestream can scale up to an arbitrary number of viewers, but in the exercise Zoom we are limited by number of helpers and exercise leaders. 
+The livestream can scale up to an arbitrary number of viewers, but in the exercise Zoom we are limited by number of helpers and exercise leaders.
 When we have more sign-ups as **individual learners** for exercise groups than
 our capacity allows, the following priority criteria apply:
 
@@ -120,11 +120,11 @@ our capacity allows, the following priority criteria apply:
 5. Others
 
 *Therefore it is very important that you use an email address
-corresponding to your affiliation.*  
+corresponding to your affiliation.*
 
 If you aren't accepted to the Zoom session, you can always attend the stream part.
 
-More Exercise leads and general helpers allow more capacity: if you come as a **complete team** (i.e. including at least one exercise leader for each day) or **Exercise lead** with some friends, we will accept you up to the technical capacity of our meeting. 
+More Exercise leads and general helpers allow more capacity: if you come as a **complete team** (i.e. including at least one exercise leader for each day) or **Exercise lead** with some friends, we will accept you up to the technical capacity of our meeting.
 
 
 ### Accessibility
