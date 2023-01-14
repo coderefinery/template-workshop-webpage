@@ -4,6 +4,7 @@
 # inside the templates (end in '/')
 base_url = "https://coderefinery.github.io/template-workshop-webpage/"
 
+# When adapting the title, do not forget to also adjust base_url above
 title = "Replace this title in config.toml"
 
 # Whether to automatically compile all Sass files in the sass directory
