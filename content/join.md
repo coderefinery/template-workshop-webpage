@@ -4,9 +4,7 @@ title = "How to join"
 
 ## How to join
 
-We are normally limited by number of expert helpers and individual
-exercise leaders, so we use a livestream to reach more people.  Anyone
-may watch the livestream (<https://twitch.tv/coderefinery>), and we
+Anyone may watch the livestream (<https://twitch.tv/coderefinery>), and we
 have Zoom for breakout sessions up to our capacity.  Some partners may
 even host in-person breakout rooms.  Read more about [how to attend a
 livestream
@@ -21,10 +19,10 @@ The promise of the Internet is that we can reach everyone, so why
 don't we?  We teach on a Twitch livestream
 ([twitch.tv/coderefinery](https://twitch.tv/coderefinery)) so that
 anyone may attend the workshop.  With livestream attendance, you get:
-- All workshop content, text and video.
-- Videos released the same day.
-- Ability to ask questions, if you register.
-- Ability to do exercises yourself, or in a self-organized group.
+- access to all workshop content, text and video.
+- lesson recordings released usually on the same day.
+- a channel for questions (if you register)
+- to do exercises yourself, or in a self-organized group.
 
 Attendees report a great experience with these livestream courses!
 You *will* be able to ask us questions if you register.
@@ -33,10 +31,10 @@ You *will* be able to ask us questions if you register.
 report our impact.**
 
 
-### Attend via livestream + Code Refinery Zoom
+### Attend via livestream + CodeRefinery Zoom
 
-To provide interactive support, we also host parallel a Zoom session.
-Learners watch the livestream during teaching, and work in Zoom during
+To provide interactive support, we also host also a Zoom session.
+Learners watch the livestream during teaching, and discuss in Zoom during
 exercises.
 
 In Zoom, we group attendees into teams with an exercise leaders and
@@ -44,30 +42,33 @@ help from our staff. This makes a very interactive workshop, but
 unfortunately we have limited resources to accept these
 registrations.
 
-Attending via Zoom will give you everything the livestream does, with
-the possibly of centrally organized teams and a bit more help.
+With Zoom attendance, you get:
+- everything the livestream does
+- discussion in teams and a bit more help
 
 
 ### Attend with an own team
 
-**We recommend that you form your own team and do exercises together
-in your own breakout room (in-person or online)**.  We will support
-this as much as we can!
-This year we offer a team registration with lighter arrangements. 
-A team can self-organise, and use only one registration 
-form for the whole team. Team contact person registrates on behalf 
-of the whole team, makes sure that team members get all the 
-information and reports revised group information after the event to us.
+**We recommend that you form your own team and do exercises together in-person or online.**
 
-Your exercise lead(s) should also register at "Onboarding
-registration for exercise leads, instructors, organizers, observers" so
-that they get a calendar invite with connection information.
+We will support this as much as we can!
+Everyone in team register by themselves. 
+
+You can arrange everything with your friends and colleagues: 
+- agree where to meet
+- agree how to follow the workshop
+- maybe have some communications channel for your team
+- we send all registrants all information about the workshop
+- we don't need to know the details, but let us know if you have a team (for reporting purposes)
+
+
+Team Exercise Lead(s) should mark their interest in being an EL when registering so that they get the additional information about Onboarding for exercise leads, instructors, organizers, observers and a calendar invitation with connection information.
 
 
 ### Attend in a local partner's event
 
 Some of our partners arrange an onsite meetings where they follow 
-the teaching together and get in-person expert assistance. 
+the teaching together and get in-person assistance. 
 Check if one of 
 [our partners](https://coderefinery.github.io/2022-09-20-workshop/#partners) 
 is organising such an event, or if your educational institute has 
@@ -78,68 +79,37 @@ and/or arrange a local breakout room.
 
 ### FAQ: how should I register?
 
-- **I am registering alone (not as part of a team) and want to work with others,
-  how should I register?**
-  - Use Individual registration form and choose to participate in 
-    online exercise group (Code Refinery Zoom). If we are full you 
-    get the livestream anyway.
-  - Register as type ``Learner`` or ``Exercise leader``
+- **I am registering alone (not as part of a team) and want to work with others face-to-face, how should I register?**
+  - The registration form has an option: "I might be interested in following in-person". Use that to get more information about local events that we a aware of. If there's no local event in your area you get our exercise Zoom link. (In an unlikely event where even the Zoom is full then you get the livestream anyway.)
 - **I am making my own team, how should I register?**
-  - The team contact person uses the Team registration to register on 
-    *behalf of the whole team.*
-    The team contact person can also join our CodeRefinery chat to interact
-    with us.
-    Your exercise lead(s) should also register at "Onboarding
-    registration for exercise leads, instructors, organizers, observers" so
-    that they get a calendar invite with connection information.
+  - The registration form has an option: "I might form a team with my colleagues". Make sure you team has at least one exercise lead and that they have announced that while registering so they get the additional information about Onboarding for exercise leads, instructors, organizers, observers and a calendar invitation with connection information.
 - **Our team will work together in a physical room, is there any point to joining the Code Refinery Zoom?**
-  - The Code Refinery Zoom has some Expert helpers who will drop by 
-    the Zoom breakout rooms and ask if things are going OK. 
-    If your team has on-site expert helpers you are good to go by yourselves.
-    (Note that Zoom can still be useful in the physical room for screensharing with each other).
-- **I want to make my team on my own, do I need to register? Does everyone on the team need to register?**
-  - We prefer that you (team contact person) register the team using 
-    group registration so that we can report our impact better.  Also, then
-    you get emails direct from us and the HackMD links to ask questions.  In
-    other words only one person registers the team. Team members do not need
-    to register individually.
-    Your exercise lead(s) should also register at "Onboarding
+  - No need. If you all get stuck in the exercises you can ask questions via the Q&A channel. 
+    (Note that Zoom etc. can still be useful in the physical room for screensharing with each other).
+- **Does everyone on the team need to register?**
+  - Yes please. Then everyone gets emails and the connection details directly from us.
+    Your exercise lead(s) should also mark their interest of being an Exercise leader at the registration register at "Onboarding
     registration for exercise leads, instructors, organizers, observers" so
-    that they get a calendar invite with connection information.
+    that they get the additional information about Onboarding for exercise leads, instructors, organizers, observers and a calendar invitation with connection information.
 - **I want to be an exercise lead or an observer. How do I register?**
-  - Use individual registration and choose corresponding
-    attendance/participation type.
-    Also register at "Onboarding
-    registration for exercise leads, instructors, organizers, observers" so
-    that you get a calendar invite with connection information.
+  - The registration form has an option: "I might be interested in being a general helper, co-instructor or observer". We will then send you more information and the additional information about Onboarding for exercise leads, instructors, organizers, observers and a calendar invitation with connection information.
 - **I'm an organization or group, I want to sponsor my community's teams!**
   - Great! In general what you can do is to gather people together to follow the workshop. 
     [Read more about local breakout rooms](https://coderefinery.github.io/manuals/local-breakout-rooms/)
     and [contact us](https://coderefinery.github.io/manuals/chat/).
-  - If you arrange a local event, use our group registration to let us know!
-    - Feel free to just make your own registration form and manage attendees 
-      as you would do in your own events. 
-    - When registering the group, the group contact person can ask us to help with creating a registration form. 
-    - You can also encourage individuals to take part to our centrally organized Zoom.
-  - If you create your own registration, we will need the following
-    information from you and you can provide this information via our team
-    registration during or after the workshop: number of learners, number of
-    exercise leads, the academic discipline of the team (if relevant),
-    country/countries of the affiliation of the leaners, and their career
-    stage/ job titles. You will see these questions when registering the
-    teams.
-- **I registered individually but later decided to take part in a registered group. What do I do?**
-  - We are happy that you found yourself a group! Please withdraw 
-    your [individual registration](https://indico.neic.no/event/226/registrations/)
-    so that you don't get conflicting information from us
-    or contact us to help you with that.
+  - If you arrange a local event, advertise it and let us know so we can also advertise it to the registrants!
+  - Please guide everyone to register in our registration form.
+    - You get email from us with the contact details of interested participants in your area
+- **I registered and changed my mind about a team. What do I do?**
+  - Please let us know in [support@coderefinery.org](mailto:support@coderefinery.org)
 
 
-### Price and Zoom priority policy
+### Price and attendance priority policy
 
 The course is free of charge, funded by the [Nordic e-Infrastructure
 Collaboration](https://neic.no/).
 
+The livestream can scale up to an arbitrary number of viewers, but in the exercise Zoom we are limited by number of helpers and exercise leaders. 
 When we have more sign-ups as **individual learners** for exercise groups than
 our capacity allows, the following priority criteria apply:
 
@@ -149,15 +119,12 @@ our capacity allows, the following priority criteria apply:
 4. European national universities or research institutes from outside the Nordics.
 5. Others
 
-Therefore it is very important that you use an email address
-corresponding to your affiliation.  If you aren't accepted to the Zoom
-session, you can always attend the stream part.
+*Therefore it is very important that you use an email address
+corresponding to your affiliation.*  
 
-If you come as a **complete team** (i.e. including at least one
-exercise leader that can attend all the days), we will accept you up
-to the technical capacity of our meeting.  Same for **exercise
-leader** and other learners they bring with them (to combine with
-others).
+If you aren't accepted to the Zoom session, you can always attend the stream part.
+
+More Exercise leads and general helpers allow more capacity: if you come as a **complete team** (i.e. including at least one exercise leader for each day) or **Exercise lead** with some friends, we will accept you up to the technical capacity of our meeting. 
 
 
 ### Accessibility
