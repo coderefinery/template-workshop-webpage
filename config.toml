@@ -33,7 +33,6 @@ navigation = [
     { name = "Requirements", target = "requirements/" },
     { name = "Q&A", target = "questions/" },
     { name = "Code of Conduct", target = "https://coderefinery.org/about/code-of-conduct/" },
-    { name = "Volunteer", target = "volunteer/" },
     { name = "Communication", target = "communication/" }
 ]
 

@@ -15,8 +15,8 @@ support your community!
 
 ## Be an exercise leader
 
-Do you know some of the topics, but want to review them, why not attend as an
-[exercise leader](/join/)?  You don't need to be an expert: if you have been
-through CodeRefinery once or have some familiarity with the topics, and you are
-confident to call an expert helper when needed, then you have all it takes to
-lead a team to success.
+Do you know some of the topics, but want to review them, why not [attend as an
+exercise leader](/join/#volunteer-as-exercise-lead)?  You don't need to be an
+expert: if you have been through CodeRefinery once or have some familiarity
+with the topics, and you are confident to call an expert helper when needed,
+then you have all it takes to lead a team to success.
