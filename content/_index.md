@@ -20,10 +20,3 @@ Do you know some of the topics, but want to review them, why not attend as an
 through CodeRefinery once or have some familiarity with the topics, and you are
 confident to call an expert helper when needed, then you have all it takes to
 lead a team to success.
-
-
-## Certificates and credits
-
-If certificates or credits are offered, this section will be updated.  In
-past years, some partners have provided certificates to those attending and
-submitting exercises.
