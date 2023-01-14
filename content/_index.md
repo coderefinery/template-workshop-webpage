@@ -10,31 +10,6 @@ title = "Schedule"
 
 </div>
 
-## Registration
-
-Why is there not just one registration page? Because we allow teams and organizations
-to self-organize their registration process and some organizations prefer that.
-
-<div class="alert alert-info">
-
-[General registration](https://indico.neic.no/event/LINK/) (Anyone worldwide may
-register here for basic online attendance with no obligation.  You may
-be interested in one of the following special attendee groups, in
-which case you don't need to register here, but still can):
-- Finland: anyone in Finland can attend the course together with other people in Otaniemi room.  People registering with country=Finland will receive informaiton about this possibility.
-
-</div>
-
-**If you want to join as organization** to provide local helpers or
-in-person sessions, please do!  This usually takes the form of a
-"watching party" with coordinated breaks for exercises.  You can
-manage that on your own and all
-we will ask you is to let us know so that we can report the impact. Later
-(during or after the workshop) we will ask you to give us actual participation
-numbers and also provide us with the affiliation contry/countries of the
-participants and their career stage/ job type.  If it is helpful for your
-organization, we can also list your registration link here.
-
 
 ## Course goals
 
