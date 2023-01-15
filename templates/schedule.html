@@ -20,20 +20,20 @@
         <td>
         </td>
         <td>
-          <div class="uk-margin-top">
-            <b>{{ day.title }}</b>
-          </div>
+          &nbsp;
+          <br>
+          <b>{{ day.title }}</b>
         </td>
       </tr>
       {% for session in day.sessions %}
         <tr>
-          <td class="uk-width-auto">
+          <td class="uk-width-2-5">
             {{ macros::local_date(date=day.date, time=session.ends) }},
             {{ macros::local_time(date=day.date, time=session.starts) }}
             -
             {{ macros::local_time(date=day.date, time=session.ends) }}
           </td>
-          <td>
+          <td class="uk-width-3-5">
             {% if session.url %}
               <a href="{{ session.url }}" target="_blank">{{ session.title }}</a>
             {% else %}

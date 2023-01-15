@@ -15,7 +15,7 @@
       time = '0' + time;
     }
     var ts = dayjs(date + 'T' + time + ':00Z').utc();
-    document.write(ts.local().format('MMM D'));
+    document.write(ts.local().format('ddd (MMM D)'));
   </script>
 {% endmacro local_date %}
 
