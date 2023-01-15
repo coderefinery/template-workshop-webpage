@@ -31,11 +31,9 @@ Do you identify with any of these below, then this course is for you:
 </div>
 
 This course is not designed for "professional software engineers" or to make
-you one.
-
-You can register with your friends/group as a **team** and you'll work together
-in exercise rooms, and you'll be able to work together after the course as
-well.
+you one. You can register with your friends/group as a **team** and you'll
+work together in exercise rooms, and you'll be able to work together after the
+course as well.
 
 
 ## What we will not teach
