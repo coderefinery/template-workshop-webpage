@@ -27,6 +27,6 @@
       time = '0' + time;
     }
     var ts = dayjs(date + 'T' + time + ':00Z').utc();
-    document.write(ts.local().format('H:mm'));
+    document.write(ts.local().format('HH:mm'));
   </script>
 {% endmacro local_time %}

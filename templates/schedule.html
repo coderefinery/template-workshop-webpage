@@ -20,12 +20,6 @@
         <td>
         </td>
         <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
           <div class="uk-margin-top">
             <b>{{ day.title }}</b>
           </div>
@@ -34,15 +28,9 @@
       {% for session in day.sessions %}
         <tr>
           <td class="uk-width-auto">
-            {{ macros::local_date(date=day.date, time=session.ends) }}
-          </td>
-          <td class="uk-text-right uk-table-shrink">
+            {{ macros::local_date(date=day.date, time=session.ends) }},
             {{ macros::local_time(date=day.date, time=session.starts) }}
-          </td>
-          <td class="uk-table-shrink">
             -
-          </td>
-          <td class="uk-text-right uk-table-shrink">
             {{ macros::local_time(date=day.date, time=session.ends) }}
           </td>
           <td>
