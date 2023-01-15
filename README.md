@@ -6,7 +6,7 @@ workshops, and has coordination of roles.
 
 ## Quick reference
 
-- ...
+- (here collect all essential links for planning)
 
 
 ## How to generate your workshop repository
@@ -14,7 +14,8 @@ workshops, and has coordination of roles.
 To use it, follow these instructions:
 - Click the green "Use this template" button.
 - Select owner of the new repository and repository name. The name should be
-  "year-month-date-place", e.g. `2019-10-16-stockholm` or `2019-10-16-online` or `2019-10-16-workshop`.
+  `2019-10-16-workshop`. For in-person workshops we use
+  "year-month-date-place" (e.g. `2019-10-16-stockholm`).
 - Click "Create repository from template".
 - You will now be redirected to the new repository.
 - On "Settings" enable "GitHub Pages" from `gh-pages` as "Source".
@@ -26,7 +27,8 @@ To use it, follow these instructions:
   - adapt `base_url` (it should contain a trailing slash)
   - adapt `title`
   - adapt settings below `[extra]`
-- Adapt schedule in `content/_index.md`
+- Adapt schedule in `content/schedule.yaml`. Use times in UTC. The times and
+  dates are automatically displayed in the local time zone of the browser.
 
 
 ### How this template works
@@ -41,7 +43,7 @@ To install Zola, follow:
 Check that Zola is installed with `$ zola --version`.
 
 
-#### Local preview
+### Local preview
 
 ```
 $ zola serve --open
