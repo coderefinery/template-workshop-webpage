@@ -10,7 +10,7 @@ schedule:
       - starts: 12:30
         ends: 14:00
         title: Installation help for everybody
-  - title: "Installation help and on-boarding"
+  - title: "Installation help and on-boarding (you don't need to attend both days, choose the day that is better for you)"
     date: "2023-03-15"
     sessions:
       - starts: 11:00
