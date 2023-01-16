@@ -19,6 +19,9 @@ To use it, follow these instructions:
 - Click "Create repository from template".
 - You will now be redirected to the new repository.
 - On "Settings" enable "GitHub Pages" from `gh-pages` as "Source".
+- Add the link to the generated pages on top right of the repository page at
+  "About" to make it easier to find.
+- Link the workshop from <https://coderefinery.org/workshops/upcoming/>.
 
 
 ### How to customize this template after you have created the repository
