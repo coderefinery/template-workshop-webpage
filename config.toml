@@ -31,7 +31,7 @@ navigation = [
     { name = "How to join", target = "join/" },
     { name = "Requirements", target = "requirements/" },
     { name = "Q&A", target = "questions/" },
-    { name = "Code of Conduct", target = "https://coderefinery.org/about/code-of-conduct/" },
+    { name = "Code of conduct", target = "code-of-conduct/" },
     { name = "Communication", target = "communication/" }
 ]
 
