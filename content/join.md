@@ -31,7 +31,7 @@ To provide interactive support, we also host also a Zoom session.
 Learners watch the livestream during teaching, and discuss in Zoom during
 exercises.
 
-In Zoom, we group attendees into teams with an exercise leaders and
+In Zoom, we group attendees into teams with an team leaders and
 help from our staff. This makes a very interactive workshop, but
 unfortunately we have limited resources to accept these
 registrations.
@@ -54,9 +54,9 @@ You can arrange everything with your friends and colleagues:
 - we send all registrants all information about the workshop
 - we don't need to know the details, but let us know if you have a team (for reporting purposes)
 
-Team exercise lead(s) should mark their interest in being an EL when
+Team team lead(s) should mark their interest in being an TL when
 registering so that they get the additional information about on-boarding for
-exercise leads, instructors, organizers, and observers.
+team leads, instructors, organizers, and observers.
 
 
 ### Attend in a local partner's event
@@ -78,7 +78,7 @@ and/or arrange a local breakout room.
     livestream anyway.
 - **I am making my own team, how should I register?**
   - The registration form has an option: "I might form a team with my
-    colleagues". Make sure you team has at least one exercise lead and that
+    colleagues". Make sure you team has at least one team lead and that
     they have indicated that while registering.
 - **Our team will work together in a physical room, is there any point to joining the CodeRefinery Zoom?**
   - No need. If you all get stuck in the exercises you can ask questions via the Q&A channel.
@@ -86,7 +86,7 @@ and/or arrange a local breakout room.
 - **Does everyone on the team need to register?**
   - Yes please. Then everyone gets information and connection details. Also we
     are asked to report how many participants we have.
-- **I want to be an exercise lead or an observer. How do I register?**
+- **I want to be an team lead or an observer. How do I register?**
   - The registration form has an option: "I might be interested in being a
     general helper, co-instructor or observer".
 - **I'm an organization or group, I want to sponsor my community's teams!**
@@ -99,39 +99,39 @@ and/or arrange a local breakout room.
   - Please let us know in [support@coderefinery.org](mailto:support@coderefinery.org)
 
 
-### Volunteer as exercise lead
+### Volunteer as team lead
 
 CodeRefinery's mission is to enable everyone to use the computational
 tools they need for their work.  We do this by teaching the most important
 software development tools, which are often missed in other coursework.
-This is a big task, but together with our volunteer exercise leaders,
+This is a big task, but together with our volunteer team leaders,
 we can do it.
 
-Volunteer to be an **exercise leader** at CodeRefinery, and you will:
+Volunteer to be an **team leader** at CodeRefinery, and you will:
 - Mentor and provide positive encouragement for your team; guide them
   through the workshop.
-- Attend our quick exercise leader training (one hour, see schedule).
+- Attend our quick team leader training (one hour, see schedule).
 - Have your own team (breakout room of ~5) during the course.
 - Help keep the team on track.  You are the first line, but you don't
   need to know everything.
 - Call for other help when needed.  We are constantly moving around
   exercise rooms anyway.
 
-**Am I good enough to be a exercise leader?**  If you are asking this
+**Am I good enough to be a team leader?**  If you are asking this
 question, probably you are.  You should have some familiarity with
 Git, provide some initial advice on obvious error messages, and
 be able to call us for advanced help when it's needed.
 
 **You don't have to be located in the Nordics**. We welcome volunteers from
-institutions also outside the Nordics because volunteer exercise leaders help
+institutions also outside the Nordics because volunteer team leaders help
 us to reach more people.
 
-**How do I register as an exercise leader?** Our registration
-form has an option to indicate your interest to participate as exercise leader.
+**How do I register as an team leader?** Our registration
+form has an option to indicate your interest to participate as team leader.
 
 **Teams?**  If you have friends or colleagues you would like to
 mentor, register as a team.  First off, if a team has an
-exercise leader, it will almost certainly be accepted.  Second, working
+team leader, it will almost certainly be accepted.  Second, working
 together makes it much more likely to have a lasting effect in your group.
 
 See also the [helper
@@ -146,7 +146,7 @@ you want to sponsor workshops or get more involved in organizing a workshop.
 The course is free of charge, funded by the [Nordic e-Infrastructure
 Collaboration](https://neic.no/).
 
-The livestream can scale up to an arbitrary number of viewers, but in the exercise Zoom we are limited by number of helpers and exercise leaders.
+The livestream can scale up to an arbitrary number of viewers, but in the exercise Zoom we are limited by number of helpers and team leaders.
 When we have more sign-ups as **individual learners** for exercise groups than
 our capacity allows, the following priority criteria apply:
 
@@ -159,9 +159,9 @@ our capacity allows, the following priority criteria apply:
 If you aren't accepted to the Zoom session, you can always attend the stream
 part.
 
-More Exercise leads and general helpers allow more capacity: if you come as a
-**complete team** (i.e. including at least one exercise leader for each day) or
-**Exercise lead** with some friends, we will accept you up to the technical
+More team leads and general helpers allow more capacity: if you come as a
+**complete team** (i.e. including at least one team leader for each day) or
+**team lead** with some friends, we will accept you up to the technical
 capacity of our meeting.
 
 
@@ -171,7 +171,7 @@ We hope that everyone can attend and learn from this workshop, but we
 aren't perfect.  Our attempts are mentioned below, if you would like
 to help or there is something else we can do, please get in touch.
 
-* Breakout rooms with exercise leaders gives a community atmosphere
+* Breakout rooms with team leaders gives a community atmosphere
   and private help.
 * Our material is provided in writing (lesson websites), by voice, and
   by demo.

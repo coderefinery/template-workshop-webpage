@@ -6,7 +6,7 @@ schedule:
     sessions:
       - starts: 11:00
         ends: 12:00
-        title: On-boarding for exercise leads
+        title: On-boarding for team leads
       - starts: 12:30
         ends: 14:00
         title: Installation help for everybody
@@ -15,7 +15,7 @@ schedule:
     sessions:
       - starts: 11:00
         ends: 12:00
-        title: On-boarding for exercise leads
+        title: On-boarding for team leads
       - starts: 12:30
         ends: 14:00
         title: Installation help for everybody
