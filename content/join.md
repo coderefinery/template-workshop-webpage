@@ -54,7 +54,7 @@ You can arrange everything with your friends and colleagues:
 - we send all registrants all information about the workshop
 - we don't need to know the details, but let us know if you have a team (for reporting purposes)
 
-Team team lead(s) should mark their interest in being an EL when
+Team team lead(s) should mark their interest in being an TL when
 registering so that they get the additional information about on-boarding for
 team leads, instructors, organizers, and observers.
 
