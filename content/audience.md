@@ -48,7 +48,7 @@ any programming language.
 
 This is an informal and interactive event with type-along lessons, live coding,
 and exercises. Register with a friend!  If you feel a bit more confident in the
-material, you can [register as an exercise leader](volunteer/).
+material, you can [register as an team leader](volunteer/).
 
 The workshop will be held online, see options at [how to
 join](join/):

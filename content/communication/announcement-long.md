@@ -29,12 +29,12 @@ research.
 
 The workshop will alternate type along tutorials given by instructors to
 break-out room exercises where you will get to practice. Each breakout room
-will have an exercise leader to help you. You can also register as a team, in
+will have an team leader to help you. You can also register as a team, in
 which case the team will be in the same break out room (you can also exercise
 together in-person if you prefer), each team can propose their own exercise
 leader otherwise they will be assigned one. If you already have some experience
 and would like to strengthen your skills and help others, you can also
-volunteer as an exercise leader. Some places also offer in-person exercise
+volunteer as an team leader. Some places also offer in-person exercise
 sessions, check if there is a session offered near you from the workshop page
 below.
 
