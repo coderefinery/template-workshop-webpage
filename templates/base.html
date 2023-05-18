@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <title>{% if page.title %}{{page.title}} - {% endif %}{{ config.title }}</title>
-    <link rel="shortcut icon" href="/img/favicon.ico">
+    <link rel="shortcut icon" href="{{config.base_url}}/img/favicon.ico">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,6 +28,12 @@
     {% endif %}
 
     <link href="{{ get_url(path="style.css") }}" rel="stylesheet">
+
+    {% if config.extra.plausible and get_env(name="GITHUB_REF", default="") == config.extra.plausible['github_ref'] %}
+    <script defer data-domain="{{ config.extra.plausible['domain'] }}" src="{{ config.extra.plausible['src'] | safe }}"></script>
+    {% endif %}
+
+
   </head>
 
   <body>

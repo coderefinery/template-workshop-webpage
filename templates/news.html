@@ -1,4 +1,2 @@
-<div class="uk-card uk-card-secondary uk-card-hover uk-card-body uk-light">
-  {% set portion = get_page(path="news.md") %}
-  {{ portion.content | safe }}
-</div>
+{% set portion = get_page(path="news.md") %}
+{{ portion.content | safe }}

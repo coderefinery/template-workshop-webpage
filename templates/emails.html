@@ -7,14 +7,14 @@
 
   <h3>List of emails</h3>
   <ul>
-    {% for email in section.pages | sort(attribute="title") %}
+    {% for email in section.pages | sort(attribute="title") | reverse %}
       <li>
         <a href="#{{ email.title | lower | replace(from=" ", to="-") }}">{{ email.title }}</a>
       </li>
     {% endfor %}
   </ul>
 
-  {% for email in section.pages | sort(attribute="title") %}
+  {% for email in section.pages | sort(attribute="title") | reverse %}
     <div class="uk-card uk-card-default uk-card-body uk-margin-top">
       <h5 class="uk-card-title">
         {{ email.title }}

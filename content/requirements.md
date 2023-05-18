@@ -29,6 +29,10 @@ Please **make sure that Git is configured**, and **verify the configuration**
 We offer install help sessions (see schedule). Please use one of these. It will
 improve the workshop experience for you and others.
 
+We now also provide a [verification
+script](https://coderefinery.github.io/installation/#step-1-go-through-the-checklist-and-make-sure-all-items-are-ready)
+to help you check software and configuration with one command.
+
 
 ## Privacy and tools/online services
 

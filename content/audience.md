@@ -42,22 +42,3 @@ This is not a course about a specific programming language or the Linux/Unix
 terminal shell. We assume that you are somehow familiar with the programming
 language that you use in your work and research. Most of the course applies to
 any programming language.
-
-
-## Format
-
-This is an informal and interactive event with type-along lessons, live coding,
-and exercises. Register with a friend!  If you feel a bit more confident in the
-material, you can [register as an team leader](volunteer/).
-
-The workshop will be held online, see options at [how to
-join](join/):
-
-- Everyone watches the main teaching via a livestream at
-  <https://twitch.tv/coderefinery>. We teach on stream instead of teaching
-  via Zoom to guarantee that learners cannot appear on stream or recording
-  with voice or video.
-- You can register to attend our Zoom exercise rooms
-  ([read more](join/)).
-- Some partners offer local support, such as breakout rooms, to their local
-  groups.

@@ -13,7 +13,7 @@ For those who draft the emails: you can diff the Markdown files to see variation
 <div class="uk-alert-danger" uk-alert>
   <a class="uk-alert-close" uk-close></a>
   <p>
-    If you registered late and cannot find the video or Q&A document links, can
+    If you registered late and cannot find the link to the Q&A document, can
     you please contact us (bottom of page)?
   </p>
 </div>

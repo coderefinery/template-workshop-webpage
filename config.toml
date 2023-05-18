@@ -6,6 +6,7 @@ base_url = "https://coderefinery.github.io/template-workshop-webpage/"
 
 # When adapting the title, do not forget to also adjust base_url above
 title = "Replace this title in config.toml"
+description = "Free workshop on git, testing, documentation, and more in a workshop - targeted towards researchers and scientists."
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -26,6 +27,7 @@ external_links_target_blank = true
 
 navigation = [
     { name = "About", target = "" },
+    { name = "List of exercises", target = "exercises/" },
     { name = "Audience", target = "audience/" },
     { name = "Certificates", target = "certificates/" },
     { name = "How to join", target = "join/" },
@@ -35,7 +37,11 @@ navigation = [
     { name = "Communication", target = "communication/" }
 ]
 
-twitter_image = "https://raw.githubusercontent.com/coderefinery/coderefinery.org/main/content/logo/coderefinery.png"
+twitter_image = "https://raw.githubusercontent.com/coderefinery/coderefinery-artwork/main/socialshare/socialshare-workshop.png"
+
+# plausible.io analytics
+plausible = { src = "https://plausible.cs.aalto.fi/js/script.js", domain = "coderefinery.github.io", github_ref = "refs/heads/main" }
+
 
 # you can place multiple logos like this
 # the image file(s) need to be placed in content/logos

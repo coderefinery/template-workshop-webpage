@@ -1,5 +1,5 @@
 ---
-# all times must be input in UTC
+# all times must be input in UTC, be careful about daylight saving
 schedule:
   - title: "Installation help and on-boarding"
     date: "2023-03-14"
@@ -26,6 +26,11 @@ schedule:
         ends: 8:00
         title: Connecting time and icebreaker
       - starts: 8:00
+        ends: 8:15
+        title: Welcome and introduction
+        url: https://github.com/coderefinery/workshop-intro/blob/master/livestream.md
+        presenters: TBA
+      - starts: 8:15
         ends: 11:30
         title: Introduction to version control - part 1/2
         url: https://coderefinery.github.io/git-intro/
@@ -55,61 +60,61 @@ schedule:
   - title: "Day 4"
     date: "2023-03-28"
     sessions:
-      - starts: 7:50
-        ends: 8:00
+      - starts: 6:50
+        ends: 7:00
         title: Connecting time and icebreaker
-      - starts: 8:00
-        ends: 8:15
+      - starts: 7:00
+        ends: 7:15
         title: Mini-intro
         url: https://github.com/coderefinery/workshop-intro/blob/master/README.md
         presenters: TBA
-      - starts: 8:15
-        ends: 10:15
+      - starts: 7:15
+        ends: 9:15
         title: Reproducible research and FAIR data
         url: https://coderefinery.github.io/reproducible-research/
         presenters: TBA
-      - starts: 10:15
-        ends: 11:30
+      - starts: 9:15
+        ends: 10:30
         title: Social coding and open software
         url: https://coderefinery.github.io/social-coding/
         presenters: TBA
   - title: "Day 5"
     date: "2023-03-29"
     sessions:
-      - starts: 7:50
-        ends: 8:00
+      - starts: 6:50
+        ends: 7:00
         title: Connecting time and icebreaker
-      - starts: 8:00
-        ends: 9:45
+      - starts: 7:00
+        ends: 8:45
         title: Jupyter
         url: https://coderefinery.github.io/jupyter/
         presenters: TBA
-      - starts: 9:45
-        ends: 11:30
+      - starts: 8:45
+        ends: 10:30
         title: Documentation
         url: https://coderefinery.github.io/documentation/
         presenters: TBA
   - title: "Day 6"
     date: "2023-03-30"
     sessions:
-      - starts: 7:50
-        ends: 8:00
+      - starts: 6:50
+        ends: 7:00
         title: Connecting time and icebreaker
-      - starts: 8:00
-        ends: 9:45
+      - starts: 7:00
+        ends: 8:45
         title: Software testing
         url: https://coderefinery.github.io/testing/
         presenters: TBA
-      - starts: 10:00
-        ends: 11:15
+      - starts: 9:00
+        ends: 10:15
         title: Modular code development
         url: https://coderefinery.github.io/modular-type-along/
         presenters: TBA
-      - starts: 11:15
-        ends: 11:30
+      - starts: 10:15
+        ends: 10:30
         title: Concluding remarks and where to go from here
         url: https://github.com/coderefinery/workshop-outro/blob/master/README.md
         presenters: TBA
-      - starts: 11:30
-        ends: 12:30
+      - starts: 10:30
+        ends: 11:30
         title: Optional - Meet the instructors on Zoom for a chat
