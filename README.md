@@ -1,7 +1,7 @@
 # CodeRefinery workshop webpage
 
 This repository is a template to set up webpages for CodeRefinery
-workshops, and has coordination of roles.
+workshops.
 
 
 ## Quick reference
@@ -13,7 +13,7 @@ workshops, and has coordination of roles.
 
 To use it, follow these instructions:
 - Click the green "Use this template" button.
-- Select owner of the new repository and repository name. The name should be
+- Select owner of the new repository and repository name. The name should look like
   `2019-10-16-workshop`. For in-person workshops we use
   "year-month-date-place" (e.g. `2019-10-16-stockholm`).
 - Click "Create repository from template".
