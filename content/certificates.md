@@ -11,11 +11,11 @@ be able to register it as a credit in your university study credit system.
 
 Learners with a valid Aalto student number will automatically get the credit
 registered in Aalto systems.  Please note that this does not apply to
-participants affiliated with TU Delft who have own criteria for workshop
-certificates and credits.
+participants affiliated with TU Delft or other universities who have own
+criteria for workshop certificates and credits.
 
-To obtain a certificate, we expect you to follow the 6 days of the course and
-provide us with the following three documents via email:
+To obtain a certificate, we expect you to **follow the 6 days** of the course and
+provide us with the following **three documents via email**:
 
 1. The output of `git log --all` from the repositories that you have used
    during the course as a text file. Evaluation criteria: we expect to see the
@@ -23,7 +23,7 @@ provide us with the following three documents via email:
    the workshop.
 2. Written answers to the following four questions submitted as a document (pdf
    or word or txt). Evaluation criteria: we expect critical answers related to
-   the content of first 3 days wit h both pros and cons (when relevant):
+   the content of first 3 days with both pros and cons (when relevant):
     - When should you work with branches?
     - What is the difference between a `git clone` and a `git fork`?
     - What is the difference between a fork and a branch?

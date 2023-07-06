@@ -10,15 +10,17 @@ title = "Prerequisites and software requirements"
   ([video](https://youtu.be/56p6xX0aToI))
   contains the essentials.
 - We assume you already use some programming or scripting language but we do
-  not require knowing a particular programming language. We try to keep this course
-  programming language-independent.
+  not require knowing a particular programming language. We try to keep this
+  course independent of a specific programming language and relevant for all
+  languages (but it is a process and not all material is completely generic
+  yet).
 - Read [how to attend a livestream course](https://coderefinery.github.io/manuals/how-to-attend-stream/).
 
 
 ## Preparation (software installation)
 
 It takes a bit of time to install and configure the required software but with
-300 or more participants it is not doable to debug these during the workshop
+500 or more participants it is not doable to debug these during the workshop
 and we ask you to install and configure these **before you arrive at the
 workshop** following the instructions and checklist on [this
 page](https://coderefinery.github.io/installation/).

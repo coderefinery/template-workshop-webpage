@@ -4,11 +4,17 @@ template = "join.html"
 +++
 
 Anyone may watch the livestream (<https://twitch.tv/coderefinery>).
-You are free to attend just those days you want!  
+You are free to attend just those days or sessions you want!  
 Read more about [how to attend a livestream course](https://coderefinery.github.io/manuals/how-to-attend-stream/).
 Some partners host own video- or in-person exercise rooms. 
 
-### Attend via livestream only
+
+{{ div(attributes='class="uk-child-width-expand@m uk-margin-large-top" uk-grid') }}
+
+{{ div() }}
+
+
+### Attend on your own
 
 The promise of the Internet is that we can reach everyone, so why
 don't we?  We teach on a Twitch livestream
@@ -19,16 +25,11 @@ anyone may attend the workshop.  With livestream attendance, you get:
 - a channel for questions (if you register)
 - to do exercises yourself, or in a self-organized group
 
-Attendees report a great experience with these livestream courses!  You will be
-able to ask us questions if you register. **Please register in any case so that you
-can get emails and we can better report our impact.**
-
 
 ### Attend with own team
 
 **We recommend that you form your own team and do exercises together in-person
 or online.** We will support this as much as we can!
-But please do all register individually so that we have a way to reach you all.
 
 You can arrange everything with your friends and colleagues:
 - agree where to meet
@@ -36,10 +37,6 @@ You can arrange everything with your friends and colleagues:
 - maybe have some communications channel for your team
 - we send all registrants all information about the workshop
 - we don't need to know the details, but let us know if you have a team (for reporting purposes)
-
-Team team lead(s) should mark their interest in being an TL when
-registering so that they get the additional information about on-boarding for
-team leads, instructors, organizers, and observers.
 
 
 ### Attend in a local partner's event
@@ -51,37 +48,7 @@ partner](https://coderefinery.org/organization/partners/#joining-as-a-partner)
 and/or arrange a local breakout room.
 
 
-### FAQ: how should I register?
-
-- **I am registering alone (not as part of a team) and want to work with others face-to-face, how should I register?**
-  - The registration form has an option: "I might be interested in following
-    in-person". Use that to get more information about local events that we a
-    aware of. If there's no local event in your area you get the
-    livestream anyway.
-- **I am making my own team, how should I register?**
-  - The registration form has an option: "I might form a team with my
-    colleagues". Make sure you team has at least one team lead and that
-    they have indicated that while registering.
-- **Our team will work together in a physical room, is there any point to joining the CodeRefinery Zoom?**
-  - No need. If you all get stuck in the exercises you can ask questions via the Q&A channel.
-    Note that some Zoom etc. can still be useful in the physical room for screen-sharing with each other.
-- **Does everyone on the team need to register?**
-  - Yes please. Then everyone gets information and connection details. Also we
-    are asked to report how many participants we have.
-- **I want to be an team lead or an observer. How do I register?**
-  - The registration form has an option: "I might be interested in being a
-    general helper, co-instructor or observer".
-- **I'm an organization or group, I want to sponsor my community's teams!**
-  - Great! In general what you can do is to gather people together to follow the workshop.
-    [Read more about local breakout rooms](https://coderefinery.github.io/manuals/local-breakout-rooms/)
-    and [contact us](https://coderefinery.github.io/manuals/chat/).
-  - If you arrange a local event, advertise it and let us know so we can also advertise it to the registrants!
-  - Please guide everyone to register in our registration form.
-- **I registered and changed my mind about a team. What do I do?**
-  - Please let us know in [support@coderefinery.org](mailto:support@coderefinery.org)
-
-
-### Volunteer as team lead
+### Volunteer as team leader
 
 CodeRefinery's mission is to enable everyone to use the computational
 tools they need for their work.  We do this by teaching the most important
@@ -107,28 +74,28 @@ but the idea is that you are able to ask for advanced help when it's needed.
 institutions also outside the Nordics because volunteer team leaders help
 us to reach more people.
 
-**How do I register as an team leader?** Our registration
-form has an option to indicate your interest to participate as team leader.
+{{ enddiv() }}
 
-**Teams?**  If you have friends or colleagues you would like to
-mentor, please have them to register as well. Select "I might form a team with my colleagues" 
-or "I am attending a local exercise room but registering here to get the emails". 
-Working together makes it much more likely to have a lasting effect in your group.
+{{ div() }}
 
-See also the [helper
-introduction](https://coderefinery.github.io/manuals/exercise-leaders/) and how
-to [get more involved in CodeRefinery](https://coderefinery.github.io/manuals/contributing/) - perhaps
-you want to sponsor workshops or get more involved in organizing a workshop.
+
+### FAQ: how should I register?
+
+- **Our team will work together in a physical room, is there any point to joining the CodeRefinery Zoom?**
+  - No need. If you all get stuck in the exercises you can ask questions via the Q&A channel.
+    Note that some Zoom etc. can still be useful in the physical room for screen-sharing with each other.
+- **Does everyone on the team need to register?**
+  - Yes please. Then everyone gets information and connection details. Also we
+    are asked to report how many participants we have.
 
 
 ### Price and attendance priority policy
 
 The course is free of charge, funded by the [Nordic e-Infrastructure
-Collaboration](https://neic.no/).
-
-The livestream can scale up to an arbitrary number of viewers. 
-The local partners usually use "first come - first served"-principle + a waitlist. 
-Some might also accept only members of their own organisation.
+Collaboration](https://neic.no/).  The livestream can scale up to an arbitrary
+number of viewers.  The local partners usually use "first come - first
+served"-principle + a waiting list.  Some might also accept only members of
+their own organisation.
 
 
 ### Accessibility
@@ -170,3 +137,7 @@ to help or there is something else we can do, please get in touch.
 * We try to make our written material as accessible as possible, both
   in content and form.  This may not be perfect, but we welcome help
   to make things better.
+
+{{ enddiv() }}
+
+{{ enddiv() }}

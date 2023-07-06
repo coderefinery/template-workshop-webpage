@@ -4,7 +4,7 @@ title = "List of exercises"
 
 ## List of exercises
 
-We provide this list to make it easier for team leads to prepare and navigate
+We provide this list below to make it easier for team leaders to prepare and navigate
 lesson material.  We often change the material before each workshop and in this
 page we list also any ongoing or planned changes to avoid surprises.
 
@@ -28,7 +28,6 @@ page we list also any ongoing or planned changes to avoid surprises.
 
 ### Day 3 (collaborative Git)
 
-We will keep these exercises but **will change the description** so that there is less to read when participating in an exercise:
 - [Create a pull request](https://coderefinery.github.io/git-collaborative/centralized/#exercise-preparation) (30 min):
   Creating a branch and commit, pushing the branch, creating a pull request, and reviewing pull requests.
 - [Working with forks](https://coderefinery.github.io/git-collaborative/distributed/#exercise-preparation) (30 min).
@@ -36,11 +35,11 @@ We will keep these exercises but **will change the description** so that there i
 
 ### Day 4 (reproducible research and social coding)
 
-- [Dependencies-1 and Dependencies-2](https://coderefinery.github.io/reproducible-research/dependencies/#exercises) (20 min)
-- [Workflow-1 and Workflow-2](https://coderefinery.github.io/reproducible-research/workflow-management/#exercise) (20 min)
-- Rest is collaborative "discussion" in collaborative document and demo
+- [Dependencies-1 and Dependencies-2](https://coderefinery.github.io/reproducible-research/dependencies/#exercises) (20 min).
+- [Workflow-1 and Workflow-2](https://coderefinery.github.io/reproducible-research/workflow-management/#exercise) (20 min).
+- Rest is collaborative "discussion" in collaborative document and demo.
 - No individual/group exercise in the social coding part. We will all participate via collaborative document.
-  In other words nothing to prepare for team leads.
+  In other words nothing to prepare for team leaders.
 
 
 ### Day 5 (Jupyter and documentation)

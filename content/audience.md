@@ -26,12 +26,13 @@ Do you identify with any of these below, then this course is for you:
 - You wish you could reproduce your own results better.
 - You wish you could automate your work better.
 - You, or your group, can't share or reuse code.
-- You overall want to become more efficient at your work, by using the
+- You want to become more efficient at your work overall, by using the
   best possible tools.
+
 </div>
 
 This course is not designed for "professional software engineers" or to make
-you one. You can register with your friends/group as a **team** and you'll
+you one. You can register with your friends/group as a team and you'll
 work together in exercise rooms, and you'll be able to work together after the
 course as well.
 

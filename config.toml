@@ -6,7 +6,7 @@ base_url = "https://coderefinery.github.io/template-workshop-webpage/"
 
 # When adapting the title, do not forget to also adjust base_url above
 title = "Replace this title in config.toml"
-description = "Free workshop on git, testing, documentation, and more in a workshop - targeted towards researchers and scientists."
+description = "Free workshop on git, testing, documentation, and more in a workshop - for researchers and scientists."
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
