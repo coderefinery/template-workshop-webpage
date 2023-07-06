@@ -5,6 +5,8 @@
     {{ section.content | safe }}
   {% endif %}
 
+  <h3>Daily notes</h3>
+
   <ul>
     {% for page in section.pages | sort(attribute="title") %}
       <li>
