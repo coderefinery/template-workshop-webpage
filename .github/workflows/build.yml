@@ -14,18 +14,12 @@
 name: Build/deploy website
 
 env:
-  ZOLA_VERSION: "0.16.1"
+  ZOLA_VERSION: "0.17.2"
   MAIN_BRANCH: "main"
   TARGET_BRANCH: "gh-pages"
 # CNAME: "example.org"
 
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+on: [push, pull_request]
 
 jobs:
   build:
@@ -58,7 +52,7 @@ jobs:
             echo "Used CNAME from the action workflow file"
         fi
     - name: Deploy to gh-pages
-      if: ${{ github.event_name == 'push' && github.ref == format('refs/heads/{0}', env.MAIN_BRANCH) }}
+      if: ${{ github.event_name == 'push' }}
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
