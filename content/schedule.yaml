@@ -28,96 +28,88 @@ schedule:
   - title: "Day 1"
     date: "2023-09-19"
     sessions:
-      - starts: 7:50
-        ends: 8:00
-        title: Connecting time and icebreaker
-      - starts: 8:00
-        ends: 8:15
+      - starts: 7:00
+        ends: 7:20
         title: Welcome and introduction
         url: https://github.com/coderefinery/workshop-intro/blob/master/livestream.md
         presenters: TBA
-      - starts: 8:15
+      - starts: 7:20
+        ends: 9:00
+        title: Introduction to version control - part 1/4
+        url: https://coderefinery.github.io/git-intro/
+        presenters: TBA
+      - starts: 10:00
         ends: 11:30
-        title: Introduction to version control - part 1/2
+        title: Introduction to version control - part 2/4
         url: https://coderefinery.github.io/git-intro/
         presenters: TBA
   - title: "Day 2"
     date: "2023-09-20"
     sessions:
-      - starts: 7:50
-        ends: 8:00
-        title: Connecting time and icebreaker
-      - starts: 8:00
+      - starts: 7:00
+        ends: 9:00
+        title: Introduction to version control - part 3/4
+        url: https://coderefinery.github.io/git-intro/
+        presenters: TBA
+      - starts: 10:00
         ends: 11:30
-        title: Introduction to version control - part 2/2
+        title: Introduction to version control - part 4/4
         url: https://coderefinery.github.io/git-intro/
         presenters: TBA
   - title: "Day 3"
     date: "2023-09-21"
     sessions:
-      - starts: 7:50
-        ends: 8:00
-        title: Connecting time and icebreaker
-      - starts: 8:00
+      - starts: 7:00
+        ends: 9:00
+        title: Collaborative distributed version control - part 1/2
+        url: https://coderefinery.github.io/git-collaborative/
+        presenters: TBA
+      - starts: 10:00
         ends: 11:30
-        title: Collaborative distributed version control
+        title: Collaborative distributed version control - part 2/2
         url: https://coderefinery.github.io/git-collaborative/
         presenters: TBA
   - title: "Day 4"
     date: "2023-09-26"
     sessions:
-      - starts: 6:50
-        ends: 7:00
-        title: Connecting time and icebreaker
       - starts: 7:00
-        ends: 7:15
-        title: Mini-intro
-        url: https://github.com/coderefinery/workshop-intro/blob/master/README.md
-        presenters: TBA
-      - starts: 7:15
-        ends: 10:00
+        ends: 9:00
         title: Reproducible research and FAIR data
         url: https://coderefinery.github.io/reproducible-research/
         presenters: TBA
-      - starts: 11:00
-        ends: 12:30
+      - starts: 10:00
+        ends: 11:30
         title: Social coding and open software
         url: https://coderefinery.github.io/social-coding/
         presenters: TBA
   - title: "Day 5"
     date: "2023-09-27"
     sessions:
-      - starts: 6:50
-        ends: 7:00
-        title: Connecting time and icebreaker
       - starts: 7:00
         ends: 9:00
-        title: Jupyter
-        url: https://coderefinery.github.io/jupyter/
-        presenters: TBA
-      - starts: 11:00
-        ends: 13:00
         title: Documentation
         url: https://coderefinery.github.io/documentation/
+        presenters: TBA
+      - starts: 10:00
+        ends: 11:30
+        title: Jupyter
+        url: https://coderefinery.github.io/jupyter/
         presenters: TBA
   - title: "Day 6"
     date: "2023-09-28"
     sessions:
-      - starts: 6:50
-        ends: 7:00
-        title: Connecting time and icebreaker
       - starts: 7:00
         ends: 9:00
         title: Software testing
         url: https://coderefinery.github.io/testing/
         presenters: TBA
-      - starts: 11:00
-        ends: 12:30
+      - starts: 10:00
+        ends: 11:30
         title: Modular code development
         url: https://coderefinery.github.io/modular-type-along/
         presenters: TBA
-      - starts: 12:30
-        ends: 12:45
+      - starts: 11:30
+        ends: 12:00
         title: Concluding remarks and where to go from here
         url: https://github.com/coderefinery/workshop-outro/blob/master/README.md
         presenters: TBA
