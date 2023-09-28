@@ -15,6 +15,9 @@ title = "Prerequisites and software requirements"
   languages (but it is a process and not all material is completely generic
   yet).
 - Read [how to attend a livestream course](https://coderefinery.github.io/manuals/how-to-attend-stream/).
+- Printing [this Git
+  cheatsheet](https://aaltoscicomp.github.io/cheatsheets/git-the-way-you-need-it-cheatsheet.pdf)
+  would be helpful - it was made by us and we'll refer to it.
 
 
 ## Preparation (software installation)
@@ -32,7 +35,7 @@ We offer install help sessions (see schedule). Please use one of these. It will
 improve the workshop experience for you and others.
 
 We now also provide a [verification
-script](https://coderefinery.github.io/installation/#step-1-go-through-the-checklist-and-make-sure-all-items-are-ready)
+script](https://coderefinery.github.io/installation/#overall-verification)
 to help you check software and configuration with one command.
 
 

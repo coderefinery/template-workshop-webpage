@@ -47,8 +47,15 @@
             {% else %}
               {{ session.title }}
             {% endif %}
+            {% if session.subtitle %}
+              <div class="uk-text-small">
+                {{ session.subtitle }}
+              </div>
+            {% endif %}
             {% if session.presenters %}
-              ({{ session.presenters }})
+              <div class="uk-text-small">
+                Presenters: {{ session.presenters }}
+              </div>
             {% endif %}
           </td>
         </tr>

@@ -28,16 +28,34 @@ We collect here the exercise groups that we know:
 
 ## Instructors
 
-- Radovan Bast
 - ...
 
 
 ## Workshop organizers
 
-- Radovan Bast
+- ...
+
+
+## On-boarding
+
+- ...
+
+
+## Recording and broadcasting
+
+- ...
+
+
+## Outreach
+
 - ...
 
 
 ## Expert helpers
+
+- ...
+
+
+## Collaborative notes editors
 
 - ...
