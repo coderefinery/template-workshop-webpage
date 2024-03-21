@@ -49,12 +49,12 @@
             {% endif %}
             {% if session.subtitle %}
               <div class="uk-text-small">
-                {{ session.subtitle }}
+                {{ session.subtitle | markdown(inline=true) | safe }}
               </div>
             {% endif %}
             {% if session.presenters %}
               <div class="uk-text-small">
-                Presenters: {{ session.presenters }}
+                Presenters: {{ session.presenters | markdown(inline=true) | safe }}
               </div>
             {% endif %}
           </td>

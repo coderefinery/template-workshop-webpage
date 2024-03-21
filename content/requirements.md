@@ -4,7 +4,8 @@ title = "Prerequisites and software requirements"
 
 ## Prerequisites
 
-- You should be able to navigate the file tree in a terminal session and edit
+- If you choose to participate using the command line, then you should be able
+  to navigate the file tree in a terminal session and edit
   text files in the terminal.
   [This Linux shell crash course](https://scicomp.aalto.fi/scicomp/shell/)
   ([video](https://youtu.be/56p6xX0aToI))

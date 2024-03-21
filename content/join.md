@@ -4,9 +4,9 @@ template = "join.html"
 +++
 
 Anyone may watch the livestream (<https://twitch.tv/coderefinery>).
-You are free to attend just those days or sessions you want!  
-Read more about [how to attend a livestream course](https://coderefinery.github.io/manuals/how-to-attend-stream/) or [watch the video on YouTube!](https://youtu.be/QUAZELOioUY).
-Some partners host own video- or in-person exercise rooms. 
+You are free to attend just those days or sessions you want.
+Read more about [how to attend a livestream course](https://coderefinery.github.io/manuals/how-to-attend-stream/) or [watch the video on YouTube](https://youtu.be/QUAZELOioUY).
+Some partners host own video- or in-person exercise rooms.
 
 
 {{ div(attributes='class="uk-child-width-expand@m uk-margin-large-top" uk-grid') }}
@@ -20,23 +20,23 @@ The promise of the Internet is that we can reach everyone, so why
 don't we?  We teach on a Twitch livestream
 ([twitch.tv/coderefinery](https://twitch.tv/coderefinery)) so that
 anyone may attend the workshop.  With livestream attendance, you get:
-- access to all workshop content, text and video
-- lesson recordings released usually on the same day
-- a channel for questions (if you register)
-- to do exercises yourself, or in a self-organized group
+- Access to all workshop content, text and video
+- Lesson recordings released usually on the same day
+- A channel for questions (if you register)
+- To do exercises yourself, or in a self-organized group
 
 
 ### Attend with own team
 
 **We recommend that you form your own team and do exercises together in-person
-or online.** We will support this as much as we can!
+or online.** Especially for week 1. We will support this as much as we can.
 
 You can arrange everything with your friends and colleagues:
-- agree where to meet
-- agree how to follow the workshop
-- maybe have some communications channel for your team
-- we send all registrants all information about the workshop
-- we don't need to know the details, but let us know if you have a team (for reporting purposes)
+- Agree where to meet
+- Agree how to follow the workshop
+- Maybe have some communications channel for your team
+- We send all registrants all information about the workshop
+- We don't need to know the details, but let us know if you have a team (for reporting purposes)
 
 
 ### Attend in a local partner's event
@@ -67,7 +67,7 @@ Volunteer to be an **team leader** at CodeRefinery, and you will:
 
 **Am I good enough to be a team leader?**  If you are asking this
 question, probably you are. If you have some familiarity with
-Git, you can provide some initial advice on obvious error messages, 
+Git, you can provide some initial advice on obvious error messages,
 but the idea is that you are able to ask for advanced help when it's needed.
 
 **You don't have to be located in the Nordics**. We welcome volunteers from
@@ -77,16 +77,6 @@ us to reach more people.
 {{ enddiv() }}
 
 {{ div() }}
-
-
-### FAQ: how should I register?
-
-- **Our team will work together in a physical room, is there any point to joining the CodeRefinery Zoom?**
-  - No need. If you all get stuck in the exercises you can ask questions via the Q&A channel.
-    Note that some Zoom etc. can still be useful in the physical room for screen-sharing with each other.
-- **Does everyone on the team need to register?**
-  - Yes please. Then everyone gets information and connection details. Also we
-    are asked to report how many participants we have.
 
 
 ### Price and attendance priority policy

@@ -41,17 +41,17 @@ We collect here the exercise groups that we know:
 - ...
 
 
-## Recording and broadcasting
-
-- ...
-
-
 ## Outreach
 
 - ...
 
 
-## Expert helpers
+## Recording and broadcasting
+
+- ...
+
+
+## Local organizers
 
 - ...
 
