@@ -32,6 +32,7 @@ To use it, follow these instructions:
   - adapt settings below `[extra]`
 - Adapt schedule in `content/schedule.yaml`. Use times in UTC. The times and
   dates are automatically displayed in the local time zone of the browser.
+- Check texts, e.g. communication page, that they represent the setup of the current workshop
 
 
 ### How this template works
