@@ -1,0 +1,1892 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Replace this title in config.toml</title>
+    <link rel="shortcut icon" href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;template-workshop-webpage&#x2F;/img/favicon.ico">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- uikit -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.19.2/dist/css/uikit.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.2/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.2/dist/js/uikit-icons.min.js"></script>
+
+    <!-- time zone localization -->
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.7/dayjs.min.js" integrity="sha256-EfJOqCcshFS/2TxhArURu3Wn8b/XDA4fbPWKSwZ+1B8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.7/plugin/utc.js" integrity="sha256-qDfIIxqpRhYWa543p6AHZ323xT3B8O6iLZFUAWtEQJw=" crossorigin="anonymous"></script>
+
+    
+      <link rel="alternate" type="application/atom+xml" title="CodeRefinery" href="https://coderefinery.github.io/template-workshop-webpage/atom.xml" />
+    
+
+        
+      <title>CodeRefinery</title>
+      <meta name="twitter:title" content="Replace this title in config.toml" />
+      <meta property="og:title" content="Replace this title in config.toml" />
+    
+
+    
+      <meta name="description" content="Free workshop on git, testing, documentation, and more in a workshop - for researchers and scientists." />
+      <meta name="twitter:description" content="Free workshop on git, testing, documentation, and more in a workshop - for researchers and scientists." />
+      <meta property="og:description" content="Free workshop on git, testing, documentation, and more in a workshop - for researchers and scientists." />
+    
+
+    
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:image" content="https://raw.githubusercontent.com/coderefinery/coderefinery-artwork/main/socialshare/socialshare-workshop.png" />
+      <meta property="og:image" content="https://raw.githubusercontent.com/coderefinery/coderefinery-artwork/main/socialshare/socialshare-workshop.png" />
+    
+
+
+    
+
+    <link href="https://coderefinery.github.io/template-workshop-webpage/style.css" rel="stylesheet">
+
+    
+    <script defer data-domain="coderefinery.github.io" src="https://plausible.cs.aalto.fi/js/script.js"></script>
+    
+
+
+  </head>
+
+  <body>
+    <div class="uk-container uk-margin-large-bottom">
+
+      <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+  <div class="uk-navbar-right">
+    <ul class="uk-navbar-nav uk-visible@s">
+      
+      
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;template-workshop-webpage">
+      About
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;template-workshop-webpage&#x2F;exercises">
+      List of exercises
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;template-workshop-webpage&#x2F;audience">
+      Audience
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;template-workshop-webpage&#x2F;certificates">
+      Certificates
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;template-workshop-webpage&#x2F;join">
+      How to join
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;template-workshop-webpage&#x2F;requirements">
+      Requirements
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;template-workshop-webpage&#x2F;questions">
+      Q&amp;A
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;template-workshop-webpage&#x2F;code-of-conduct">
+      Code of conduct
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;template-workshop-webpage&#x2F;communication">
+      Communication
+      
+    </a>
+
+    
+
+  </li>
+
+
+    </ul>
+    <a href="#" class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon uk-toggle="target: #sidenav"></a>
+  </div>
+</nav>
+
+<div id="sidenav" uk-offcanvas="flip: true" class="uk-offcanvas">
+  <div class="uk-offcanvas-bar">
+    <ul class="uk-nav">
+      
+      
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;template-workshop-webpage">
+      About
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;template-workshop-webpage&#x2F;exercises">
+      List of exercises
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;template-workshop-webpage&#x2F;audience">
+      Audience
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;template-workshop-webpage&#x2F;certificates">
+      Certificates
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;template-workshop-webpage&#x2F;join">
+      How to join
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;template-workshop-webpage&#x2F;requirements">
+      Requirements
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;template-workshop-webpage&#x2F;questions">
+      Q&amp;A
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;template-workshop-webpage&#x2F;code-of-conduct">
+      Code of conduct
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;template-workshop-webpage&#x2F;communication">
+      Communication
+      
+    </a>
+
+    
+
+  </li>
+
+
+    </ul>
+  </div>
+</div>
+
+
+      <div class="markdown">
+        
+  <div class="uk-margin-bottom" uk-grid>
+    <div class="uk-width-expand@m">
+      <h1>Replace this title in config.toml</h1>
+    </div>
+    <div class="uk-width-1-4@m">
+      <div class="uk-align-right">
+        
+  
+  <a href="https:&#x2F;&#x2F;coderefinery.org&#x2F;" target="_blank">
+    <img src="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;template-workshop-webpage&#x2F;processed_images&#x2F;coderefinery.e6223832fa8c29d5.png" alt="CodeRefinery logo"/>
+  </a>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="uk-card uk-card-secondary uk-card-hover uk-card-body uk-light uk-margin-large-bottom">
+    <div uk-grid>
+      <div class="uk-width-expand@m">
+        
+<h3 id="news">News</h3>
+<ul>
+<li>Here we will post latest news before/during the workshop</li>
+</ul>
+
+
+      </div>
+      <div class="uk-width-expand@m">
+        
+<h3 id="summary-of-important-links">Summary of important links</h3>
+<ul>
+<li>Watch the stream at <a rel="noopener" target="_blank" href="https://twitch.tv/coderefinery">https://twitch.tv/coderefinery</a> (shareable)</li>
+<li><a href="https://coderefinery.github.io/template-workshop-webpage/communication/">Archive of past communication to participants</a> (shareable)</li>
+<li>Q&amp;A of each day is archived on <a href="https://coderefinery.github.io/template-workshop-webpage/questions/">this page</a> (shareable)</li>
+<li>Videos <a rel="noopener" target="_blank" href="https://www.twitch.tv/coderefinery/videos">on Twitch</a> for 7 days
+and <a rel="noopener" target="_blank" href="https://www.youtube.com/playlist?list=PLpLblYHCzJADIsbUhXSrC0qW5wDsH-F9U">on
+YouTube</a> later</li>
+<li>Install instructions: <a rel="noopener" target="_blank" href="https://coderefinery.github.io/installation/">https://coderefinery.github.io/installation/</a></li>
+<li>Lesson material is linked in the schedule below (shareable)</li>
+<li>Collaborative document for questions and notes (please register to receive it)</li>
+</ul>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div uk-grid>
+    <div class="uk-width-1-2@m">
+      <h2>Registration</h2>
+
+
+
+
+
+
+  <button class="uk-button uk-button-primary uk-button-large">
+    Registration will open soon
+  </button>
+
+
+
+<p><strong>There is no deadline</strong> and you are welcome to register and join even after
+the event started. <strong>You can attend just those days or sessions you want</strong> but
+please register anyway.</p>
+<p><strong>Should all in a team sign up? Or only one person?</strong> We recommend that all
+register so that they get all necessary information.</p>
+<p><strong>If you want to join as organization</strong> to provide local helpers or in-person
+sessions, please do! This usually takes the form of a &quot;watching party&quot; with
+coordinated breaks for exercises.</p>
+<p><strong>Some organizations offer their own registration form</strong>. In this case please
+register with them and then you do not have to register here centrally as well.
+We will then make sure that everybody gets all necessary information.</p>
+
+
+      <script>
+  dayjs.extend(window.dayjs_plugin_utc)
+</script>
+
+<h2>Schedule</h2>
+
+<div class="uk-alert-danger" uk-alert>
+  <a class="uk-alert-close" uk-close></a>
+  <p>
+    All times are displayed in the local timezone of your browser.
+    Detected timezone offset compared to UTC: 
+  <script>
+    var date = '2023-03-20';
+    var time = '09:00';
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('Z'));
+  </script>
+
+  </p>
+</div>
+
+<div class="uk-alert-info" uk-alert>
+  <a class="uk-alert-close" uk-close></a>
+  <p>
+    <b>Breaks</b>: 10 minutes every hour, between xx:50 and xx:10, but it is
+    difficult for us to indicate exactly when.
+  </p>
+</div>
+
+<table class="uk-table uk-table-small uk-table-justify">
+  <tbody>
+    
+    
+      <tr>
+        <td>
+        </td>
+        <td>
+          &nbsp;
+          <br>
+          <b>Installation help and on-boarding</b>
+        </td>
+      </tr>
+      
+        <tr>
+          <td class="uk-width-2-5">
+            
+  <script>
+    var date = '2024-03-05';
+    var time = '10:30';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('ddd (MMM D)'));
+  </script>
+,
+            
+  <script>
+    var date = '2024-03-05';
+    var time = '9:30';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+            -
+            
+  <script>
+    var date = '2024-03-05';
+    var time = '10:30';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+          </td>
+          <td class="uk-width-3-5">
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;manuals&#x2F;team-leaders&#x2F;" target="_blank">On-boarding for team leaders (option 1)</a>
+            
+            
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <td class="uk-width-2-5">
+            
+  <script>
+    var date = '2024-03-05';
+    var time = '12:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('ddd (MMM D)'));
+  </script>
+,
+            
+  <script>
+    var date = '2024-03-05';
+    var time = '11:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+            -
+            
+  <script>
+    var date = '2024-03-05';
+    var time = '12:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+          </td>
+          <td class="uk-width-3-5">
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;manuals&#x2F;team-leaders&#x2F;" target="_blank">On-boarding for team leaders (option 2)</a>
+            
+            
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <td class="uk-width-2-5">
+            
+  <script>
+    var date = '2024-03-05';
+    var time = '14:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('ddd (MMM D)'));
+  </script>
+,
+            
+  <script>
+    var date = '2024-03-05';
+    var time = '12:30';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+            -
+            
+  <script>
+    var date = '2024-03-05';
+    var time = '14:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+          </td>
+          <td class="uk-width-3-5">
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;installation&#x2F;" target="_blank">Installation help for everybody (option 1)</a>
+            
+            
+            
+          </td>
+        </tr>
+      
+    
+      <tr>
+        <td>
+        </td>
+        <td>
+          &nbsp;
+          <br>
+          <b>Installation help and on-boarding (you don&#x27;t need to attend all sessions, choose the one that is better for you)</b>
+        </td>
+      </tr>
+      
+        <tr>
+          <td class="uk-width-2-5">
+            
+  <script>
+    var date = '2024-03-07';
+    var time = '10:30';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('ddd (MMM D)'));
+  </script>
+,
+            
+  <script>
+    var date = '2024-03-07';
+    var time = '9:30';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+            -
+            
+  <script>
+    var date = '2024-03-07';
+    var time = '10:30';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+          </td>
+          <td class="uk-width-3-5">
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;manuals&#x2F;team-leaders&#x2F;" target="_blank">On-boarding for team leaders (option 3)</a>
+            
+            
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <td class="uk-width-2-5">
+            
+  <script>
+    var date = '2024-03-07';
+    var time = '12:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('ddd (MMM D)'));
+  </script>
+,
+            
+  <script>
+    var date = '2024-03-07';
+    var time = '11:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+            -
+            
+  <script>
+    var date = '2024-03-07';
+    var time = '12:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+          </td>
+          <td class="uk-width-3-5">
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;manuals&#x2F;team-leaders&#x2F;" target="_blank">On-boarding for team leaders (option 4)</a>
+            
+            
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <td class="uk-width-2-5">
+            
+  <script>
+    var date = '2024-03-07';
+    var time = '14:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('ddd (MMM D)'));
+  </script>
+,
+            
+  <script>
+    var date = '2024-03-07';
+    var time = '12:30';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+            -
+            
+  <script>
+    var date = '2024-03-07';
+    var time = '14:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+          </td>
+          <td class="uk-width-3-5">
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;installation&#x2F;" target="_blank">Installation help for everybody (option 2)</a>
+            
+            
+            
+          </td>
+        </tr>
+      
+    
+      <tr>
+        <td>
+        </td>
+        <td>
+          &nbsp;
+          <br>
+          <b>Day 1</b>
+        </td>
+      </tr>
+      
+        <tr>
+          <td class="uk-width-2-5">
+            
+  <script>
+    var date = '2024-03-12';
+    var time = '8:20';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('ddd (MMM D)'));
+  </script>
+,
+            
+  <script>
+    var date = '2024-03-12';
+    var time = '8:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+            -
+            
+  <script>
+    var date = '2024-03-12';
+    var time = '8:20';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+          </td>
+          <td class="uk-width-3-5">
+            
+              <a href="https:&#x2F;&#x2F;github.com&#x2F;coderefinery&#x2F;workshop-intro&#x2F;blob&#x2F;master&#x2F;livestream.md" target="_blank">Welcome and introduction</a>
+            
+            
+            
+              <div class="uk-text-small">
+                Presenters: TBA
+              </div>
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <td class="uk-width-2-5">
+            
+  <script>
+    var date = '2024-03-12';
+    var time = '10:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('ddd (MMM D)'));
+  </script>
+,
+            
+  <script>
+    var date = '2024-03-12';
+    var time = '8:20';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+            -
+            
+  <script>
+    var date = '2024-03-12';
+    var time = '10:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+          </td>
+          <td class="uk-width-3-5">
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;git-intro&#x2F;" target="_blank">Introduction to version control with Git - part 1&#x2F;4</a>
+            
+            
+              <div class="uk-text-small">
+                Why we want to track versions and how to go back in time to a working version: <a rel="noopener" target="_blank" href="https://coderefinery.github.io/git-intro/motivation/">Motivation</a>, <a rel="noopener" target="_blank" href="https://coderefinery.github.io/git-intro/browsing/">Browsing</a>, <a rel="noopener" target="_blank" href="https://coderefinery.github.io/git-intro/commits/">Commiting</a>
+              </div>
+            
+            
+              <div class="uk-text-small">
+                Presenters: TBA
+              </div>
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <td class="uk-width-2-5">
+            
+  <script>
+    var date = '2024-03-12';
+    var time = '12:30';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('ddd (MMM D)'));
+  </script>
+,
+            
+  <script>
+    var date = '2024-03-12';
+    var time = '11:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+            -
+            
+  <script>
+    var date = '2024-03-12';
+    var time = '12:30';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+          </td>
+          <td class="uk-width-3-5">
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;git-intro&#x2F;" target="_blank">Introduction to version control with Git - part 2&#x2F;4</a>
+            
+            
+              <div class="uk-text-small">
+                <a rel="noopener" target="_blank" href="https://coderefinery.github.io/git-intro/merging/">Merging</a>
+              </div>
+            
+            
+              <div class="uk-text-small">
+                Presenters: TBA
+              </div>
+            
+          </td>
+        </tr>
+      
+    
+      <tr>
+        <td>
+        </td>
+        <td>
+          &nbsp;
+          <br>
+          <b>Day 2</b>
+        </td>
+      </tr>
+      
+        <tr>
+          <td class="uk-width-2-5">
+            
+  <script>
+    var date = '2024-03-13';
+    var time = '10:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('ddd (MMM D)'));
+  </script>
+,
+            
+  <script>
+    var date = '2024-03-13';
+    var time = '8:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+            -
+            
+  <script>
+    var date = '2024-03-13';
+    var time = '10:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+          </td>
+          <td class="uk-width-3-5">
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;git-intro&#x2F;" target="_blank">Introduction to version control with Git - part 3&#x2F;4</a>
+            
+            
+              <div class="uk-text-small">
+                <a rel="noopener" target="_blank" href="https://github.com/coderefinery/workshop-intro/blob/master/daily_intro.md">Day 2 intro</a>, <a rel="noopener" target="_blank" href="https://coderefinery.github.io/git-intro/local-workflow/">Local work</a>, <a rel="noopener" target="_blank" href="https://coderefinery.github.io/git-intro/archaeology/">Inspecting history</a>
+              </div>
+            
+            
+              <div class="uk-text-small">
+                Presenters: TBA
+              </div>
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <td class="uk-width-2-5">
+            
+  <script>
+    var date = '2024-03-13';
+    var time = '12:30';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('ddd (MMM D)'));
+  </script>
+,
+            
+  <script>
+    var date = '2024-03-13';
+    var time = '11:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+            -
+            
+  <script>
+    var date = '2024-03-13';
+    var time = '12:30';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+          </td>
+          <td class="uk-width-3-5">
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;git-intro&#x2F;" target="_blank">Introduction to version control with Git - part 4&#x2F;4</a>
+            
+            
+              <div class="uk-text-small">
+                <a rel="noopener" target="_blank" href="https://coderefinery.github.io/git-intro/sharing/">Sharing work</a>
+              </div>
+            
+            
+              <div class="uk-text-small">
+                Presenters: TBA
+              </div>
+            
+          </td>
+        </tr>
+      
+    
+      <tr>
+        <td>
+        </td>
+        <td>
+          &nbsp;
+          <br>
+          <b>Day 3</b>
+        </td>
+      </tr>
+      
+        <tr>
+          <td class="uk-width-2-5">
+            
+  <script>
+    var date = '2024-03-14';
+    var time = '10:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('ddd (MMM D)'));
+  </script>
+,
+            
+  <script>
+    var date = '2024-03-14';
+    var time = '8:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+            -
+            
+  <script>
+    var date = '2024-03-14';
+    var time = '10:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+          </td>
+          <td class="uk-width-3-5">
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;git-collaborative&#x2F;" target="_blank">Collaborative distributed version control - part 1&#x2F;2</a>
+            
+            
+              <div class="uk-text-small">
+                <a rel="noopener" target="_blank" href="https://github.com/coderefinery/workshop-intro/blob/master/daily_intro.md#welcome-to-day-3-of-the-coderefinery-workshop">Day 3 intro</a>, <a rel="noopener" target="_blank" href="https://coderefinery.github.io/git-collaborative/concepts/">Concepts</a>, <a rel="noopener" target="_blank" href="https://coderefinery.github.io/git-collaborative/same-repository/">Same repository</a>, <a rel="noopener" target="_blank" href="https://coderefinery.github.io/git-collaborative/code-review/">Code Review</a>
+              </div>
+            
+            
+              <div class="uk-text-small">
+                Presenters: TBA
+              </div>
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <td class="uk-width-2-5">
+            
+  <script>
+    var date = '2024-03-14';
+    var time = '12:30';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('ddd (MMM D)'));
+  </script>
+,
+            
+  <script>
+    var date = '2024-03-14';
+    var time = '11:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+            -
+            
+  <script>
+    var date = '2024-03-14';
+    var time = '12:30';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+          </td>
+          <td class="uk-width-3-5">
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;git-collaborative&#x2F;" target="_blank">Collaborative distributed version control - part 2&#x2F;2</a>
+            
+            
+              <div class="uk-text-small">
+                <a rel="noopener" target="_blank" href="https://coderefinery.github.io/git-collaborative/forking-workflow/">Contributing to others</a>
+              </div>
+            
+            
+              <div class="uk-text-small">
+                Presenters: TBA
+              </div>
+            
+          </td>
+        </tr>
+      
+    
+      <tr>
+        <td>
+        </td>
+        <td>
+          &nbsp;
+          <br>
+          <b>Day 4</b>
+        </td>
+      </tr>
+      
+        <tr>
+          <td class="uk-width-2-5">
+            
+  <script>
+    var date = '2024-03-19';
+    var time = '10:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('ddd (MMM D)'));
+  </script>
+,
+            
+  <script>
+    var date = '2024-03-19';
+    var time = '8:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+            -
+            
+  <script>
+    var date = '2024-03-19';
+    var time = '10:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+          </td>
+          <td class="uk-width-3-5">
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;reproducible-research&#x2F;" target="_blank">Reproducible research</a>
+            
+            
+              <div class="uk-text-small">
+                Preparing code to be usable by you and others in the future
+              </div>
+            
+            
+              <div class="uk-text-small">
+                Presenters: TBA
+              </div>
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <td class="uk-width-2-5">
+            
+  <script>
+    var date = '2024-03-19';
+    var time = '12:30';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('ddd (MMM D)'));
+  </script>
+,
+            
+  <script>
+    var date = '2024-03-19';
+    var time = '11:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+            -
+            
+  <script>
+    var date = '2024-03-19';
+    var time = '12:30';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+          </td>
+          <td class="uk-width-3-5">
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;social-coding&#x2F;" target="_blank">Social coding and open software</a>
+            
+            
+              <div class="uk-text-small">
+                What can you do to get credit for your code and to allow reuse
+              </div>
+            
+            
+              <div class="uk-text-small">
+                Presenters: TBA
+              </div>
+            
+          </td>
+        </tr>
+      
+    
+      <tr>
+        <td>
+        </td>
+        <td>
+          &nbsp;
+          <br>
+          <b>Day 5</b>
+        </td>
+      </tr>
+      
+        <tr>
+          <td class="uk-width-2-5">
+            
+  <script>
+    var date = '2024-03-20';
+    var time = '10:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('ddd (MMM D)'));
+  </script>
+,
+            
+  <script>
+    var date = '2024-03-20';
+    var time = '8:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+            -
+            
+  <script>
+    var date = '2024-03-20';
+    var time = '10:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+          </td>
+          <td class="uk-width-3-5">
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;documentation&#x2F;" target="_blank">How to document your research software</a>
+            
+            
+            
+              <div class="uk-text-small">
+                Presenters: TBA
+              </div>
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <td class="uk-width-2-5">
+            
+  <script>
+    var date = '2024-03-20';
+    var time = '12:30';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('ddd (MMM D)'));
+  </script>
+,
+            
+  <script>
+    var date = '2024-03-20';
+    var time = '11:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+            -
+            
+  <script>
+    var date = '2024-03-20';
+    var time = '12:30';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+          </td>
+          <td class="uk-width-3-5">
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;jupyter&#x2F;" target="_blank">Jupyter notebooks</a>
+            
+            
+              <div class="uk-text-small">
+                A tool to write and share executable notebooks and data visualization
+              </div>
+            
+            
+              <div class="uk-text-small">
+                Presenters: TBA
+              </div>
+            
+          </td>
+        </tr>
+      
+    
+      <tr>
+        <td>
+        </td>
+        <td>
+          &nbsp;
+          <br>
+          <b>Day 6</b>
+        </td>
+      </tr>
+      
+        <tr>
+          <td class="uk-width-2-5">
+            
+  <script>
+    var date = '2024-03-21';
+    var time = '10:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('ddd (MMM D)'));
+  </script>
+,
+            
+  <script>
+    var date = '2024-03-21';
+    var time = '8:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+            -
+            
+  <script>
+    var date = '2024-03-21';
+    var time = '10:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+          </td>
+          <td class="uk-width-3-5">
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;testing&#x2F;" target="_blank">Automated testing</a>
+            
+            
+              <div class="uk-text-small">
+                Preventing yourself and others from breaking your functioning code
+              </div>
+            
+            
+              <div class="uk-text-small">
+                Presenters: TBA
+              </div>
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <td class="uk-width-2-5">
+            
+  <script>
+    var date = '2024-03-21';
+    var time = '12:30';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('ddd (MMM D)'));
+  </script>
+,
+            
+  <script>
+    var date = '2024-03-21';
+    var time = '11:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+            -
+            
+  <script>
+    var date = '2024-03-21';
+    var time = '12:30';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+          </td>
+          <td class="uk-width-3-5">
+            
+              <a href="https:&#x2F;&#x2F;coderefinery.github.io&#x2F;modular-type-along&#x2F;" target="_blank">Modular code development</a>
+            
+            
+              <div class="uk-text-small">
+                Making reusing parts of your code easier
+              </div>
+            
+            
+              <div class="uk-text-small">
+                Presenters: TBA
+              </div>
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <td class="uk-width-2-5">
+            
+  <script>
+    var date = '2024-03-21';
+    var time = '13:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('ddd (MMM D)'));
+  </script>
+,
+            
+  <script>
+    var date = '2024-03-21';
+    var time = '12:30';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+            -
+            
+  <script>
+    var date = '2024-03-21';
+    var time = '13:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+          </td>
+          <td class="uk-width-3-5">
+            
+              <a href="https:&#x2F;&#x2F;github.com&#x2F;coderefinery&#x2F;workshop-outro&#x2F;blob&#x2F;master&#x2F;README.md" target="_blank">Concluding remarks, general Q&amp;A, and where to go from here</a>
+            
+            
+            
+              <div class="uk-text-small">
+                Presenters: TBA
+              </div>
+            
+          </td>
+        </tr>
+      
+    
+      <tr>
+        <td>
+        </td>
+        <td>
+          &nbsp;
+          <br>
+          <b>Optional: Bring your own code session</b>
+        </td>
+      </tr>
+      
+        <tr>
+          <td class="uk-width-2-5">
+            
+  <script>
+    var date = '2024-03-26';
+    var time = '14:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('ddd (MMM D)'));
+  </script>
+,
+            
+  <script>
+    var date = '2024-03-26';
+    var time = '12:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+            -
+            
+  <script>
+    var date = '2024-03-26';
+    var time = '14:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+          </td>
+          <td class="uk-width-3-5">
+            
+              Bring your own code and discuss and ask; you can also join this session if you have not attended the workshop
+            
+            
+            
+          </td>
+        </tr>
+      
+    
+      <tr>
+        <td>
+        </td>
+        <td>
+          &nbsp;
+          <br>
+          <b>Optional: Bring your own code session</b>
+        </td>
+      </tr>
+      
+        <tr>
+          <td class="uk-width-2-5">
+            
+  <script>
+    var date = '2024-04-02';
+    var time = '13:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('ddd (MMM D)'));
+  </script>
+,
+            
+  <script>
+    var date = '2024-04-02';
+    var time = '11:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+            -
+            
+  <script>
+    var date = '2024-04-02';
+    var time = '13:00';
+    if (time.length < 5) {
+      time = '0' + time;
+    }
+    var ts = dayjs(date + 'T' + time + ':00Z').utc();
+    document.write(ts.local().format('HH:mm'));
+  </script>
+
+          </td>
+          <td class="uk-width-3-5">
+            
+              Bring your own code and discuss and ask; you can also join this session if you have not attended the workshop
+            
+            
+            
+          </td>
+        </tr>
+      
+    
+  </tbody>
+</table>
+
+    </div>
+    <div class="uk-width-1-2@m">
+      <h2 id="be-a-team-leader">Be a team leader</h2>
+<p>Do you know some of the topics, but want to review them?
+Do you wish your colleagues or friends would use these tools?
+Why not <a href="https://coderefinery.github.io/template-workshop-webpage/join/">attend as a team leader</a>?
+Gather some friends who want to learn the topics and follow the workshop together.
+You don't need to be an expert: if you have been through CodeRefinery once or have some familiarity
+with the topics, and you are confident to call an expert helper when needed,
+then you have all it takes to lead a team to success,
+or lead even more people and join as an organization (see below).</p>
+<h2 id="partners-and-local-exercise-groups">Partners and local exercise groups</h2>
+<p>Some partners offer local support, such as breakout rooms, to their local
+teams. You can <a rel="noopener" target="_blank" href="https://coderefinery.org/about/partners/">become a partner</a> to
+support your community!</p>
+<p>We collect here the exercise groups that we know:</p>
+<ul>
+<li><a rel="noopener" target="_blank" href="https://scicomp.aalto.fi/"><strong>Aalto University</strong></a>:
+<ul>
+<li>Local in-person exercise session and local support.</li>
+<li>Possibility of <a href="https://coderefinery.github.io/template-workshop-webpage/certificates/">credit points</a> to those in Finland.</li>
+</ul>
+</li>
+</ul>
+<h2 id="instructors">Instructors</h2>
+<ul>
+<li>...</li>
+</ul>
+<h2 id="workshop-organizers">Workshop organizers</h2>
+<ul>
+<li>...</li>
+</ul>
+<h2 id="on-boarding">On-boarding</h2>
+<ul>
+<li>...</li>
+</ul>
+<h2 id="outreach">Outreach</h2>
+<ul>
+<li>...</li>
+</ul>
+<h2 id="recording-and-broadcasting">Recording and broadcasting</h2>
+<ul>
+<li>...</li>
+</ul>
+<h2 id="local-organizers">Local organizers</h2>
+<ul>
+<li>...</li>
+</ul>
+<h2 id="collaborative-notes-editors">Collaborative notes editors</h2>
+<ul>
+<li>...</li>
+</ul>
+
+    </div>
+  </div>
+
+      </div>
+
+      <div class="uk-margin-large-top">
+        <hr>
+        <div class="uk-child-width-expand@s" uk-grid>
+
+  <div>
+    <h4>Funding</h4>
+    <p>
+      CodeRefinery is a project within the
+      <a href="https://neic.no" target="_blank">Nordic e-Infrastructure Collaboration</a> (NeIC).
+      NeIC is an organisational unit under <a href="https://www.nordforsk.org/" target="_blank">NordForsk</a>.
+    </p>
+  </div>
+
+  <div>
+    <h4>Privacy</h4>
+    <p>
+      <a href="https://coderefinery.org/privacy-policy/" target="_blank">Privacy policy</a>
+    </p>
+  </div>
+
+  <div>
+    <h4>Follow us</h4>
+    <ul class="uk-iconnav">
+      <li>
+        <a href="https://github.com/coderefinery" target="_blank" uk-icon="icon: github">GitHub</a>
+      </li>
+      <li>
+        <a rel="me" href="https://fosstodon.org/@coderefinery" target="_blank" uk-icon="icon: social">Mastodon</a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/company/coderefinery-research-software-development/?viewAsMember=true" target="_blank" uk-icon="icon: linkedin">LinkedIn</a>
+      </li>
+    </ul>
+  </div>
+
+  <div>
+    <h4>Contact</h4>
+    <p>
+      <a href="mailto:support@coderefinery.org">support@coderefinery.org</a>
+    </p>
+  </div>
+
+  <div>
+    <h4>Improve this page</h4>
+    <p>
+      <a href="https:&#x2F;&#x2F;github.com&#x2F;coderefinery&#x2F;template-workshop-webpage">Source code</a>
+    </p>
+  </div>
+
+</div>
+
+      </div>
+
+    </div>
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+  <script>
+    anchors.add();
+  </script>
+</html>
