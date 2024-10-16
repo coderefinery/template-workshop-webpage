@@ -79,6 +79,12 @@ us to reach more people.
 {{ div() }}
 
 
+### Volunteer as a Q&A helper
+
+Being a team leader is too much work but you'd still like to help out during the workshop? 
+Join us while answering questions from the participants in the Q&A document (collaborative notes).
+
+
 ### Price and attendance priority policy
 
 The course is free of charge, funded by the [Nordic e-Infrastructure

@@ -30,14 +30,10 @@ workshop** following the instructions and checklist on [this
 page](https://coderefinery.github.io/installation/).
 
 Please **make sure that Git is configured**, and **verify the configuration**
-([text instructions](https://coderefinery.github.io/installation/shell-and-git/), [video](https://www.youtube.com/watch?v=WdDTp8NeHBs&t=258s)).
+([text instructions](https://coderefinery.github.io/installation/git-in-terminal/#verification), [video](https://www.youtube.com/watch?v=WdDTp8NeHBs&t=258s)).
 
 We offer install help sessions (see schedule). Please use one of these. It will
 improve the workshop experience for you and others.
-
-We now also provide a [verification
-script](https://coderefinery.github.io/installation/#overall-verification)
-to help you check software and configuration with one command.
 
 
 ## Privacy and tools/online services

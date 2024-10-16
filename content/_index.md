@@ -14,6 +14,11 @@ then you have all it takes to lead a team to success,
 or lead even more people and join as an organization (see below).
 
 
+## Be a Q&A helper
+
+Help us answer questions from the participants in the online Q&A document (collaborative notes).
+
+
 ## Partners and local exercise groups
 
 Some partners offer local support, such as breakout rooms, to their local
@@ -56,6 +61,6 @@ We collect here the exercise groups that we know:
 - ...
 
 
-## Collaborative notes editors
+## Collaborative notes managers
 
 - ...
