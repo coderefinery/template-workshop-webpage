@@ -52,4 +52,14 @@ Check that Zola is installed with `$ zola --version`.
 ```
 $ zola serve --open
 ```
-This will open in your default browser a rendered version of the template.
+
+This repository includes a Git submodule as for CSS styling. Make sure to clone with `--recursive` to also
+clone the submodule:
+```
+$ git clone --recursive ...
+```
+
+If you cloned without `--recursive`, you can initialize the submodule with:
+```
+$ git submodule init 
+```

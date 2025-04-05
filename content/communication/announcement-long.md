@@ -4,18 +4,21 @@ title = "Workshop announcement example (longer version)"
 subject = "CodeRefinery workshop announcement"
 +++
 
-Are you writing code and managing data for your research?
-Do you feel like wasting too much time on manual work?
-Do you struggle to understand and reuse older code?
+CodeRefinery workshop on tools and techniques for reproducible research
 
-Join
-the CodeRefinery workshop,
-**ADAPT DATES**,
-for free and online.
+Are you writing code for your research?
+Do you struggle to reproduce results of your own or others computations?
 
-The workshop covers good coding practices, reproducible research principles, and using Git for collaboration.
-It consists of streamed lectures and exercises.
-You may register individually or as a team. In-person exercise sessions are available in some locations.
+Join the online CodeRefinery workshop on six half days, **ADAPT DATES**.
 
-For registration and more information, please visit
-**LINK TO WORKSHOP PAGE**.
+The CodeRefinery workshop aims to support researchers of all domains,
+levels and preferred programming languages to write more reproducible research code.
+
+The workshop is held online (streamed on Twitch) with interactive hands-on sessions during the first week.
+Some locations may offer in-person events, and you may also join with your own classroom
+(please contact us if this option sparks your interest).
+
+The event is free of charge.
+
+More info and registration on the CodeRefinery-workshop site: **LINK TO WORKSHOP PAGE**
+- In case of any questions, please contact support@coderefinery.org

@@ -4,8 +4,8 @@ title = "Workshop announcement example (shorter version)"
 subject = "CodeRefinery workshop announcement"
 +++
 
-CodeRefinery invites everyone interested in improving their software practice
-skills to join the CodeRefinery workshop,
+CodeRefinery invites everyone interested in writing more reproducible research code 
+to join the CodeRefinery workshop,
 **ADAPT DATES**,
 for free and online.
 
