@@ -83,7 +83,7 @@ We are very happy for anyone who wants to organize local public events
 If you want to support your local community,
  you can arrange your own local event. This can be on-site or online.
 You can choose to arrange your own registration or do the registration via us.  
-You and your potential team leaders will get onboarding from us (see schedule).
+You and your potential team leaders will get onboarding from us (please send us an e-mail).
 
 
 **You don't have to be located in the Nordics**. We welcome teams and local events from
