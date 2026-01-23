@@ -5,7 +5,7 @@
 the event started. **You can attend just those days or sessions you want** but
 please register anyway.
 
-**Should all in a team sign up? Or only one person?** We recommend that all
+**Should all in a team/classroom sign up? Or only one person?** We recommend that all
 register so that they get all necessary information.
 
 **If you want to join as organization** to provide local helpers or in-person
@@ -13,8 +13,4 @@ sessions, please do! This usually takes the form of a "watching party" with
 coordinated breaks for exercises.
 
 **Some organizations offer their own registration form**. In this case please
-register with them and then you do not have to register here centrally as well.
-We will then make sure that everybody gets all necessary information.
-
-Note on the video above: This year, we do **not** have common onboarding sessions. 
-We will reach out to team leads and helpers separately to agree on a suitable procedure. 
+register with them as well.
