@@ -18,7 +18,8 @@ It takes place **online** on **FIXME: DATES**
 -   **What**: **Reproducible research**, **Social Coding**, **AI Assisted Research Software Development**, **tools for documentation and testing** and **modular code development**
     **When**: **FIXME: DATES**
 
-The intended audience for this workshop are researchers of all domains, levels and preferred programming languages who write code in their research, and the aim is to improve the reproducibility of our research by deepening the knowledge of the tools that enable better code development and sharing.
+The intended audience for this workshop are researchers of all domains, levels and preferred programming languages who write code in their research.
+By deepening the knowledge of the tools that enable better code development and sharing, we aim to improve the reproducibility of our research results.
 
 The workshop is held **online** (streamed on Twitch) with hands-on sessions.
 Interaction with the participants and live help is guaranteed by a variety of means.
