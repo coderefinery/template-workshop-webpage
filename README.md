@@ -37,7 +37,8 @@ To use it, follow these instructions:
 
 ### How this template works
 
-This template is based on the [Zola](https://www.getzola.org/) static site engine.
+This template is based on the [Zola](https://www.getzola.org/) static site engine, 
+and uses [uikit](https://github.com/uikit/uikit).
 
 To install Zola, follow:
 - https://www.getzola.org/documentation/getting-started/installation/
@@ -45,6 +46,20 @@ To install Zola, follow:
 - But you can also download the binary directly from [here](https://github.com/getzola/zola/releases)
 
 Check that Zola is installed with `$ zola --version`.
+
+> [!WARNING] 
+>
+> This template might fail with recent versions of Zola. The workflows are successful with Zola 0.19.1.
+> 
+
+The correct version of Uikit is included as a [Git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
+If you have not cloned this repository with the `--recurse-submodules` option,
+you can use 
+```bash
+git submodule init
+git submodule update
+```
+to install the dependencies.
 
 
 ### Local preview
