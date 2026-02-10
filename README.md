@@ -47,11 +47,6 @@ To install Zola, follow:
 
 Check that Zola is installed with `$ zola --version`.
 
-> [!WARNING] 
->
-> This template might fail with recent versions of Zola. The workflows are successful with Zola 0.19.1.
-> 
-
 The correct version of Uikit is included as a [Git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
 If you have not cloned this repository with the `--recurse-submodules` option,
 you can use 
