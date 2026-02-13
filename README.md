@@ -35,10 +35,23 @@ To use it, follow these instructions:
 - Check texts, e.g. communication page, that they represent the setup of the current workshop
 
 
-### How this template works
+### Previewing changes locally
+
+First **make sure that you cloned this repository with `--recursive`** to also
+clone the CSS framework [uikit](https://github.com/uikit/uikit) which is
+included as [submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules):
+```bash
+$ git clone --recursive ...
+```
+
+If you cloned without `--recursive`, you can initialize the submodule with:
+```bash
+$ git submodule init 
+$ git submodule update
+```
 
 This template is based on the [Zola](https://www.getzola.org/) static site engine, 
-and uses [uikit](https://github.com/uikit/uikit).
+and uses [uikit](https://github.com/uikit/uikit) for CSS.
 
 To install Zola, follow:
 - https://www.getzola.org/documentation/getting-started/installation/
@@ -47,34 +60,7 @@ To install Zola, follow:
 
 Check that Zola is installed with `$ zola --version`.
 
-> [!WARNING] 
->
-> This template might fail with recent versions of Zola. The workflows are successful with Zola 0.19.1.
-> 
-
-The correct version of Uikit is included as a [Git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
-If you have not cloned this repository with the `--recurse-submodules` option,
-you can use 
+To preview your changes locally, use:
 ```bash
-git submodule init
-git submodule update
-```
-to install the dependencies.
-
-
-### Local preview
-
-```
 $ zola serve --open
-```
-
-This repository includes a Git submodule as for CSS styling. Make sure to clone with `--recursive` to also
-clone the submodule:
-```
-$ git clone --recursive ...
-```
-
-If you cloned without `--recursive`, you can initialize the submodule with:
-```
-$ git submodule init 
 ```
