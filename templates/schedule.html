@@ -8,7 +8,7 @@
   <a class="uk-alert-close" uk-close></a>
   <p>
     All times are displayed in the local timezone of your browser.
-    Detected timezone offset compared to UTC: {{ macros::timezone_offset(date='2023-03-20', time='09:00') }}
+    Detected timezone offset compared to UTC: {{ macros::timezone_offset(date='2026-03-16', time='09:00') }}
   </p>
 </div>
 
@@ -35,8 +35,8 @@
       </tr>
       {% for session in day.sessions %}
         <tr>
-          <td class="uk-width-2-5">
-            {{ macros::local_date(date=day.date, time=session.ends) }},
+          <td class="uk-width-2-5", style="text-align: right ;">
+            {% if loop.first %}{{ macros::local_date(date=day.date, time=session.ends) }},{% endif %}
             {{ macros::local_time(date=day.date, time=session.starts) }}
             -
             {{ macros::local_time(date=day.date, time=session.ends) }}
@@ -50,6 +50,17 @@
             {% if session.subtitle %}
               <div class="uk-text-small">
                 {{ session.subtitle | markdown(inline=true) | safe }}
+              </div>
+            {% endif %}
+            {% if session.episodes %}
+              <div class="uk-text-small">
+                {% for episode in session.episodes %}
+		  {% if episode | as_str == episode %}
+		    {{ episode | markdown(inline=true) | safe -}}
+		  {%- else -%}
+		    <a href="{{episode[1]}}">{{ episode[0] | markdown(inline=true) | safe }}</a>
+		  {%- endif %}{% if not loop.last %},{% endif %}
+		{% endfor %}
               </div>
             {% endif %}
             {% if session.presenters %}
