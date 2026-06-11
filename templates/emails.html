@@ -15,6 +15,7 @@
   </ul>
 
   {% for email in section.pages | sort(attribute="title") | reverse %}
+  <div id="{{ email.title | lower | replace(from=" ", to="-") }}">
     <div class="uk-card uk-card-default uk-card-body uk-margin-top">
       <h5 class="uk-card-title">
         {{ email.title }}
@@ -28,5 +29,6 @@
         </small>
       </p>
     </div>
+  </div>
   {% endfor %}
 {% endblock content %}
