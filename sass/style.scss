@@ -1,60 +1,142 @@
 // https://webaim.org/blog/wcag-2-0-and-link-colors/
-// https://github.com/uikit/uikit/blob/develop/src/scss/variables-theme.scss
-$global-link-color: #3366dd;
-$navbar-nav-item-color: #3366dd;
-$navbar-nav-item-hover-color: #cc0099;
-$iconnav-item-color: #3366dd;
-$iconnav-item-hover-color: #cc0099;
-$global-primary-background: #3366cc;
-$global-secondary-background: #993366;
-$base-code-color: #cc0099;
-$text-meta-color: #666666;
-$table-header-cell-color: #666666;
+// these used to be uikit sass variable overrides but we now load uikit from a
+// CDN so we override the relevant rules directly
 
-// https://getuikit.com/docs/sass
-@import "../uikit/src/scss/variables-theme.scss";
-@import "../uikit/src/scss/mixins-theme.scss";
-@import "../uikit/src/scss/uikit-theme.scss";
+a,
+.uk-link {
+    color: #3366dd;
+}
+
+:not(pre)>code,
+:not(pre)>kbd,
+:not(pre)>samp {
+    color: #cc0099;
+}
+
+.uk-table th {
+    color: #666666;
+}
+
+.uk-text-meta,
+.uk-text-meta>a {
+    color: #666666;
+}
+
+.uk-button-primary {
+    background-color: #3366cc;
+}
+
+.uk-button-primary:hover {
+    background-color: #2e5cb8;
+}
+
+.uk-button-primary:active,
+.uk-button-primary.uk-active {
+    background-color: #2952a3;
+}
+
+.uk-background-primary {
+    background-color: #3366cc;
+}
+
+.uk-card-secondary,
+.uk-card-secondary.uk-card-hover:hover {
+    background-color: #993366;
+}
+
+.uk-offcanvas-bar {
+    background: #993366;
+}
+
+.uk-alert-primary {
+    background: #d6e0f5;
+    color: #3366cc;
+}
+
+.uk-navbar-nav>li>a {
+    color: #3366dd;
+}
+
+.uk-navbar-nav>li:hover>a,
+.uk-navbar-nav>li>a[aria-expanded="true"] {
+    color: #cc0099;
+}
+
+.uk-iconnav>*>a {
+    color: #3366dd;
+}
+
+.uk-iconnav>*>a:hover {
+    color: #cc0099;
+}
 
 @font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(Roboto.ttf) format('truetype');
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(Roboto.ttf) format('truetype');
 }
 
 * {
     font-family: 'Roboto', sans-serif;
 }
 
+// this used to be "@extend .uk-list; @extend .uk-list-square;"
 .markdown ul {
-    @extend .uk-list;
-    @extend .uk-list-square;
+    padding: 0;
+    padding-left: 30px;
+    list-style: none;
+    list-style-type: square;
+}
 
+.markdown ul>* {
+    break-inside: avoid-column;
+}
+
+.markdown ul>*> :last-child {
+    margin-bottom: 0;
+}
+
+.markdown ul> :nth-child(n+2),
+.markdown ul>*>ul {
+    margin-top: 10px;
 }
 
 $heading-color: #404040;
 
+// the font sizes below used to come from "@extend .uk-h2/.uk-h3/.uk-h4"
 .markdown h1 {
-    @extend .uk-h2;
+    font-size: 1.7rem;
+    line-height: 1.3;
     color: $heading-color;
 }
 
+@media (min-width: 960px) {
+    .markdown h1 {
+        font-size: 2rem;
+    }
+}
+
 .markdown h2 {
-    @extend .uk-h3;
+    font-size: 1.5rem;
+    line-height: 1.4;
     color: $heading-color;
 }
 
 .markdown h3 {
-    @extend .uk-h4;
+    font-size: 1.25rem;
+    line-height: 1.4;
     color: $heading-color;
 }
 
 .logo-container {
     display: flex;
-    justify-content: space-between; /* Evenly space logos */
-    align-items: center; /* Align logos vertically */
+    justify-content: space-between;
+    /* Evenly space logos */
+    align-items: center;
+    /* Align logos vertically */
     padding: 10px;
-    gap: 20px; /* Optional: uniform gap between logos */
+    gap: 20px;
+    /* Optional: uniform gap between logos */
 }

@@ -37,19 +37,6 @@ To use it, follow these instructions:
 
 ### Previewing changes locally
 
-First **make sure that you cloned this repository with `--recursive`** to also
-clone the CSS framework [uikit](https://github.com/uikit/uikit) which is
-included as [submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules):
-```bash
-$ git clone --recursive ...
-```
-
-If you cloned without `--recursive`, you can initialize the submodule with:
-```bash
-$ git submodule init 
-$ git submodule update
-```
-
 This template is based on the [Zola](https://www.getzola.org/) static site engine, 
 and uses [uikit](https://github.com/uikit/uikit) for CSS.
 
